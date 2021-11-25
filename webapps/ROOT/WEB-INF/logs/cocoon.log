@@ -1,0 +1,462 @@
+INFO  (2021-11-25) 21:08.11:797 [access] (Unknown-URI) Unknown-Thread/CocoonServlet: Reloading from: file:/Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/WEB-INF/cocoon.xconf
+INFO  (2021-11-25) 21:08.11:997 [core.runnable] (Unknown-URI) Unknown-Thread/DefaultRunnableManager: ThreadPool named "default" created with maximum queue-size=2147483647,max-pool-size=5,min-pool-size=5,priority=5,isDaemon=false,keep-alive-time-ms=60000,block-policy="ABORT",shutdown-wait-time-ms=-1
+INFO  (2021-11-25) 21:08.11:998 [core.runnable] (Unknown-URI) Unknown-Thread/DefaultRunnableManager: ThreadPool named "daemon" created with no queue,max-pool-size=2147483647,min-pool-size=1,priority=5,isDaemon=true,keep-alive-time-ms=60000,block-policy=ABORT,shutdown-wait-time-ms=-1
+INFO  (2021-11-25) 21:08.12:336 [core.store] (Unknown-URI) Unknown-Thread/EHDefaultStore: EHCache cache "cocoon-ehcache-1" initialized
+WARN  (2021-11-25) 21:08.12:348 [core.language.java] (Unknown-URI) Unknown-Thread/JavaLanguage: Could not expand Directory:null
+java.lang.NullPointerException
+	at java.base/java.util.StringTokenizer.<init>(StringTokenizer.java:199)
+	at java.base/java.util.StringTokenizer.<init>(StringTokenizer.java:221)
+	at org.apache.cocoon.components.language.programming.java.JavaLanguage.expandDirs(JavaLanguage.java:280)
+	at org.apache.cocoon.components.language.programming.java.JavaLanguage.initialize(JavaLanguage.java:147)
+	at org.apache.avalon.framework.container.ContainerUtil.initialize(ContainerUtil.java:244)
+	at org.apache.avalon.excalibur.component.DefaultComponentFactory.newInstance(DefaultComponentFactory.java:297)
+	at org.apache.avalon.excalibur.component.ThreadSafeComponentHandler.initialize(ThreadSafeComponentHandler.java:108)
+	at org.apache.avalon.excalibur.component.ExcaliburComponentSelector.addComponent(ExcaliburComponentSelector.java:705)
+	at org.apache.cocoon.components.ExtendedComponentSelector.configure(ExtendedComponentSelector.java:229)
+	at org.apache.avalon.framework.container.ContainerUtil.configure(ContainerUtil.java:201)
+	at org.apache.avalon.excalibur.component.DefaultComponentFactory.newInstance(DefaultComponentFactory.java:289)
+	at org.apache.avalon.excalibur.component.ThreadSafeComponentHandler.initialize(ThreadSafeComponentHandler.java:108)
+	at org.apache.avalon.excalibur.component.ExcaliburComponentManager.lookup(ExcaliburComponentManager.java:278)
+	at org.apache.cocoon.components.CocoonComponentManager.lookup(CocoonComponentManager.java:354)
+	at org.apache.cocoon.components.language.generator.ProgramGeneratorImpl.compose(ProgramGeneratorImpl.java:139)
+	at org.apache.avalon.framework.container.ContainerUtil.compose(ContainerUtil.java:173)
+	at org.apache.avalon.excalibur.component.DefaultComponentFactory.newInstance(DefaultComponentFactory.java:266)
+	at org.apache.avalon.excalibur.component.ThreadSafeComponentHandler.initialize(ThreadSafeComponentHandler.java:108)
+	at org.apache.avalon.excalibur.component.ExcaliburComponentManager.initialize(ExcaliburComponentManager.java:524)
+	at org.apache.cocoon.components.CocoonComponentManager.initialize(CocoonComponentManager.java:583)
+	at org.apache.avalon.framework.container.ContainerUtil.initialize(ContainerUtil.java:244)
+	at org.apache.cocoon.Cocoon.initialize(Cocoon.java:345)
+	at org.apache.avalon.framework.container.ContainerUtil.initialize(ContainerUtil.java:244)
+	at org.apache.cocoon.servlet.CocoonServlet.createCocoon(CocoonServlet.java:1429)
+	at org.apache.cocoon.servlet.CocoonServlet.init(CocoonServlet.java:499)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:542)
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:351)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:288)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1322)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:731)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:490)
+	at org.eclipse.jetty.ant.AntWebAppContext.doStart(AntWebAppContext.java:664)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:108)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:90)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:175)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:108)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:90)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:108)
+	at org.eclipse.jetty.server.Server.start(Server.java:342)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:90)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:58)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:290)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69)
+	at org.eclipse.jetty.ant.ServerProxyImpl.start(ServerProxyImpl.java:253)
+	at org.eclipse.jetty.ant.JettyRunTask.execute(JettyRunTask.java:262)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1393)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1364)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1248)
+	at org.apache.tools.ant.Main.runBuild(Main.java:851)
+	at org.apache.tools.ant.Main.startAnt(Main.java:235)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:280)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:109)
+INFO  (2021-11-25) 21:08.20:317 [sitemap] (/) qtp31114735-20/RedirectToURINode: Redirecting to 'en/' at <map:redirect-to> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/main.xmap:60:43
+INFO  (2021-11-25) 21:08.20:317 [sitemap] (/) qtp31114735-20/ForwardRedirector: Redirecting to 'en/'
+INFO  (2021-11-25) 21:08.20:321 [access] (/) qtp31114735-20/CocoonServlet: '' Processed by Apache Cocoon 2.1.11 in 185 milliseconds.
+INFO  (2021-11-25) 21:08.20:709 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/defaults.xsl
+INFO  (2021-11-25) 21:08.20:994 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/assets.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/;file=assets.xmap;uri_prefix=assets/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.20:998 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/fedora.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/;file=fedora.xmap;uri_prefix=_internal/fedora/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:009 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/odd.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/;file=odd.xmap;uri_prefix=_internal/odd/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:015 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/schematron.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/;file=schematron.xmap;uri_prefix=_internal/schematron/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:024 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/sesame.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/;file=sesame.xmap;uri_prefix=_internal/sesame/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:037 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/solr.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/;file=solr.xmap;uri_prefix=_internal/solr/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:069 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/introspection.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/;file=introspection.xmap;uri_prefix=_internal/introspection/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:092 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/../../sitemaps/fedora.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/../../sitemaps/;file=fedora.xmap;uri_prefix=admin/fedora_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:099 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/../../sitemaps/rdf.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/../../sitemaps/;file=rdf.xmap;uri_prefix=admin/rdf/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:112 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/../../sitemaps/solr.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/../../sitemaps/;file=solr.xmap;uri_prefix=admin/solr/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:119 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/../../sitemaps/admin.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/../../sitemaps/;file=admin.xmap;uri_prefix=admin/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:127 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/../../sitemaps/internal.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/../../sitemaps/;file=internal.xmap;uri_prefix=internal/_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:137 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/../../sitemaps/main.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/../../sitemaps/;file=main.xmap;uri_prefix=_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:143 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../kiln/sitemaps/main.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/../kiln/sitemaps/;file=main.xmap;uri_prefix=_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:149 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/config.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=sitemaps/;file=config.xmap;uri_prefix=_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:155 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../mount-table.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/mount-table-xinclude.xsl_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:177 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemap.xmap_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/sitemap-xinclude.xsl;dir=;file=sitemap.xmap;uri_prefix=_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/introspection/remove-namespaces.xsl
+INFO  (2021-11-25) 21:08.21:177 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-cocoon://_internal/introspection/pipeline/sitemap.xmap?pipelinehash=5799292397668827385
+INFO  (2021-11-25) 21:08.21:177 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-cocoon://_internal/introspection/pipelines.xml?pipelinehash=2446959837106705128_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/url-reverse.xsl
+INFO  (2021-11-25) 21:08.21:266 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/templates/home.xml_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/template/inherit-template.xsl
+INFO  (2021-11-25) 21:08.21:274 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/menu/menu.xsl
+INFO  (2021-11-25) 21:08.21:322 [core.manager] (/en/) qtp31114735-20/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/menu/main.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/normalise-menu.xsl;language=en;url=_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/contextualise-menu.xsl;language=en;url=
+INFO  (2021-11-25) 21:08.21:330 [core.i18n] (/en/) qtp31114735-20/XMLResourceBundle: Bundle <file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../assets/translations/messages.xml> not loaded: Source URI not found
+INFO  (2021-11-25) 21:08.21:343 [access] (/en/) qtp31114735-20/CocoonServlet: 'en/' Processed by Apache Cocoon 2.1.11 in 1.001 seconds.
+INFO  (2021-11-25) 21:08.22:296 [sitemap] (/) qtp31114735-21/RedirectToURINode: Redirecting to 'en/' at <map:redirect-to> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/main.xmap:60:43
+INFO  (2021-11-25) 21:08.22:296 [sitemap] (/) qtp31114735-21/ForwardRedirector: Redirecting to 'en/'
+INFO  (2021-11-25) 21:08.22:297 [access] (/) qtp31114735-21/CocoonServlet: '' Processed by Apache Cocoon 2.1.11 in 8 milliseconds.
+INFO  (2021-11-25) 21:08.22:340 [access] (/en/) qtp31114735-22/CocoonServlet: 'en/' Processed by Apache Cocoon 2.1.11 in 38 milliseconds.
+INFO  (2021-11-25) 21:08.30:457 [access] (/en/) qtp31114735-23/CocoonServlet: 'en/' Processed by Apache Cocoon 2.1.11 in 58 milliseconds.
+INFO  (2021-11-25) 21:08.30:522 [access] (/assets/foundation/css/normalize.css) qtp31114735-20/CocoonServlet: 'assets/foundation/css/normalize.css' Processed by Apache Cocoon 2.1.11 in 7 milliseconds.
+INFO  (2021-11-25) 21:08.30:531 [access] (/assets/styles/base.css) qtp31114735-22/CocoonServlet: 'assets/styles/base.css' Processed by Apache Cocoon 2.1.11 in 15 milliseconds.
+INFO  (2021-11-25) 21:08.30:531 [access] (/assets/foundation/js/vendor/custom.modernizr.js) qtp31114735-39/CocoonServlet: 'assets/foundation/css/foundation.min.css' Processed by Apache Cocoon 2.1.11 in 14 milliseconds.
+INFO  (2021-11-25) 21:08.30:531 [access] (/assets/styles/site.css) qtp31114735-21/CocoonServlet: 'assets/styles/site.css' Processed by Apache Cocoon 2.1.11 in 15 milliseconds.
+INFO  (2021-11-25) 21:08.30:531 [access] (Unknown-URI) Unknown-Thread/CocoonServlet: 'assets/foundation/js/vendor/custom.modernizr.js' Processed by Apache Cocoon 2.1.11 in 7 milliseconds.
+INFO  (2021-11-25) 21:08.30:552 [access] (/assets/foundation/js/vendor/jquery.js) qtp31114735-20/CocoonServlet: 'assets/foundation/js/vendor/jquery.js' Processed by Apache Cocoon 2.1.11 in 1 milliseconds.
+INFO  (2021-11-25) 21:08.30:562 [access] (/assets/foundation/js/foundation.min.js) qtp31114735-22/CocoonServlet: 'assets/foundation/js/foundation.min.js' Processed by Apache Cocoon 2.1.11 in 1 milliseconds.
+INFO  (2021-11-25) 21:08.30:608 [access] (/assets/images/fondi.png) qtp31114735-39/CocoonServlet: 'assets/images/fondi.png' Processed by Apache Cocoon 2.1.11 in 2 milliseconds.
+INFO  (2021-11-25) 21:08.30:608 [access] (/assets/images/home-gif.png) qtp31114735-21/CocoonServlet: 'assets/images/home-gif.png' Processed by Apache Cocoon 2.1.11 in 2 milliseconds.
+INFO  (2021-11-25) 21:08.30:609 [access] (/assets/images/iliauni-logo-geo.png) qtp31114735-20/CocoonServlet: 'assets/images/iliauni-logo-geo.png' Processed by Apache Cocoon 2.1.11 in 2 milliseconds.
+INFO  (2021-11-25) 21:08.30:610 [access] (Unknown-URI) Unknown-Thread/CocoonServlet: 'assets/images/home-banner-01.png' Processed by Apache Cocoon 2.1.11 in 5 milliseconds.
+INFO  (2021-11-25) 21:08.30:620 [access] (/assets/images/bg-texture-small.jpg) qtp31114735-22/CocoonServlet: 'assets/images/bg-texture-small.jpg' Processed by Apache Cocoon 2.1.11 in 2 milliseconds.
+INFO  (2021-11-25) 21:08.30:697 [access] (/assets/fonts/ka/GLGordeziani-Medium.woff2) qtp31114735-21/CocoonServlet: 'assets/fonts/ka/GLGordeziani-Medium.woff2' Processed by Apache Cocoon 2.1.11 in 1 milliseconds.
+INFO  (2021-11-25) 21:08.30:698 [access] (/assets/fonts/ka/BPGExcelsiorBlack.woff2) qtp31114735-20/CocoonServlet: 'assets/fonts/ka/BPGExcelsiorBlack.woff2' Processed by Apache Cocoon 2.1.11 in 1 milliseconds.
+INFO  (2021-11-25) 21:08.30:699 [access] (/assets/fonts/ka/DejaVuSans-ExtraLight.woff2) qtp31114735-39/CocoonServlet: 'assets/fonts/ka/DejaVuSans-ExtraLight.woff2' Processed by Apache Cocoon 2.1.11 in 4 milliseconds.
+INFO  (2021-11-25) 21:08.30:833 [access] (/assets/fonts/ka/BPGGlahoWEBCaps.woff2) qtp31114735-23/CocoonServlet: 'assets/fonts/ka/BPGGlahoWEBCaps.woff2' Processed by Apache Cocoon 2.1.11 in 1 milliseconds.
+ERROR (2021-11-25) 21:08.30:906 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-22/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.30:919 [sitemap] (/assets/images/favicon.png) qtp31114735-22/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.30:960 [access] (/assets/images/favicon.png) qtp31114735-22/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 56 milliseconds.
+INFO  (2021-11-25) 21:08.33:440 [core.manager] (/en/concordances/bibliography/) qtp31114735-21/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/templates/concordance-bibliography.xml_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/template/inherit-template.xsl
+INFO  (2021-11-25) 21:08.33:443 [core.manager] (/en/concordances/bibliography/) qtp31114735-21/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/authority/bibliography-to-concordance-html.xsl
+INFO  (2021-11-25) 21:08.33:487 [core.manager] (/en/concordances/bibliography/) qtp31114735-21/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/menu/main.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/normalise-menu.xsl;language=en;url=en/concordances/bibliography/_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/contextualise-menu.xsl;language=en;url=en/concordances/bibliography/
+INFO  (2021-11-25) 21:08.33:754 [core.manager] (/en/concordances/bibliography/) qtp31114735-21/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../content/xml/authority/bibliography.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../stylesheets/prune-to-language.xsl;language=en_T-i18n-../assets/translations?en__
+INFO  (2021-11-25) 21:08.34:747 [access] (/en/concordances/bibliography/) qtp31114735-21/CocoonServlet: 'en/concordances/bibliography/' Processed by Apache Cocoon 2.1.11 in 1.417 seconds.
+ERROR (2021-11-25) 21:08.34:861 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-39/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.34:865 [sitemap] (/assets/images/favicon.png) qtp31114735-39/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.34:883 [access] (/assets/images/favicon.png) qtp31114735-39/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 41 milliseconds.
+INFO  (2021-11-25) 21:08.36:842 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/templates/index-epidoc-abbreviation.xml_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/template/inherit-template.xsl
+INFO  (2021-11-25) 21:08.36:844 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/indices-epidoc.xsl
+INFO  (2021-11-25) 21:08.36:847 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/indices.xsl
+INFO  (2021-11-25) 21:08.36:849 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/to-html.xsl
+INFO  (2021-11-25) 21:08.36:854 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/../../kiln/stylesheets/tei/to-html.xsl
+INFO  (2021-11-25) 21:08.36:857 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/../../kiln/stylesheets/tei/../../../stylesheets/defaults.xsl
+INFO  (2021-11-25) 21:08.36:860 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/../../kiln/stylesheets/tei/to-html-amendment.xsl
+INFO  (2021-11-25) 21:08.36:863 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/../../kiln/stylesheets/tei/to-html-list.xsl
+INFO  (2021-11-25) 21:08.36:866 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/../../kiln/stylesheets/tei/to-html-note.xsl
+INFO  (2021-11-25) 21:08.36:868 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/../../kiln/stylesheets/tei/to-html-rend.xsl
+INFO  (2021-11-25) 21:08.36:871 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/../../kiln/stylesheets/tei/to-html-table.xsl
+INFO  (2021-11-25) 21:08.36:874 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/tei/../../kiln/stylesheets/tei/to-html-teiheader.xsl
+WARN  (2021-11-25) 21:08.36:916 [core.xslt] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/TraxErrorListener: cocoon://_internal/template/xsl/stylesheets/tei/../../kiln/stylesheets/tei/to-html-amendment.xsl?pipelinehash=1312323908561342489:104
+INFO  (2021-11-25) 21:08.36:950 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/menu/main.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/normalise-menu.xsl;language=en;url=en/indices/epidoc/abbreviation.html_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/contextualise-menu.xsl;language=en;url=en/indices/epidoc/abbreviation.html
+INFO  (2021-11-25) 21:08.37:152 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../content/xml/indices/epidoc.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../stylesheets/tei/extract-index.xsl;index-name=abbreviation
+ERROR (2021-11-25) 21:08.37:255 [sitemap.transformer.rdf] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/SesameTransformer: Unknown repository: kiln
+org.openrdf.repository.RepositoryException: Unknown repository: kiln
+	at org.openrdf.http.client.HTTPClient.handleHTTPError(HTTPClient.java:945)
+	at org.openrdf.http.client.HTTPClient.sendGraphQueryViaHttp(HTTPClient.java:837)
+	at org.openrdf.http.client.HTTPClient.getRDF(HTTPClient.java:797)
+	at org.openrdf.http.client.HTTPClient.sendGraphQuery(HTTPClient.java:426)
+	at org.openrdf.repository.http.HTTPGraphQuery.evaluate(HTTPGraphQuery.java:94)
+	at uk.ac.kcl.cch.xmod.cocoon.transformation.SesameTransformer.performGraphQuery(Unknown Source)
+	at uk.ac.kcl.cch.xmod.cocoon.transformation.SesameTransformer.transform(Unknown Source)
+	at org.apache.cocoon.transformation.AbstractDOMTransformer.notify(AbstractDOMTransformer.java:138)
+	at org.apache.cocoon.xml.dom.DOMBuilder.notifyListener(DOMBuilder.java:186)
+	at org.apache.cocoon.xml.dom.DOMBuilder.endDocument(DOMBuilder.java:178)
+	at org.apache.cocoon.transformation.AbstractDOMTransformer.endDocument(AbstractDOMTransformer.java:166)
+	at org.apache.cocoon.components.sax.XMLTeePipe.endDocument(XMLTeePipe.java:71)
+	at org.apache.cocoon.components.EnvironmentChanger.endDocument(EnvironmentStack.java:119)
+	at org.apache.cocoon.components.sax.XMLTeePipe.endDocument(XMLTeePipe.java:71)
+	at org.apache.xerces.parsers.AbstractSAXParser.endDocument(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl.endEntity(Unknown Source)
+	at org.apache.xerces.impl.XMLEntityManager.endEntity(Unknown Source)
+	at org.apache.xerces.impl.XMLEntityScanner.load(Unknown Source)
+	at org.apache.xerces.impl.XMLEntityScanner.skipSpaces(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.excalibur.xml.impl.JaxpParser.parse(JaxpParser.java:315)
+	at org.apache.excalibur.xml.impl.JaxpParser.parse(JaxpParser.java:334)
+	at org.apache.cocoon.components.source.SourceUtil.parse(SourceUtil.java:326)
+	at org.apache.cocoon.generation.FileGenerator.generate(FileGenerator.java:116)
+	at org.apache.cocoon.components.pipeline.impl.AbstractCachingProcessingPipeline.processXMLPipeline(AbstractCachingProcessingPipeline.java:334)
+	at org.apache.cocoon.components.pipeline.AbstractProcessingPipeline.process(AbstractProcessingPipeline.java:780)
+	at org.apache.cocoon.components.source.impl.SitemapSource.toSAX(SitemapSource.java:414)
+	at org.apache.cocoon.components.source.SourceUtil.toSAX(SourceUtil.java:101)
+	at org.apache.cocoon.components.source.SourceUtil.parse(SourceUtil.java:321)
+	at org.apache.cocoon.generation.FileGenerator.generate(FileGenerator.java:116)
+	at org.apache.cocoon.components.pipeline.impl.AbstractCachingProcessingPipeline.processXMLPipeline(AbstractCachingProcessingPipeline.java:334)
+	at org.apache.cocoon.components.pipeline.AbstractProcessingPipeline.process(AbstractProcessingPipeline.java:780)
+	at org.apache.cocoon.components.source.impl.SitemapSource.toSAX(SitemapSource.java:414)
+	at org.apache.cocoon.components.source.SourceUtil.toSAX(SourceUtil.java:101)
+	at org.apache.cocoon.components.source.SourceUtil.parse(SourceUtil.java:321)
+	at org.apache.cocoon.generation.FileGenerator.generate(FileGenerator.java:116)
+	at org.apache.cocoon.components.pipeline.AbstractProcessingPipeline.processXMLPipeline(AbstractProcessingPipeline.java:579)
+	at org.apache.cocoon.components.pipeline.impl.AbstractCachingProcessingPipeline.processXMLPipeline(AbstractCachingProcessingPipeline.java:280)
+	at org.apache.cocoon.components.pipeline.AbstractProcessingPipeline.process(AbstractProcessingPipeline.java:780)
+	at org.apache.cocoon.components.source.impl.SitemapSource.toSAX(SitemapSource.java:414)
+	at org.apache.cocoon.components.source.SourceUtil.toSAX(SourceUtil.java:101)
+	at org.apache.cocoon.components.source.SourceUtil.parse(SourceUtil.java:321)
+	at org.apache.cocoon.sitemap.ContentAggregator.generate(ContentAggregator.java:125)
+	at org.apache.cocoon.components.pipeline.AbstractProcessingPipeline.processXMLPipeline(AbstractProcessingPipeline.java:579)
+	at org.apache.cocoon.components.pipeline.AbstractProcessingPipeline.process(AbstractProcessingPipeline.java:481)
+	at org.apache.cocoon.components.treeprocessor.sitemap.SerializeNode.invoke(SerializeNode.java:144)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:47)
+	at org.apache.cocoon.components.treeprocessor.sitemap.MatchNode.invoke(MatchNode.java:108)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:69)
+	at org.apache.cocoon.components.treeprocessor.sitemap.PipelineNode.invoke(PipelineNode.java:143)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:69)
+	at org.apache.cocoon.components.treeprocessor.sitemap.PipelinesNode.invoke(PipelinesNode.java:93)
+	at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:235)
+	at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:177)
+	at org.apache.cocoon.components.treeprocessor.TreeProcessor.process(TreeProcessor.java:254)
+	at org.apache.cocoon.components.treeprocessor.sitemap.MountNode.invoke(MountNode.java:118)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:47)
+	at org.apache.cocoon.components.treeprocessor.sitemap.MatchNode.invoke(MatchNode.java:108)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:69)
+	at org.apache.cocoon.components.treeprocessor.sitemap.PipelineNode.invoke(PipelineNode.java:143)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:69)
+	at org.apache.cocoon.components.treeprocessor.sitemap.PipelinesNode.invoke(PipelinesNode.java:93)
+	at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:235)
+	at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:177)
+	at org.apache.cocoon.components.treeprocessor.TreeProcessor.process(TreeProcessor.java:254)
+	at org.apache.cocoon.components.treeprocessor.sitemap.MountNode.invoke(MountNode.java:118)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:47)
+	at org.apache.cocoon.components.treeprocessor.sitemap.MatchNode.invoke(MatchNode.java:108)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:69)
+	at org.apache.cocoon.components.treeprocessor.sitemap.PipelineNode.invoke(PipelineNode.java:143)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:69)
+	at org.apache.cocoon.components.treeprocessor.sitemap.PipelinesNode.invoke(PipelinesNode.java:93)
+	at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:235)
+	at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:177)
+	at org.apache.cocoon.components.treeprocessor.TreeProcessor.process(TreeProcessor.java:254)
+	at org.apache.cocoon.components.treeprocessor.sitemap.MountNode.invoke(MountNode.java:118)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:47)
+	at org.apache.cocoon.components.treeprocessor.sitemap.MatchNode.invoke(MatchNode.java:108)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:69)
+	at org.apache.cocoon.components.treeprocessor.sitemap.PipelineNode.invoke(PipelineNode.java:143)
+	at org.apache.cocoon.components.treeprocessor.AbstractParentProcessingNode.invokeNodes(AbstractParentProcessingNode.java:69)
+	at org.apache.cocoon.components.treeprocessor.sitemap.PipelinesNode.invoke(PipelinesNode.java:93)
+	at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:235)
+	at org.apache.cocoon.components.treeprocessor.ConcreteTreeProcessor.process(ConcreteTreeProcessor.java:177)
+	at org.apache.cocoon.components.treeprocessor.TreeProcessor.process(TreeProcessor.java:254)
+	at org.apache.cocoon.Cocoon.process(Cocoon.java:699)
+	at org.apache.cocoon.servlet.CocoonServlet.service(CocoonServlet.java:1154)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:698)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:505)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:138)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:564)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:213)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1094)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:432)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:175)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1028)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:136)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:258)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:109)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:445)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:267)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:224)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.run(AbstractConnection.java:358)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:601)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:532)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+INFO  (2021-11-25) 21:08.37:262 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../assets/queries/sparql/facet_item_names.xml
+INFO  (2021-11-25) 21:08.37:262 [core.manager] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-cocoon://admin/rdf/construct/graph/facet_item_names.xml?pipelinehash=-6339524792039305046
+INFO  (2021-11-25) 21:08.37:909 [access] (/en/indices/epidoc/abbreviation.html) qtp31114735-23/CocoonServlet: 'en/indices/epidoc/abbreviation.html' Processed by Apache Cocoon 2.1.11 in 1.183 seconds.
+ERROR (2021-11-25) 21:08.39:792 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-21/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.39:793 [sitemap] (/assets/images/favicon.png) qtp31114735-21/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.39:798 [access] (/assets/images/favicon.png) qtp31114735-21/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 7 milliseconds.
+INFO  (2021-11-25) 21:08.40:749 [core.manager] (/en/inscriptions/ka/) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/templates/inscription-index.xml_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/template/inherit-template.xsl
+INFO  (2021-11-25) 21:08.40:752 [core.manager] (/en/inscriptions/ka/) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/text-file-list-to-html.xsl
+INFO  (2021-11-25) 21:08.40:822 [core.manager] (/en/inscriptions/ka/) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/menu/main.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/normalise-menu.xsl;language=en;url=en/inscriptions/_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/contextualise-menu.xsl;language=en;url=en/inscriptions/
+INFO  (2021-11-25) 21:08.40:848 [access] (/en/inscriptions/ka/) qtp31114735-39/CocoonServlet: 'en/inscriptions/ka/' Processed by Apache Cocoon 2.1.11 in 117 milliseconds.
+INFO  (2021-11-25) 21:08.40:880 [access] (/assets/styles/tablesorter.css) repositories/kiln/CocoonServlet: 'assets/styles/tablesorter.css' Processed by Apache Cocoon 2.1.11 in 1 milliseconds.
+INFO  (2021-11-25) 21:08.40:889 [access] (/assets/scripts/jquery.tablesorter.js) qtp31114735-23/CocoonServlet: 'assets/scripts/jquery.tablesorter.js' Processed by Apache Cocoon 2.1.11 in 1 milliseconds.
+INFO  (2021-11-25) 21:08.41:026 [access] (/assets/images/tablesorter/bg.gif) qtp31114735-21/CocoonServlet: 'assets/images/tablesorter/bg.gif' Processed by Apache Cocoon 2.1.11 in 1 milliseconds.
+ERROR (2021-11-25) 21:08.41:119 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-22/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.41:120 [sitemap] (/assets/images/favicon.png) qtp31114735-22/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.41:125 [access] (/assets/images/favicon.png) qtp31114735-22/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 8 milliseconds.
+INFO  (2021-11-25) 21:08.42:577 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/templates/epidoc-iospe.xml_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/template/inherit-template.xsl
+INFO  (2021-11-25) 21:08.42:578 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/start-edition.xsl
+INFO  (2021-11-25) 21:08.42:584 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/start-edition.xsl
+INFO  (2021-11-25) 21:08.42:590 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/global-varsandparams.xsl
+INFO  (2021-11-25) 21:08.42:593 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teiab.xsl
+INFO  (2021-11-25) 21:08.42:596 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teiaddanddel.xsl
+INFO  (2021-11-25) 21:08.42:604 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teiaddanddel.xsl
+INFO  (2021-11-25) 21:08.42:609 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teiapp.xsl
+INFO  (2021-11-25) 21:08.42:614 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teidiv.xsl
+INFO  (2021-11-25) 21:08.42:618 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teidivedition.xsl
+INFO  (2021-11-25) 21:08.42:623 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teidivapparatus.xsl
+INFO  (2021-11-25) 21:08.42:627 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teiforeign.xsl
+INFO  (2021-11-25) 21:08.42:630 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teifigure.xsl
+INFO  (2021-11-25) 21:08.42:633 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teig.xsl
+INFO  (2021-11-25) 21:08.42:642 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teig.xsl
+INFO  (2021-11-25) 21:08.42:646 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teigap.xsl
+INFO  (2021-11-25) 21:08.42:652 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teigap.xsl
+INFO  (2021-11-25) 21:08.42:659 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teihead.xsl
+INFO  (2021-11-25) 21:08.42:663 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teihi.xsl
+INFO  (2021-11-25) 21:08.42:666 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teihi.xsl
+INFO  (2021-11-25) 21:08.42:670 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teilb.xsl
+INFO  (2021-11-25) 21:08.42:675 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teilb.xsl
+INFO  (2021-11-25) 21:08.42:678 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teilgandl.xsl
+INFO  (2021-11-25) 21:08.42:681 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teilgandl.xsl
+INFO  (2021-11-25) 21:08.42:686 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teilistanditem.xsl
+INFO  (2021-11-25) 21:08.42:689 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teilistbiblandbibl.xsl
+INFO  (2021-11-25) 21:08.42:692 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teimilestone.xsl
+INFO  (2021-11-25) 21:08.42:698 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teibibl.xsl
+INFO  (2021-11-25) 21:08.42:702 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teinote.xsl
+INFO  (2021-11-25) 21:08.42:704 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teinote.xsl
+INFO  (2021-11-25) 21:08.42:707 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teinum.xsl
+INFO  (2021-11-25) 21:08.42:709 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teinum.xsl
+INFO  (2021-11-25) 21:08.42:712 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teip.xsl
+INFO  (2021-11-25) 21:08.42:714 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teiseg.xsl
+INFO  (2021-11-25) 21:08.42:716 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teiseg.xsl
+INFO  (2021-11-25) 21:08.42:718 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teispace.xsl
+INFO  (2021-11-25) 21:08.42:721 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teisupplied.xsl
+INFO  (2021-11-25) 21:08.42:724 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teiterm.xsl
+INFO  (2021-11-25) 21:08.42:728 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-teiref.xsl
+INFO  (2021-11-25) 21:08.42:731 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teiref.xsl
+INFO  (2021-11-25) 21:08.42:734 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teiabbrandexpan.xsl
+INFO  (2021-11-25) 21:08.42:738 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teicertainty.xsl
+INFO  (2021-11-25) 21:08.42:741 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teichoice.xsl
+INFO  (2021-11-25) 21:08.42:744 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teihandshift.xsl
+INFO  (2021-11-25) 21:08.42:746 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teiheader.xsl
+INFO  (2021-11-25) 21:08.42:758 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teimilestone.xsl
+INFO  (2021-11-25) 21:08.42:764 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teiorig.xsl
+INFO  (2021-11-25) 21:08.42:769 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teiorigandreg.xsl
+INFO  (2021-11-25) 21:08.42:843 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teiq.xsl
+INFO  (2021-11-25) 21:08.42:845 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teisicandcorr.xsl
+INFO  (2021-11-25) 21:08.42:849 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teispace.xsl
+INFO  (2021-11-25) 21:08.42:853 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teisupplied.xsl
+INFO  (2021-11-25) 21:08.42:855 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teisurplus.xsl
+INFO  (2021-11-25) 21:08.42:857 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/teiunclear.xsl
+INFO  (2021-11-25) 21:08.42:859 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-cssandscripts.xsl
+INFO  (2021-11-25) 21:08.42:864 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-apparatus.xsl
+INFO  (2021-11-25) 21:08.42:883 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/tpl-apparatus.xsl
+INFO  (2021-11-25) 21:08.42:892 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-lang.xsl
+INFO  (2021-11-25) 21:08.42:896 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-metadata.xsl
+INFO  (2021-11-25) 21:08.42:899 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-license.xsl
+INFO  (2021-11-25) 21:08.42:902 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-sqbrackets.xsl
+INFO  (2021-11-25) 21:08.42:906 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-structure.xsl
+INFO  (2021-11-25) 21:08.42:911 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-struct-creta.xsl
+INFO  (2021-11-25) 21:08.42:916 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-struct-dol.xsl
+INFO  (2021-11-25) 21:08.42:921 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-struct-edak.xsl
+INFO  (2021-11-25) 21:08.42:925 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-struct-inslib.xsl
+INFO  (2021-11-25) 21:08.42:931 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-struct-iospe.xsl
+INFO  (2021-11-25) 21:08.42:938 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-struct-sample.xsl
+INFO  (2021-11-25) 21:08.42:944 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-struct-sigidoc.xsl
+INFO  (2021-11-25) 21:08.42:949 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/htm-tpl-struct-ecg.xsl
+INFO  (2021-11-25) 21:08.42:953 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/tpl-certlow.xsl
+INFO  (2021-11-25) 21:08.42:956 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/tpl-text.xsl
+INFO  (2021-11-25) 21:08.42:958 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/../../kiln/stylesheets/epidoc/functions.xsl
+INFO  (2021-11-25) 21:08.42:962 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/epidoc/htm-tpl-struct-iospe.xsl
+INFO  (2021-11-25) 21:08.43:385 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../content/xml/epidoc/ECG012.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../stylesheets/epidoc/prune-to-language.xsl;language=en_T-i18n-../assets/translations?en__
+INFO  (2021-11-25) 21:08.43:388 [core.manager] (/en/inscriptions/ECG012.html) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/menu/main.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/normalise-menu.xsl;language=en;url=en/inscriptions/ECG012.html_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/contextualise-menu.xsl;language=en;url=en/inscriptions/ECG012.html
+INFO  (2021-11-25) 21:08.43:405 [access] (/en/inscriptions/ECG012.html) qtp31114735-39/CocoonServlet: 'en/inscriptions/ECG012.html' Processed by Apache Cocoon 2.1.11 in 864 milliseconds.
+INFO  (2021-11-25) 21:08.43:431 [access] (/assets/styles/epidoc/global.css) repositories/kiln/CocoonServlet: 'assets/styles/epidoc/global.css' Processed by Apache Cocoon 2.1.11 in 3 milliseconds.
+ERROR (2021-11-25) 21:08.43:966 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-23/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.43:968 [sitemap] (/assets/images/favicon.png) qtp31114735-23/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.43:970 [access] (/assets/images/favicon.png) qtp31114735-23/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 6 milliseconds.
+ERROR (2021-11-25) 21:08.45:467 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-21/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.45:468 [sitemap] (/assets/images/favicon.png) qtp31114735-21/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.45:472 [access] (/assets/images/favicon.png) qtp31114735-21/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 7 milliseconds.
+INFO  (2021-11-25) 21:08.47:570 [access] (/en/inscriptions/ka/) qtp31114735-22/CocoonServlet: 'en/inscriptions/ka/' Processed by Apache Cocoon 2.1.11 in 54 milliseconds.
+ERROR (2021-11-25) 21:08.47:763 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-23/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.47:764 [sitemap] (/assets/images/favicon.png) qtp31114735-23/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.47:766 [access] (/assets/images/favicon.png) qtp31114735-23/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 4 milliseconds.
+INFO  (2021-11-25) 21:08.49:247 [access] (/en/inscriptions/arc/) qtp31114735-21/CocoonServlet: 'en/inscriptions/arc/' Processed by Apache Cocoon 2.1.11 in 32 milliseconds.
+ERROR (2021-11-25) 21:08.49:322 [sitemap.handled-errors] (/assets/images/favicon.png) repositories/kiln/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.49:323 [sitemap] (/assets/images/favicon.png) repositories/kiln/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.49:325 [access] (/assets/images/favicon.png) repositories/kiln/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 5 milliseconds.
+ERROR (2021-11-25) 21:08.53:320 [sitemap.handled-errors] (/ekainscriptions/arc/) qtp31114735-22/ErrorHandlerHelper: No pipeline matched request: ekainscriptions/arc/
+INFO  (2021-11-25) 21:08.53:327 [sitemap] (/ekainscriptions/arc/) qtp31114735-22/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/main.xmap:306:24
+INFO  (2021-11-25) 21:08.53:340 [core.manager] (/ekainscriptions/arc/) qtp31114735-22/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/templates/error.xml_T-xinclude-XInclude_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/template/inherit-template.xsl
+INFO  (2021-11-25) 21:08.53:344 [core.manager] (/ekainscriptions/arc/) qtp31114735-22/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../stylesheets/error/site-to-html.xsl
+INFO  (2021-11-25) 21:08.53:385 [access] (/ekainscriptions/arc/) qtp31114735-22/CocoonServlet: 'ekainscriptions/arc/' Processed by Apache Cocoon 2.1.11 in 66 milliseconds.
+ERROR (2021-11-25) 21:08.53:461 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-23/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.53:463 [sitemap] (/assets/images/favicon.png) qtp31114735-23/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.53:466 [access] (/assets/images/favicon.png) qtp31114735-23/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 6 milliseconds.
+INFO  (2021-11-25) 21:08.58:572 [core.manager] (/ka/inscriptions/arc/) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/menu/main.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/normalise-menu.xsl;language=ka;url=ka/inscriptions/_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/contextualise-menu.xsl;language=ka;url=ka/inscriptions/
+INFO  (2021-11-25) 21:08.58:579 [access] (/ka/inscriptions/arc/) qtp31114735-39/CocoonServlet: 'ka/inscriptions/arc/' Processed by Apache Cocoon 2.1.11 in 31 milliseconds.
+ERROR (2021-11-25) 21:08.58:683 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-22/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:08.58:684 [sitemap] (/assets/images/favicon.png) qtp31114735-22/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:08.58:689 [access] (/assets/images/favicon.png) qtp31114735-22/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 7 milliseconds.
+INFO  (2021-11-25) 21:09.01:198 [core.manager] (/ka/inscriptions/ECG1067.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../content/xml/epidoc/ECG1067.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../stylesheets/epidoc/prune-to-language.xsl;language=ka_T-i18n-../assets/translations?ka__
+INFO  (2021-11-25) 21:09.01:203 [core.manager] (/ka/inscriptions/ECG1067.html) qtp31114735-23/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/menu/main.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/normalise-menu.xsl;language=ka;url=ka/inscriptions/ECG1067.html_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/contextualise-menu.xsl;language=ka;url=ka/inscriptions/ECG1067.html
+INFO  (2021-11-25) 21:09.01:213 [access] (/ka/inscriptions/ECG1067.html) qtp31114735-23/CocoonServlet: 'ka/inscriptions/ECG1067.html' Processed by Apache Cocoon 2.1.11 in 29 milliseconds.
+ERROR (2021-11-25) 21:09.01:323 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-21/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:09.01:324 [sitemap] (/assets/images/favicon.png) qtp31114735-21/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:09.01:327 [access] (/assets/images/favicon.png) qtp31114735-21/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 11 milliseconds.
+INFO  (2021-11-25) 21:09.06:994 [core.manager] (/ka/concordances/bibliography/) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/menu/main.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/normalise-menu.xsl;language=ka;url=ka/concordances/bibliography/_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/contextualise-menu.xsl;language=ka;url=ka/concordances/bibliography/
+INFO  (2021-11-25) 21:09.07:050 [core.manager] (/ka/concordances/bibliography/) qtp31114735-39/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../content/xml/authority/bibliography.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../sitemaps/../stylesheets/prune-to-language.xsl;language=ka_T-i18n-../assets/translations?ka__
+INFO  (2021-11-25) 21:09.07:383 [access] (/ka/concordances/bibliography/) qtp31114735-39/CocoonServlet: 'ka/concordances/bibliography/' Processed by Apache Cocoon 2.1.11 in 404 milliseconds.
+ERROR (2021-11-25) 21:09.07:472 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-23/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:09.07:474 [sitemap] (/assets/images/favicon.png) qtp31114735-23/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:09.07:478 [access] (/assets/images/favicon.png) qtp31114735-23/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 7 milliseconds.
+INFO  (2021-11-25) 21:09.08:584 [core.manager] (/ka/) qtp31114735-21/CacheImpl: Caching new response for PK_G-file-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../../assets/menu/main.xml_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/normalise-menu.xsl;language=ka;url=_T-saxon-file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/../stylesheets/menu/contextualise-menu.xsl;language=ka;url=
+INFO  (2021-11-25) 21:09.08:588 [access] (/ka/) qtp31114735-21/CocoonServlet: 'ka/' Processed by Apache Cocoon 2.1.11 in 12 milliseconds.
+ERROR (2021-11-25) 21:09.08:796 [sitemap.handled-errors] (/assets/images/favicon.png) repositories/kiln/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:09.08:815 [sitemap] (/assets/images/favicon.png) repositories/kiln/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:09.08:818 [access] (/assets/images/favicon.png) repositories/kiln/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 25 milliseconds.
+INFO  (2021-11-25) 21:09.12:651 [access] (/ka/inscriptions/ka/) qtp31114735-39/CocoonServlet: 'ka/inscriptions/ka/' Processed by Apache Cocoon 2.1.11 in 70 milliseconds.
+ERROR (2021-11-25) 21:09.12:854 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-21/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:09.12:855 [sitemap] (/assets/images/favicon.png) qtp31114735-21/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:09.12:858 [access] (/assets/images/favicon.png) qtp31114735-21/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 6 milliseconds.
+INFO  (2021-11-25) 21:09.14:607 [access] (/ka/inscriptions/ka/) repositories/kiln/CocoonServlet: 'ka/inscriptions/ka/' Processed by Apache Cocoon 2.1.11 in 55 milliseconds.
+ERROR (2021-11-25) 21:09.14:785 [sitemap.handled-errors] (/assets/images/favicon.png) qtp31114735-23/ErrorHandlerHelper: Error during resolving of the input stream
+	at <map:read> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/assets.xmap:34:70
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/../kiln/sitemaps/main.xmap:122:80
+	at <map:mount> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:150:36
+INFO  (2021-11-25) 21:09.14:786 [sitemap] (/assets/images/favicon.png) qtp31114735-23/HandleErrorsNode: Processing handle-errors at <map:handle-errors> - file:///Users/tamarkalkhitashvili/Documents/ecg-efes/webapps/ROOT/sitemaps/config.xmap:158:24
+INFO  (2021-11-25) 21:09.14:788 [access] (/assets/images/favicon.png) qtp31114735-23/CocoonServlet: 'assets/images/favicon.png' Processed by Apache Cocoon 2.1.11 in 4 milliseconds.
+WARN  (2021-11-25) 21:09.38:584 [sitemap] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.cocoon.selection.SelectorSelector]
+WARN  (2021-11-25) 21:09.38:585 [sitemap] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.cocoon.selection.SelectorSelector]
+INFO  (2021-11-25) 21:09.38:589 [core.store] (Unknown-URI) Unknown-Thread/EHDefaultStore: EHCache cache "cocoon-ehcache-1" already disposed.
+WARN  (2021-11-25) 21:09.38:589 [core.manager] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.cocoon.components.thread.RunnableManager]
+WARN  (2021-11-25) 21:09.38:590 [core.manager] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.excalibur.store.StoreJanitor]
+WARN  (2021-11-25) 21:09.38:591 [core.manager] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.avalon.excalibur.logger.LoggerManager]
+WARN  (2021-11-25) 21:09.38:591 [core.manager] (Unknown-URI) Unknown-Thread/ExcaliburComponentManager: disposing of handler for unreleased component. role [org.apache.excalibur.store.Store/TransientStore]
