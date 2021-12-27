@@ -79,19 +79,17 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
+
 </encodingDesc>
     </teiHeader>
-    <facsimile>
-        <surface>
-            <graphic url="ecg416.jpg">
-                <desc xml:lang="ka">წვირმის ხატი</desc>
-                <desc xml:lang="en">Icon from Tsvirmi</desc>
-            </graphic>
-        </surface>
-    </facsimile>
+                     <facsimile>
+                         <surface>
+                             <graphic url="ecg416.jpg">
+                                 <desc xml:lang="ka">წვირმის ხატი</desc>
+                                 <desc xml:lang="en">Icon from Tsvirmi</desc>
+                             </graphic>
+                         </surface>
+                     </facsimile>
     <text>
         <body>
              <div type="bibliography">
@@ -117,15 +115,11 @@
             
             <div type="translation" xml:lang="ka">
                 <p>მთავარანგელოზი მიქაელი
-                მთავარანგელოზი გაბრიელი</p>
+                მთავარანგელოზი გაბრიელი
+                </p>
             </div>
             
-            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
-            </div>
+
            
             <div type="commentary">
                 <p>წარწერის დათარიღება ხდება პალეოგრაფიული მონაცემების მიხედვით (სიტყვათა შემოკლება , ასოს ზედ დაწერილობა, η-ს მაგივრად ε-ის ხმარება, რაც იმას ნიშნავს, რომ 
