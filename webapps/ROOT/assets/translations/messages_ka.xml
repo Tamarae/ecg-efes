@@ -139,7 +139,7 @@
 
   <!-- გამოცემის გვერდი  iospe-->
   <message key="epidoc-xslt-iospe-monument">ძეგლი</message>
-  <message key="epidoc-xslt-iospe-monument-type">ობიექტის ტიპი:</message>
+  <message key="epidoc-xslt-iospe-monument-type">ობიექტის ტიპი: </message>
   <message key="epidoc-xslt-iospe-not-specified">არ არის მითითებული</message>
   <message key="epidoc-xslt-iospe-material">მასალა: </message>
   <message key="epidoc-xslt-iospe-description">აღწერა:</message>

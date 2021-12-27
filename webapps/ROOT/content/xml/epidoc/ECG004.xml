@@ -129,7 +129,7 @@
    <facsimile>
         <surface>
             <graphic url="ecg004.jpg">
-                <desc xml:lang="ka">სეფიეთის კირქვის ფილა, 2016</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/20/">სეფიეთის კირქვის ფილა, 2016</desc>
                 <desc xml:lang="en">Sepieti limestone plaque, 2016</desc>
             </graphic>
         </surface>
@@ -138,7 +138,7 @@
         <body>
             <div type="bibliography">
                 <listBibl>
-                    <bibl sameAs="bib:b82"><ptr target="bibliography.xml#b82"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>121-122</citedRange></bibl>
+                    <bibl><ptr target="bibliography.xml#b82"/>თინათინ ყაუხჩიშვილი, საქართველოს ბერძნული წარწერების კორპუსი, <citedRange>121-122</citedRange></bibl>
                 </listBibl>
             </div>
 

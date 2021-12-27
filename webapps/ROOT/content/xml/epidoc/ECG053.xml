@@ -81,11 +81,9 @@
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        </fileDesc>
+
+
         <revisionDesc><change when="2019-10-29" who="Eka Kvirkvelia">ტექსტის სრული კოდირება, მეტამონაცემების სრული კოდირება, 
             ბმულებით დაკავშირება ავტორიტეტულ წყაროსთან</change></revisionDesc> 
     </teiHeader>
@@ -93,7 +91,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg053.jpg">
-                <desc xml:lang="ka">ბოლნისის სიონის 494 წ. მოსახსენებელი ამშენებლისა და ხელოსნების</desc>
+                <desc xml:lang="ka" ref="https://drive.google.com/file/d/1OdZX9sL-_i0FdoNYMZPNl3MAYmmus1rW/view?usp=sharing">ფოტოს სანახავად მიჰყევით ბმულს</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
