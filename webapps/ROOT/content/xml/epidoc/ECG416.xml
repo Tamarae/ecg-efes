@@ -32,8 +32,10 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>                             
-                                   <material></material>
-                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType></support></supportDesc>
+                                   <material ref="https://archwort.dainst.org/de/term/2872">ვერცხლი</material>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/123">ხატი</objectType>
+                                </support>
+                            </supportDesc>
                                 <layoutDesc>
                                     <layout>
                                         წვირმის მაცხოვრის ეკლესიაში მთავარანგელოზების ჭედურ ქართულ ხატს (№ 9/2) ქართულ წარწერებთან ერთად აქვს ბერძნული წარწერებიც.

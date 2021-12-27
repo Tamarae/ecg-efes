@@ -33,7 +33,9 @@
                             <supportDesc>
                                 <support>                             
                                    <material ref="https://www.eagle-network.eu/voc/material/lod/115">ვერცხლი</material>
-                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">ფირფიტა</objectType></support></supportDesc>
+                                   <objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">ფირფიტა</objectType>
+                                </support>
+                            </supportDesc>
                                 <layoutDesc>
                                     <layout>
                                          ნივთი წარმოადგენს ხეზე დაკრულ ოქროში დაფერილ ვერცხლის ფირფიტას, რომლის ცენტრშიც იჯდებოდა ჯვარი, ხოლო ირგვლივ ასევე ჩასმული უნდა 
