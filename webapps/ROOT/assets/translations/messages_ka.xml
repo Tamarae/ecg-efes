@@ -70,7 +70,7 @@
   <message key="index_inscription">წარწერების სრული ჩამონათვალი</message>
   <message key="filename">ფაილი/ID</message>
   <message key="file_title">წარწერის სათაური</message>
-  <message key="editor">რედაქტორი/გამომცემელი</message>
+  <message key="editor">რედაქტორი/გამომცემელი:  </message>
 
 
   <message key="index_desc">წარწერების საინდექსაციო გვერდების სანახავად მიჰყევით ბმულს</message>
@@ -104,7 +104,7 @@
   <message key="status">სტატუსი</message>
   
   
-  <message key="date">თარიღი</message>
+  <message key="date">თარიღი: </message>
   <message key="role_name">წოდებები</message>
   <message key="name">სახელი</message>
   <message key="placename">წარმომავლობა</message>
@@ -128,7 +128,7 @@
   <message key="no-result">არაფერი მოიძებნა</message>
   <message key="facet-origin_place">წარმომავლობა</message>
   <message key="facet-support_material">მასალა</message>
-  <message key="facet-inscription_category">ტექსტის კატეგორია</message>
+  <message key="facet-inscription_category">ტექსტის კატეგორია:  </message>
   <message key="facet-script_type">ანბანი</message>
   <message key="facet-execution">შესრულების ტექნიკა</message>
   <message key="facet-khanmetoba">ხანმეტობა და ჰაემეტობა</message>
@@ -141,19 +141,19 @@
   <message key="epidoc-xslt-iospe-monument">ძეგლი</message>
   <message key="epidoc-xslt-iospe-monument-type">ობიექტის ტიპი:</message>
   <message key="epidoc-xslt-iospe-not-specified">არ არის მითითებული</message>
-  <message key="epidoc-xslt-iospe-material">მასალა:</message>
+  <message key="epidoc-xslt-iospe-material">მასალა: </message>
   <message key="epidoc-xslt-iospe-description">აღწერა:</message>
   <message key="epidoc-xslt-iospe-find-place">აღმოჩენის ადგილი:</message>
   <message key="epidoc-xslt-iospe-unknown">არ არის მითითებული</message>
   <message key="epidoc-xslt-iospe-find-circumstances">გარემოებები:</message>
   <message key="epidoc-xslt-iospe-find-context">კონტექსტი:</message>
   <message key="epidoc-xslt-iospe-modern-location">ამჟამინდელი მდებარეობა:</message>
-  <message key="epidoc-xslt-iospe-dimensions">ზომა:</message>
+  <message key="epidoc-xslt-iospe-dimensions">ზომა: </message>
   <message key="epidoc-xslt-iospe-institution-inventory">ინსტიტუცია და შიფრი:</message>
   <message key="epidoc-xslt-iospe-inscribed-field">წარწერიანი ზედაპირი:</message>
   <message key="epidoc-xslt-iospe-faces-code">აღწერა:</message>
   <message key="epidoc-xslt-iospe-placement-text">ტექსტის მდებარეობა:</message>
-  <message key="epidoc-xslt-iospe-style-lettering">ასოთა მოხაზულობა:</message>
+  <message key="epidoc-xslt-iospe-style-lettering">ასოთა მოხაზულობა:  </message>
   <message key="epidoc-xslt-iospe-letterheights">ასოთა სიმაღლე:</message>
   <message key="epidoc-xslt-iospe-text">ტექსტი</message>
   <message key="epidoc-xslt-iospe-origin">წარმომავლობა</message>
@@ -163,21 +163,26 @@
   <message key="epidoc-xslt-iospe-editions">გამოცემები</message>
   <message key="epidoc-xslt-iospe-unpublished">გამოუცემელია</message>
   <message key="epidoc-xslt-iospe-apparatus">კრიტიკული აპარატი</message>
-  <message key="epidoc-xslt-iospe-translation">თარგმანი</message>
-  <message key="epidoc-xslt-iospe-commentary">კომენტარი</message>
+  <message key="epidoc-xslt-iospe-translation">თარგმანი:  </message>
+  <message key="epidoc-xslt-iospe-commentary">კომენტარი:  </message>
   <message key="epidoc-xslt-iospe-images">ფოტო</message>
-  <message key="epidoc-xslt-iospe-handnote">ანბანი, შესრულების ტექნიკა</message>
-  <message key="epidoc-xslt-iospe-deconote">დეკორი</message>
+  <message key="epidoc-xslt-iospe-handnote">ანბანი, შესრულების ტექნიკა: </message>
+  <message key="epidoc-xslt-iospe-deconote">დეკორი: </message>
+  <message key="epidoc-xslt-iospe-condition">მდგომარეობა: </message>
+  <message key="epidoc-xslt-iospe-changes">ცვლილებები ფაილში: </message>
+  <message key="epidoc-xslt-iospe-public">ციფრული გამოცემა: </message>
+  
 
   <!-- გამოცემის გვერდი inslib -->
   <message key="epidoc-xslt-inslib-description">აღწერა</message>
   <message key="epidoc-xslt-inslib-unknown">უცნობია</message>
-  <message key="epidoc-xslt-inslib-text">წარწერიანი ზედაპირი</message>
+  <message key="epidoc-xslt-inslib-text">წარწერიანი ზედაპირი: </message>
   <message key="epidoc-xslt-inslib-letters">ასოთა მოხაზულობა</message>
-  <message key="epidoc-xslt-inslib-date">დათარიღება</message>
-  <message key="epidoc-xslt-inslib-findspot">სადაურობა</message>
+  <message key="epidoc-xslt-inslib-date">დათარიღება: </message>
+  <message key="epidoc-xslt-inslib-findspot">სადაურობა: </message>
   <message key="epidoc-xslt-inslib-original-location">თავდაპირველი მდებარეობა:  </message>
-  <message key="epidoc-xslt-inslib-last-recorded-location">ბოლო აღწერილი მდებარეობა</message>
+  <message key="epidoc-xslt-inslib-last-recorded-location">ბოლო აღწერილი მდებარეობა:  </message>
+  <message key="epidoc-xslt-inslib-repository">ამჟამინდელი მდებარეობა:  </message>
   <message key="epidoc-xslt-inslib-edition">კრიტიკული</message>
   <message key="epidoc-xslt-inslib-diplomatic">დიპლომატიური</message>
   <message key="epidoc-xslt-inslib-translation">თარგმანი</message>
