@@ -5,8 +5,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ზემო ნიქოზის მთავარანგელოზის ტაძრის საამშენებლო წარწერა მიქაელ ეპისკოპოსისა</title>
-                <editor>ნოდარ შოშიაშვილი</editor>
+                <title xml:lang="ka">ზემო ნიქოზის მთავარანგელოზის ტაძრის საამშენებლო წარწერა მიქაელ ეპისკოპოსისა</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -90,7 +91,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg024.jpg">
-                <desc xml:lang="ka">ზემო ნიქოზის მთავარანგელოზის ტაძრის საამშენებლო წარწერა მიქაელ ეპისკოპოსისა</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/24/">ზემო ნიქოზის მთავარანგელოზის ტაძრის საამშენებლო წარწერა მიქაელ ეპისკოპოსისა</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -120,7 +121,7 @@
                    <lb n="1"/>† <w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
                                     <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთისაჲთ</ex><abbr>ა</abbr></expan></w> 
                                     <w lemma="მე">მე</w> 
-                                    <persName type="clergy" ref="clergy.xml#mikael"><name nymRef="მიქაელ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name>
+                                    <persName type="clergy" key="მიქაელ ნიქოზელი ეპისკოპოსი"><name nymRef="მიქაელ"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name>
                                     <roleName nymRef="ნიქოზელი ეპისკოპოსი"><w lemma="ნიქოზელ"><expan><abbr>ნ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>ო</ex><supplied reason="lost"><abbr>ზ</abbr></supplied><ex>ე</ex><abbr>ლ</abbr></expan></w> 
                                     <w lemma="ეპისკოპოს"><expan><abbr>ებ
                    <lb n="2" break="no"/>ჲსსკ</abbr><ex>ოპო</ex><abbr>ზმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w></roleName></persName> 

@@ -103,7 +103,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg011.jpg">
-                <desc xml:lang="ka">ვანის დეკრეტი, 1985</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/15/">ვანის დეკრეტი, 1985</desc>
                 <desc xml:lang="en">Decree of Vani, 1985</desc>
             </graphic>
         </surface>

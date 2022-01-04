@@ -7,8 +7,12 @@
             <titleStmt>
                 <title xml:lang="ka">უმ ლეისუნის იოანე ეპისკოპოსის წარწერა</title>
                 <title xml:lang="en">Umm Leisun inscription</title>
-                <editor>ჯონ ზელიგმანი</editor>
-                <editor>იანა ჩეხანოვეცი</editor>
+                
+                <editor xml:lang="ka">ჯონ ზელიგმანი</editor>
+                <editor xml:lang="en">Zeligman</editor>
+                
+                <editor xml:lang="ka">იანა ჩეხანოვეცი</editor>
+                <editor xml:lang="en">Yana Tchekhanovets</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი</authority>
@@ -59,11 +63,12 @@
                     </physDesc>
                     <history>
                             <origin>
-                                <origPlace ref="#purtavi">უმ ლეისუნი, იერუსალიმი</origPlace>
+                                <origPlace>უმ ლეისუნი, იერუსალიმი</origPlace>
                                 <origDate>V-IV AD</origDate>
                             </origin>
                         <provenance type="found" when="2002">
                             <placeName xml:lang="ka">იერუსალიმი</placeName>
+                            <placeName xml:lang="en">Jerusalem</placeName>
                             <!--  -->
                             <rs type="monuList">იერუსალიმი</rs>
                             <rs type="circumstances" xml:lang="ka">2002 წელს, 1996 წლის გათხრების განახლების შემდეგ, ბიზანტიური პერიოდის ქართული მონასტერი აღმოაჩინეს.</rs>
@@ -76,17 +81,14 @@
                     </history>                   
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-    </listPrefixDef>
-</encodingDesc>
+        </fileDesc>
+
     </teiHeader>
 
     <facsimile>
         <surface>
             <graphic url="ecg1006.jpg">
-                <desc xml:lang="ka">უმ ლეისუნის წარწერა</desc>
+                <desc xml:lang="ka" ref="paleography.iliauni.edu.ge/digipal/page/17/">უმ ლეისუნის წარწერა</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -95,12 +97,7 @@
     <text>
         <body>
             
-                        <div type="bibliography">
-                <listBibl>           
-                    <bibl n="1">A Georgian Monastery from the Byzantine Period at Khirbat Umm Leisun, Jerusalem, <ptr target="bibliography.xml#b120"/> <citedRange>145–180</citedRange></bibl>
-                    <bibl n="2"></bibl>
-                </listBibl>
-              </div>            <div type="bibliography">
+         <div type="bibliography">
                 <listBibl>           
                     <bibl n="1">A Georgian Monastery from the Byzantine Period at Khirbat Umm Leisun, Jerusalem, <ptr target="bibliography.xml#b120"/> <citedRange>145–180</citedRange></bibl>
                     <bibl n="2"></bibl>
@@ -127,9 +124,10 @@
             </div>
             
             <div type="translation" xml:lang="ka">
+               <p>ეს სამარხი (არის) იოანე ფურტაველი ეპისკოპოსის, ქართველისა</p>
             </div>
             
-            <div type="apparatus" xml:space="preserve"/>
+
             
             <div type="commentary" xml:lang="ka">
                 <p>არც ერთ არქეოლოგიურ ობიექტზე ეთნონიმ „ქართველის“ გამოყენების ამაზე ადრიანი შემთხვევა არ გვხვდება არც საქართველოში და არც წმინდა მიწაზე.</p>

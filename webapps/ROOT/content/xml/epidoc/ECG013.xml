@@ -5,8 +5,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>აკაურთას ეკლესიის საამშენებლო წარწერის ფრაგმენტი</title>
-                <editor>ნოდარ შოშიაშვილი</editor>
+                <title xml:lang="ka">აკაურთას ეკლესიის საამშენებლო წარწერის ფრაგმენტი</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>

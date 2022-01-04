@@ -113,7 +113,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg012.jpg">
-                <desc xml:lang="ka">წყისეს წარწერა</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/23/">წყისეს წარწერა</desc>
                 <desc xml:lang="en">Tskise Inscription</desc>
             </graphic>
         </surface>
@@ -153,9 +153,9 @@
                         <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უარ</ex><abbr>ი</abbr></expan></w>
                         <w lemma="ქრისტჱ"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ჱ</abbr><ex>ს</ex><abbr>ი</abbr></expan></w>
                         <w lemma="მე">მე</w>
-                   <name nymRef="კოსტანტი სტეფანეს და გუდას ძე">კოსტანტი</name> <w lemma="ძე"><expan><abbr>ძ</abbr><ex>ემა</ex><abbr>ნ</abbr></expan></w>
-                        <lb n="2"/><name nymRef="სტეფანე">სტეფანესმან</name> და <name nymRef="გუდა">გუდას
-                        <lb n="3" break="no"/>მან</name>
+                   <persName type="local" key="კოსტანტი [სტეფანეს და გუდას ძე]"><name nymRef="კონსტანტი">კოსტანტი</name></persName> <w lemma="ძე"><expan><abbr>ძ</abbr><ex>ემა</ex><abbr>ნ</abbr></expan></w>
+                        <lb n="2"/><persName type="local" key="სტეფანე [კონსტანტის მამა]"><name nymRef="სტეფანე">სტეფანესმან</name></persName> და <persName type="local" key="გუდა"><name nymRef="გუდა">გუდას
+                        <lb n="3" break="no"/>მან</name></persName>
                         <rs type="pn"><w lemma="აღმართვა">აღჰუმართე</w></rs>
                         <w lemma="სახელ">სახელს
                     <lb n="4" break="no"/>ა</w>

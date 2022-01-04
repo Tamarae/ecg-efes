@@ -5,13 +5,13 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ატენის სიონი, მოსახსენებელი ზღუდის შემქმნელი ხელოსნისა (I)</title>
-                <editor>ნოდარ შოშიაშვილი</editor>
-                <editor>მარი ბროსე</editor>
+                <title xml:lang="ka">ატენის სიონი, მოსახსენებელი ზღუდის შემქმნელი ხელოსნისა (I)</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="ka">მარი ბროსე</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
-                 <idno type="filename">ECG16</idno>
+                 <idno type="filename">ECG016</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
                        დოკუმენტი ვრცელდება Creative Commons Attribution-NonCommercial-ShareAlike 3.0 ლიცენზიით.
@@ -72,7 +72,8 @@
                     </history>
                 </msDesc>
             </sourceDesc>
-        </fileDesc><encodingDesc>
+        </fileDesc>
+        <encodingDesc>
     <listPrefixDef>
         <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
     </listPrefixDef>
@@ -81,8 +82,8 @@
 
         <facsimile>
         <surface>
-            <graphic url="atenis_sarqali.jpg">
-                <desc xml:lang="ka">ატენის სიონი</desc>
+            <graphic url="ecg016.jpg">
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/25/">ატენის სიონი</desc>
                 <desc xml:lang="en">Ateni Sioni</desc>
             </graphic>
         </surface>
@@ -98,8 +99,8 @@
                 <ab>        
                     <lb n="1"/><persName type="divine" ref="divine.xml#iesous"><name nymRef="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></name></persName> 
                     <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
-                    <placeName nymRef="ატენი"><expan><abbr>ატ</abbr><ex>ე</ex><abbr>ნი</abbr><supplied reason="omitted"><abbr>ს</abbr></supplied></expan></placeName> 
-                    <w lemma="სარქალი"><expan><abbr>ს</abbr><ex>არ</ex><abbr>ქ</abbr><ex>ა</ex><abbr>ლი</abbr></expan></w>
+                    <persName type="local" key="ატენის სარქალი"><placeName nymRef="ატენი"><expan><abbr>ატ</abbr><ex>ე</ex><abbr>ნი</abbr><supplied reason="omitted"><abbr>ს</abbr></supplied></expan></placeName> 
+                    <w lemma="სარქალი"><expan><abbr>ს</abbr><ex>არ</ex><abbr>ქ</abbr><ex>ა</ex><abbr>ლი</abbr></expan></w></persName>
                     <w lemma="ესე">ესე</w> 
                     <w lemma="ზღუდე"><expan><abbr>ზღ</abbr><ex>უ</ex><abbr>დ</abbr><ex>ე</ex><abbr>ჲ</abbr></expan></w> 
                     <w lemma="ქმნის"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ქმნა</abbr></expan></w>
