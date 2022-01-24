@@ -113,7 +113,7 @@
                         <!--  "[ა]ბაზ ა[ზ]იარენ"-->
                                  
                 <ab>
-                   <lb n="1"/> <gap reason="lost" extent="unknown" unit="character"></gap> <supplied reason="lost">ა</supplied>ბაზ 
+                   <lb n="1"/> <gap reason="lost" extent="unknown" unit="character"></gap> <persName type="local" key="აბაზ"><supplied reason="lost">ა</supplied>ბაზ </persName>
                     <w lemma="ზიარება">ა<supplied reason="lost">ზ</supplied>იარენ</w>
                  </ab>
              

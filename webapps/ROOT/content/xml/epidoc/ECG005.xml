@@ -127,7 +127,7 @@
    <facsimile>
         <surface>
             <graphic url="ecg005.jpg">
-                <desc xml:lang="ka">ფილის ფრაგმენტები არმაზციხე-ბაგინეთიდან, 1993</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/42/">ფილის ფრაგმენტები არმაზციხე-ბაგინეთიდან, 1993</desc>
                 <desc xml:lang="en">Fragments of a plaque from Armaztsikhe-Bagineti, 1993</desc>
             </graphic>
         </surface>
@@ -159,14 +159,14 @@
                              ιλίσ(σ)ῃ ἀφιέρωσεν  -->
 
                 <ab>
-                   <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/><roleName nymRef="βασιλεύς"><w lemma="βασιλεύς"><supplied reason="lost">βασι</supplied>λέως</w></roleName> <name nymRef="Ἀναγράνης"><supplied reason="lost">Ἀναγ</supplied>
-                   <lb n="2" break="no"/>ράνης</name> <roleName nymRef="τροφεύς"><w lemma="τροφεύς"><supplied reason="lost">τρο</supplied>
+                   <lb n="1"/><!--  <gap reason="lost" extent="unknown" unit="line"/>--><roleName nymRef="βασιλεύς"><w lemma="βασιλεύς"><supplied reason="lost">βασι</supplied>λέως</w></roleName> <persName type="local" key="ანაგრანესი (Ἀναγράνης)"><name nymRef="Ἀναγράνης"><supplied reason="lost">Ἀναγ</supplied>
+                   <lb n="2" break="no"/>ράνης</name></persName> <roleName nymRef="τροφεύς"><w lemma="τροφεύς"><supplied reason="lost">τρο</supplied>
                    <lb n="3" break="no"/>φεὺ<supplied reason="lost">ς</supplied></w></roleName> <w lemma="καί"><supplied reason="lost">καὶ</supplied></w> <roleName nymRef="ἐπίτροπος"><w lemma="ἐπίτροπος"><supplied reason="lost">ἐπί</supplied>
                    <lb n="4" break="no"/>τροπο<supplied reason="lost">ς</supplied></w></roleName> <w lemma="ἰδίᾳ"><supplied reason="lost">ἰδίᾳ</supplied></w> <w lemma="δύναμις"><supplied reason="lost">δυ</supplied>
-                   <lb n="5" break="no"/>νάμ<supplied reason="lost"><supplied reason="omitted">ε</supplied>ι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="τό"><supplied reason="lost" cert="low">τὸ</supplied></w> <w lemma="βαλανεῖον"><supplied reason="lost" cert="low">βαλ</supplied>
+                   <lb n="5" break="no"/>νάμ<supplied reason="lost"><supplied reason="omitted">ε</supplied>ι</supplied></w> <!-- <gap reason="lost" extent="unknown" unit="character"/> --> <w lemma="τό"><supplied reason="lost" cert="low">τὸ</supplied></w> <w lemma="βαλανεῖον"><supplied reason="lost" cert="low">βαλ</supplied>
                    <lb n="6" break="no"/>ανῖον</w> <w lemma="ἀρτίζω">ἄρτισας</w>
                    <lb n="7"/><w lemma="ἰδίᾳ">ἰδίᾳ</w> <w lemma="τροφίμη">τροφίμῃ</w>
-                   <lb n="8"/><name nymRef="Δρακόντης βασίλισσα">Δρακόντιδι</name> <roleName type="nobility" nymRef="βασίλισσα"><w lemma="βασίλισσα">βασ
+                   <lb n="8"/><persName type="local" key="დრაკონტის დედოფალი (Δρακόντης βασίλισσα)"><name nymRef="Δρακόντης βασίλισσα">Δρακόντιδι</name></persName> <roleName type="nobility" nymRef="βασίλισσα"><w lemma="βασίλισσα">βασ
                    <lb n="9" break="no"/>ιλί<choice><reg>σσ</reg><orig>σ</orig></choice>ῃ</w></roleName> <w lemma="ἀφιερόω">ἀφιέρωσεν</w>
                 </ab>
                </div>

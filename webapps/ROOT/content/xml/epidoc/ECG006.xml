@@ -114,26 +114,14 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-    <listPrefixDef>
-        <prefixDef matchPattern="(.+)" replacementPattern="../authority/bibliography.xml#$1" ident="bib"/>
-
-        <variantEncoding method="location-referenced" location="external"/>
-        <styleDefDecl scheme="css" schemeVersion="2.1"/>
-        <tagsDecl>
-            <rendition xml:id="small">font-size: small;</rendition>
-            <rendition xml:id="x-space">line-height: 50%;</rendition>
-        </tagsDecl>
-    </listPrefixDef>
-</encodingDesc>
 
     </teiHeader>
 
     <facsimile>
         <surface>
             <graphic url="ecg006.jpg">
-                <desc xml:lang="ka">ფილა არმაზციხე-ბაგინეთიდან, 1996</desc>
-                <desc xml:lang="en">Plaque from Armaztsikhe-Bagineti, 1996</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/43/">ფილა არმაზციხე-ბაგინეთიდან, 1996</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/43/">Plaque from Armaztsikhe-Bagineti, 1996</desc>
             </graphic>
         </surface>
     </facsimile>
@@ -164,11 +152,11 @@
                              τὸ βαλανῖον ἀφιέρωσεν  -->
 
              <ab>
-                 <lb n="1"/><gap reason="lost" extent="unknown" unit="line"><desc>nomen feminae</desc></gap> <w lemma="θυγάτηρ"><supplied reason="lost">θυγατρὶ</supplied></w> <w lemma="δέ"><supplied reason="lost">δὲ</supplied></w> <persName><roleName type="nobility" nymRef="βασιλεύς Ἀρμενίας"><w lemma="βασιλεύς"><supplied reason="lost">βασιλέως</supplied></w> <placeName nymRef="Ἀρμενία" ref="http://pleiades.stoa.org/places/981507">Ἀρμενίας</placeName></roleName> <name nymRef="Οὐολογαίσης">Οὐλο
+                 <lb n="1"/><!--  <gap reason="lost" extent="unknown" unit="line"><desc>nomen feminae</desc></gap>--> <w lemma="θυγάτηρ"><supplied reason="lost">θυγατρὶ</supplied></w> <w lemma="δέ"><supplied reason="lost">δὲ</supplied></w> <persName type="local" key="ვოლოგეზი, არმენიის მეფე (βασιλεύς Ἀρμενίας Οὐολογαίσης)"><roleName type="nobility" nymRef="βασιλεύς Ἀρμενίας"><w lemma="βασιλεύς"><supplied reason="lost">βασιλέως</supplied></w> <placeName nymRef="Ἀρμενία" ref="http://pleiades.stoa.org/places/981507">Ἀρμενίας</placeName></roleName> <name nymRef="Οὐολογαίσης">Οὐλο
                  <lb n="2" break="no"/>γαίσου</name></persName> <w lemma="γυνή">γυναικὶ</w> <w lemma="δέ">δὲ</w>
-                 <lb n="3"/><persName><roleName nymRef="βασιλεύς Ἰβήρων"><w lemma="βασιλεύς">βασιλέως</w> <placeName type="ethnic" nymRef="Ἴβηρ" ref="http://pleiades.stoa.org/places/863807">Ἰβήρων</placeName></roleName>
+                 <lb n="3"/><persName type="local" key="ამაზასპე, იბერთა მეფე (βασιλεύς Ἰβήρων Ἀμαζάσπ)"><roleName nymRef="βασιλεύς Ἰβήρων"><w lemma="βασιλεύς">βασιλέως</w> <placeName type="ethnic" nymRef="Ἴβηρ" ref="http://pleiades.stoa.org/places/863807">Ἰβήρων</placeName></roleName>
                  <lb n="4"/><w lemma="μέγας">μεγάλου</w> <name nymRef="Ἀμαζάσπ">Ἀμαζάσ
-                 <lb n="5" break="no"/>που</name></persName> <persName><name nymRef="Ἀναγράνης">Ἀναγρά<hi rend="ligature">νη</hi>ς</name></persName> <w lemma="ὁ">ὁ</w>
+                 <lb n="5" break="no"/>που</name></persName> <persName type="local" key="ანაგრანესი (Ἀναγράνης)"><name nymRef="Ἀναγράνης">Ἀναγρά<hi rend="ligature">νη</hi>ς</name></persName> <w lemma="ὁ">ὁ</w>
                  <lb n="6"/><roleName nymRef="τροφεύς"><w lemma="τροφεύς">τροφεὺς</w></roleName> <w lemma="καί">καὶ</w> <roleName nymRef="ἐπίτροπος"><w lemma="ἐπίτροπος">ἐπίτρ<supplied reason="omitted">ο</supplied>
                  <lb n="7" break="no"/>πος</w></roleName> <w lemma="ἰδίᾳ">ἰδίᾳ</w> <w lemma="δύναμις">δυνάμ<choice><reg>ει</reg><orig>ι</orig></choice></w>
                  <lb n="8"/><w lemma="τό">τὸ</w> <w lemma="βαλανεῖον">βαλαν<choice><reg>εῖ</reg><orig>ῖ</orig></choice>ον</w> <w lemma="ἀφιερόω"><hi rend="small">ἀφιέρωσεν</hi></w>

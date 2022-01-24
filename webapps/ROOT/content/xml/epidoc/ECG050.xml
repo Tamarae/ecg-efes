@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>პალესტინის წარწერა II</title>
-                <editor>გიორგი წერეთელი</editor>
+                <title xml:lang="ka">პალესტინის წარწერა II</title>
+                <editor xml:lang="ka">გიორგი წერეთელი</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -90,7 +90,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg50.jpg">
-                <desc xml:lang="ka">პალესტინის წარწერა II</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/38/">პალესტინის წარწერა II</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -128,11 +128,11 @@
                    <lb n="1"/> და <w lemma="ძუძეულ">ძუძ
                     <lb n="2" break="no"/>ეულნი</w> <w lemma="მათნი">მ
                     <lb n="3" break="no"/>ათნი</w> 
-                            <name nymRef="ბაკურ">ბა
-                    <lb n="4" break="no"/>კურ</name> 
+                            <persName type="local" key="ბაკურ [დიდი, იბერიელი]"><name nymRef="ბაკურ">ბა
+                    <lb n="4" break="no"/>კურ</name></persName> 
                                 და
-                    <lb n="5"/><name nymRef="გრიორმიზდ">გრიორმ
-                    <lb n="6" break="no"/>იზდ</name> 
+                    <lb n="5"/><persName type="local" key="გრიორმიზდ"><name nymRef="გრიორმიზდ">გრიორმ
+                    <lb n="6" break="no"/>იზდ</name></persName> 
                             და <w lemma="ნაშობ">ნ
                     <lb n="7"/>აშობნი</w>
                     <lb n="8"/><w lemma="მათნი">მათნი</w> 

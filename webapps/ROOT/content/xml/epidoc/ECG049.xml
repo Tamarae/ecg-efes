@@ -5,8 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>პალესტინის წარწერა I</title>
-                <editor>გიორგი წერეთელი</editor>
+                <title xml:lang="ka">პალესტინის წარწერა I</title>
+                <editor xml:lang="ka">გიორგი წერეთელი</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -90,7 +90,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg049.jpg">
-                <desc xml:lang="ka">პალესტინის წარწერა I</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/37/">პალესტინის წარწერა I</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -121,10 +121,10 @@
                    <lb n="1"/><w lemma="წმიდა">წმიდაო</w> 
                                 <name nymRef="თეოდორე">თეოდორ
                     <lb n="2" break="no"/>ე</name> 
-                            <name nymRef="მარუან">მარ<supplied reason="lost">ოჳ</supplied>ან</name> 
+                            <persName type="local" key="მარუან"><name nymRef="მარუან">მარ<supplied reason="lost">ოჳ</supplied>ან</name></persName> 
                              და 
-                            <name nymRef="ბურზენ"><expan><abbr>ბო</abbr> 
-                    <lb n="3" break="no"/><supplied reason="lost">ჳ</supplied><abbr>რზ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></name> 
+                            <persName type="local" key="ბურზენ"><name nymRef="ბურზენ"><expan><abbr>ბო</abbr> 
+                    <lb n="3" break="no"/><supplied reason="lost">ჳ</supplied><abbr>რზ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></name></persName> 
                             <gap reason="lost" quantity="4" unit="character"></gap>ენ ამი
                     <lb n="4"/><gap reason="lost" quantity="2" unit="character"></gap>ე <gap reason="lost" extent="unknown" unit="charecter"></gap>
                 </ab>

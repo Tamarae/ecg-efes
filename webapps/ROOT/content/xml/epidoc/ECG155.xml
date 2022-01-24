@@ -4,8 +4,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>სამსონის წარწერა</title>
-                <editor>ზაზა ალექსიძე</editor>
+                <title xml:lang="ka">სამსონის წარწერა</title>
+                <editor xml:lang="ka">ზაზა ალექსიძე</editor>
+                <editor xml:lang="en">Zaza Aleksidze</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -60,7 +61,7 @@
                                 <origDate  datingMethod="#julian">982-986 AD</origDate> <!--evidence="lettering" ?? სანახავია დათარიღების საფუძველი-->>
                             </origin>
                             <provenance type="found" when="1993">
-                                <placeName type ="ancientFindspot" ref="http://pleiades.stoa.org/places/863799">ატენის სიონი</placeName> 
+                                <placeName type ="ancientFindspot">ატენის სიონი</placeName> 
                                 <rs type="circumstances"/>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
@@ -82,7 +83,10 @@
         <body>           
               <div type="bibliography" subtype="principalEdition">
                 <listBibl>   
-                    <bibl></bibl>
+                    <bibl n="1">
+                        ზაზა ალექსიძე, <ptr target="bibliography.xml#b185"/>ატენის სიონის სომხური წარწერები, <citedRange>62</citedRange>
+                        
+                    </bibl>
                 </listBibl>
               </div>
             
@@ -92,7 +96,7 @@
   --> 
                                                             
                 <ab>
-                   <lb n="1"/><persName nymRef="Սամսոն">Սա<supplied reason="lost" precision="medium">մսոն</supplied></persName>
+                   <lb n="1"/><persName type="local" key="სამსონ (Սամսոն)">Սա<supplied reason="lost" precision="medium">մսոն</supplied></persName>
                 </ab>
                </div>
          <div type="translation" xml:lang="ka">

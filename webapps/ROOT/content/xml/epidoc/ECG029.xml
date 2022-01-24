@@ -5,11 +5,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>მცხეთის ჯვრის მოსახსენებელი ქობულ-სტეფანოსისა</title> 
-                <editor>ნოდარ შოშიაშვილი</editor>
+                <title xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი ქობულ-სტეფანოსისა</title> 
+                <title xml:lang="en">Jvari Monastery, Memorial of Kobul-Stephanos</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+            <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                  <idno type="filename">ECG029</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -26,15 +29,17 @@
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
-                            <seg xml:lang="en"/>
+                            <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents> 
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>                             
-                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                              <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
                                     <dimensions unit="cm">
                                         <width>70/80</width>
                                          <height>1,30</height>
@@ -43,9 +48,14 @@
                             </supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="4"> 
-                                წარწერა ოთხსტრიქონიანია. იგი მდებარეობს ჯვრის ტაძრის სამხრეთ ფასადის ბარელიეფზე, არაწესიერი სწორკუთხედის ფორმის ფილაზე, 
+                                <seg xml:lang="ka">წარწერა ოთხსტრიქონიანია. იგი მდებარეობს ჯვრის ტაძრის სამხრეთ ფასადის ბარელიეფზე, არაწესიერი სწორკუთხედის ფორმის ფილაზე, 
                                     რომელსაც გარს უვლის რელიეფური ჩარჩო, თავზე ლავგარდანით. ფილაზე (რომელიც ჩადგმულია შვერილში, ფანჯრის ზემოთ) გამოქანდაკებულია 
-                                   ჭაბუკი ქობულ-სტეფანოსის მუხლმოდრეკილი ფიგურა, წმ. სტეფანეს წინ. წარწერა ამოღარულია ქობულის ბარელიეფის თავს ზემოთ, წმ. სტეფანეს მარცხნივ, თავისუფალ არეზე.                                    
+                                   ჭაბუკი ქობულ-სტეფანოსის მუხლმოდრეკილი ფიგურა, წმ. სტეფანეს წინ. წარწერა ამოღარულია ქობულის ბარელიეფის თავს ზემოთ, წმ. სტეფანეს მარცხნივ, თავისუფალ არეზე. </seg>
+                                 
+                                 <seg xml:lang="en">
+                                     Four line inscription. Inscription is located on the bas-relief of the south facade of the Jvari Monastery church, on the plaque shaped as an irregular rectangle which is encircled by an embossed frame with a cornice on top. The figure of young Kobul-Stephanos on his knees is embossed on the plaque
+                                     (which is placed in the pilaster under the window) in front of St. Stephen. The inscription is engraved above the bas-relief of Kobuli to the left from St. Stephen in an empty area.
+                                 </seg>
                                         <dimensions unit="cm">
                                             <width>25</width>
                                             <height>40</height>
@@ -55,26 +65,36 @@
                         </objectDesc>                        
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
-                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.  
+                               <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.</seg> 
+                                <seg xml:lang="en">Engraved Asomtavruli inscription</seg>
                                    <height/>
                              </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
-                                <origPlace>ჯვრის მონასტერი, მცხეთა</origPlace>
+                                <origPlace>
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                                </origPlace>
                                 <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium" 
                                     evidence="lettering" datingMethod="#julian">595-605 AD</origDate>
                             </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">ჯვრის მონასტერი, მცხეთა</placeName>
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                                </placeName>
                                 <!--  "41.838634, 44.734011"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
                             </provenance> 
                             <provenance type="observed">
-                            <placeName type="modernSpot">ჯვრის მონასტერი, მცხეთა</placeName>
+                            <placeName type="modernSpot">
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                            </placeName>
                             <idno></idno> 
                         </provenance>
                     </history>                   
@@ -92,8 +112,8 @@
     <facsimile>
         <surface>
             <graphic url="ecg029.jpg">
-                <desc xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი ქობულ-სტეფანოსისა</desc>
-                <desc xml:lang="en"></desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/30/">მცხეთის ჯვრის მოსახსენებელი ქობულ-სტეფანოსისა</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/30/">Jvari Monastery, Memorial of Kobul-Stephanos</desc>
             </graphic>
         </surface>
     </facsimile>
@@ -132,20 +152,23 @@
                 <ab>
                    <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
                     <name nymRef="სტეფანე"><expan><abbr>ს</abbr><ex>ტე</ex><abbr>ფ</abbr><ex>ან</ex><abbr>ე</abbr></expan></name>
-                    <lb n="2"/><name nymRef="ქობულ-სტეფანოს"><expan><abbr>ქობულ
-                    <lb n="3" break="no"/>სტ</abbr><ex>ეფანოს</ex><abbr>ი</abbr></expan></name>
+                    <lb n="2"/><persName type="local" key="ქობულ სტეფანოს [ადარნასეს ძე]"><name nymRef="ქობულ-სტეფანოს"><expan><abbr>ქობულ
+                    <lb n="3" break="no"/>სტ</abbr><ex>ეფანოს</ex><abbr>ი</abbr></expan></name></persName>
                     <lb n="4"/><w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
                 </ab>
              
             </div>
                 
-            <div type="translation" xml:lang="ka">
-                <p>წმიდაო სტეფანე, ქობულ-სტეფანოსი შეიწყალე.</p></div>
+            <div type="translation">
+                <p xml:lang="ka">წმიდაო სტეფანე, ქობულ-სტეფანოსი შეიწყალე.</p>
+                <p xml:lang="en">St. Stephen, have mercy on Kobul-Stephanos</p>
+            </div>
             
             <div type="apparatus" xml:space="preserve"/>
             
             <div type="commentary">
-                <p>ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #71. ივ. ჯავახიშვილის აზრით, წარწერა VII საუკუნის I ნახევრისაა.</p>
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #71. ივ. ჯავახიშვილის აზრით, წარწერა VII საუკუნის I ნახევრისაა.</p>
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #71. Iv. Javakhishvili considers it to be dated to the first half of the VII century.</p>
             </div>
                    
          </body>

@@ -5,9 +5,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ka">ატენის სიონი, მოსახსენებელი ზღუდის შემქმნელი ხელოსნისა (I)</title>
+                <title xml:lang="ka">ატენის სიონი, მოსახსენებელი ზღუდის შემქმნელი ხელოსნისა (ატენის სარქალის წარწერა)</title>
+                <title xml:lang="en">Memorial inscription of hand craftsman who made the defence wall, Ateni Sioni (I)</title>
                 <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
                 <editor xml:lang="ka">მარი ბროსე</editor>
+                <editor xml:lang="en">Marie-Félicité Brosset</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -28,7 +31,7 @@
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
-                            <seg xml:lang="en"/>
+                            <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents>
 
@@ -37,12 +40,16 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/416">ფასადი</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/416">Facade</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                 </support>
                             </supportDesc>
                             <layoutDesc>
-                                <layout writtenLines="1">აღმოსავლეთის ფასადის ჩრდილოეთის ფრთაზე, ცოკოლიდან მეორე წყებაზე ერთსტრიქონიანი წარწერა.   
+                                <layout writtenLines="1">
+                                    <seg xml:lang="ka">აღმოსავლეთის ფასადის ჩრდილოეთის ფრთაზე, ცოკოლიდან მეორე წყებაზე ერთსტრიქონიანი წარწერა.</seg>
+                                    <seg xml:lang="en">One line inscription on the north wing of the east facade, on the second layer of the footing of the building.</seg>
                                     <dimensions unit="cm">
                                         <height>4.8</height>
                                         <width>59</width>
@@ -52,7 +59,10 @@
                         </objectDesc>
                         <handDesc>
                             <handNote script="asomtavruli_n" style="inscribed">
-                                 <rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> წარწერა. ნუსხურია ⴊ ლ, <rs type="script">ნუსხურზე გარდამავალი</rs> - ⴋ მ, ⴌ ნ. ქარაგმის ნიშანი - გრძელი, სწორი, განივი ხაზი. კიდურწერტილოვანი.
+                                 <p xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ნუსხურნარევი ასომთავრული</rs> წარწერა. ნუსხურია ⴊ ლ, 
+                                <rs type="script">ნუსხურზე გარდამავალი</rs> - ⴋ მ, ⴌ ნ. ქარაგმის ნიშანი - გრძელი, სწორი, განივი ხაზი. კიდურწერტილოვანი.</p>
+                                
+                                <p xml:lang="en">Embossed capital Asomtavruli writing mixed with Nuskhuri. L (ⴊ) is from the Nuskhuri alphabet, M (ⴋ) and N (ⴌ) are transitional to Nuskhuri script. The abbreviation mark is a long straight crossbar. Edges are dotted.</p>
                                 <height unit="cm" precision="medium">4.8</height>
                                 <width/>
                             </handNote>
@@ -60,11 +70,17 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace>ატენის სიონი</origPlace>
+                            <origPlace>
+                                <seg xml:lang="ka">ატენის სიონი</seg>
+                                <seg xml:lang="en">Ateni Sioni</seg>
+                            </origPlace>
                             <origDate when-custom="0945" evidence="internal-date lettering">945</origDate>
                         </origin>
                         <provenance type="found">
-                            <placeName type="ancientFindspot" ref="http://geonames.org/maps/google_41.906_44.098.html">ატენის სიონი</placeName>
+                            <placeName type="ancientFindspot" ref="http://geonames.org/maps/google_41.906_44.098.html">
+                                <seg xml:lang="ka">ატენის სიონი</seg>
+                                <seg xml:lang="en">Ateni Sioni</seg>
+                            </placeName>
                             <rs type="monuList"/>
                             <rs type="circumstances"/>
                             <rs type="context"/>
@@ -84,7 +100,7 @@
         <surface>
             <graphic url="ecg016.jpg">
                 <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/25/">ატენის სიონი</desc>
-                <desc xml:lang="en">Ateni Sioni</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/25/">Ateni Sioni</desc>
             </graphic>
         </surface>
     </facsimile>
@@ -97,7 +113,7 @@
 
                     <!-- ქ(რისტ)ე შ(ეიწყალ)ე ატ(ე)ნი<ს> ს(არ)ქ(ა)ლი ესე ზღ(უ)დ(ე)ჲ შ(ე)ქმნა ქრ(ონი)კ(ო)ნსა რჲე -->
                 <ab>        
-                    <lb n="1"/><persName type="divine" ref="divine.xml#iesous"><name nymRef="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></name></persName> 
+                    <lb n="1"/><name nymRef="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></name> 
                     <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
                     <persName type="local" key="ატენის სარქალი"><placeName nymRef="ატენი"><expan><abbr>ატ</abbr><ex>ე</ex><abbr>ნი</abbr><supplied reason="omitted"><abbr>ს</abbr></supplied></expan></placeName> 
                     <w lemma="სარქალი"><expan><abbr>ს</abbr><ex>არ</ex><abbr>ქ</abbr><ex>ა</ex><abbr>ლი</abbr></expan></w></persName>
@@ -112,6 +128,11 @@
             <div type="translation" xml:lang="ka">
                 <p>ქრისტე, შეიწყალე ატენის სარქალი, რომელმაც შექმნა ეს ზღუდე ქორონიკონით 165 წელს.</p>                                                                           
             </div>
+            
+             <div type="translation" xml:lang="en">
+                <p>Christ, have mercy on the chef herdsman of Ateni, who built this wall in 165 according to Choronikon.</p>                                                                           
+            </div>
+            
             
             <div type="apparatus" xml:space="preserve">
                  
@@ -142,7 +163,7 @@
                </listApp>
             </div>          
                
-            <div type="commentary">
+            <div type="commentary" xml:lang="ka">
                 <p>„ატენის სარქალი“ - ამ ორი სიტყვის წაკითხვა ეკუთვნის გ. აბრამიშვილს.
                    წარწერა შესრულებულია ნუსხურნარევი ასომთავრული ანბანით. განკვეთილობის ნიშნები არ ახლავს, მაგრამ ბოლო სამი სიტყვა დაცილებულია ერთმანეთისგან. 
                    ახლავს თარიღი: ქრონიკონი რჲე. წარწერაში მოყვანილ თარიღს ბროსე ხსნის როგორც 1477 წელს, თუმცა ბარნაველი მიიჩნევს, რომ პალეოგრაფიული მონაცემების მიხედვით (მეათე საუკუნისთვის
@@ -150,24 +171,13 @@
                    ბოლოებში წერტილების ხმარება და ქარაგმის ხაზის გადაშლა მთელ სიტყვებზე) მართებული იქნება წარწერა გადატანილი იქნეს მეცამეტე მოქცევაში, რა შემთხვევაშიც მივიღებთ: 
                    165+780=945 წელს.</p>
             </div>
-            
-            <div type="bibliography">
-                <listBibl>           
-                    <bibl>
-                      <author>
-                          <persName>
-                            <forename>ნოდარ</forename>
-                            <surname>შოშიაშვილი</surname>
-                          </persName>
-                      </author>
-                      <title level="m" type="main">ქართული წარწერების კორპუსი</title>
-                        <pubPlace>თბილისი</pubPlace>
-                        <date>1980</date>
-                        <biblScope unit="vol">ტ. I</biblScope>
-                        <biblScope unit="pp"> 207</biblScope>
-                     </bibl>
-                </listBibl>
-            </div> 
+            <div type="commentary" xml:lang="en">
+                <p>
+                    The reading of these two words as “Ateni herdsman” is proposed by G. Abramishvili. Inscription is in Asomtavruli script mixed with the Nuskhuri alphabet. No sign of separation of the words except the last three words that are distanced from each other. Inscription includes the date - Georgian Chronicle რჲე. Marie Brosset explains that the date named in the inscription corresponds to 1477, while Barnaveli considers that on the basis of paleographic data (low and round shape letters characteristic to X century, Ⴀ and Ⴒ are well circled and lower foot is bended to the right, the letter Ⴢ has dots at the end of the edges and the abbreviation mark is stretched to all over the words) the dating of the inscription should be taken to the 13th cycle in which case we will receive 165+780=945 years. 
+                </p>
+                
+            </div>
+
             
         </body>
     </text>

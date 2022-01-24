@@ -88,7 +88,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg51.jpg">
-                <desc xml:lang="ka">პალესტინის წარწერა III</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/39/">პალესტინის წარწერა III</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -125,15 +125,15 @@
                                 <w lemma="წმიდა">წმიდისა</w> 
                                 <name nymRef="თეოდორე"><expan><abbr>თ</abbr><ex>ეოდორ</ex><abbr>ეჲსითა</abbr></expan></name>
                     <lb n="3"/><rs type="pn"><w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეხიწყალე</ex><abbr>ნ</abbr></expan></w></rs> 
-                              <name nymRef="ანტონი">ანტონი</name> 
+                              <persName type="local" key="ანტონ აბაჲ"><name nymRef="ანტონი">ანტონი</name> </persName>
                             <roleName><w lemma="აბა">აბაჲ</w></roleName> 
-                                და <name nymRef="იოსია">იოსია</name> <w lemma="მომსხმელი">მო
+                                და <persName type="local" key="იოსია [მომსხმელი პალესტინის მოზაიკისა]"><name nymRef="იოსია">იოსია</name></persName> <w lemma="მომსხმელი">მო
                     <lb n="4" break="no"/>მსხმელი</w> <w lemma="ეს">ამის</w> 
                                     <w lemma="სეფა">სეფისაჲ</w> 
-                                    და <w lemma="მამა">მა
-                    <lb n="5" break="no"/>მა</w> 
-                                <w lemma="დედა">დედაჲ</w> 
-                                <name nymRef="იოსია">იოსიაჲსი</name>
+                                    და <persName type="local" key="მამა იოსიაჲსი [პალესტინის მოზაიკის მომსხმელისა]"><w lemma="მამა">მა
+                    <lb n="5" break="no"/>მა</w></persName> 
+                                <persName type="local" key="დედა იოსიაჲსი [პალესტინის მოზაიკის მომსხმელისა]"><w lemma="დედა">დედაჲ</w></persName> 
+                                <persName type="local" key="იოსია [მომსხმელი პალესტინის მოზაიკისა]"><name nymRef="იოსია">იოსიაჲსი</name></persName>
                                 <w lemma="ამენ">ამენ</w>
                 </ab>
              </div>

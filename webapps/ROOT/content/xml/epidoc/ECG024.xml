@@ -6,11 +6,13 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="ka">ზემო ნიქოზის მთავარანგელოზის ტაძრის საამშენებლო წარწერა მიქაელ ეპისკოპოსისა</title>
+                <title xml:lang="en">Archangel Church of Zemo Nikozi, building inscription of Bishop Michael</title>
                 <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
                 <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                  <idno type="filename">ECG024</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -27,15 +29,17 @@
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">საამშენებლო</seg>
-                            <seg xml:lang="en"/>
+                            <seg xml:lang="en">Building</seg>
                         </summary>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>                             
-                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">რუხი ქვა</material>
-                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">რუხი ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
                                 <dimensions unit="cm">
                                         <width>174</width>
                                         <height>55</height>
@@ -44,7 +48,8 @@
                             </supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="5"> 
-                                        წარწერა 5 სტრიქონიანია. იგი შესრულებულია ტაძრის ფასადის კარის თავზე, სწორკუთხად გათლილი რუხი ფერის ქვაზე.                                                               
+                                        <seg xml:lang="ka">წარწერა 5 სტრიქონიანია. იგი შესრულებულია ტაძრის ფასადის კარის თავზე, სწორკუთხად გათლილი რუხი ფერის ქვაზე.</seg>
+                                        <seg xml:lang="en">Five line inscription. Located on the top of the facade of the door on the rectangular grey color stone.</seg>
                                         <dimensions unit="cm">
                                             <width>125</width>
                                             <height>42</height>
@@ -54,26 +59,39 @@
                         </objectDesc>                        
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
-                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription.</seg>
                                 <height>5-7</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
-                                <origPlace>ზემო ნიქოზი, მთავარანგელოზის ტაძარი</origPlace>
+                                <origPlace>
+                                    <seg xml:lang="ka">ზემო ნიქოზი, მთავარანგელოზის ტაძარი</seg>
+                                    <seg xml:lang="en">Zemo Nikozi, Archangel Church</seg>
+                                </origPlace>
                                 <origDate notBefore-custom="0900" notAfter-custom="1000" precision="medium" 
                                     evidence="lettering" datingMethod="#julian">X AD</origDate>
                             </origin>
                             <provenance type="found">
-                                <placeName type="ancientFindspot">ზემო ნიქოზი, მთავარანგელოზის ტაძარი</placeName>
+                                <placeName type="ancientFindspot">
+                                    <seg xml:lang="ka">ზემო ნიქოზი, მთავარანგელოზის ტაძარი</seg>
+                                    <seg xml:lang="en">Zemo Nikozi, Archangel Church</seg>
+                                </placeName>
                                 <!--  "42.195094, 43.958490"-->
-                                <rs type="circumstances">სოფელ ზემო ნიქოზის მთავარანგელოზის ტაძარი მდებარეობს ცხინვალიდან სამი კმ-ის მანძლზე, სამხრეთით.</rs> 
-                                <rs type="context"></rs>
+                                <rs type="circumstances">
+                                    <seg xml:lang="ka">სოფელ ზემო ნიქოზის მთავარანგელოზის ტაძარი მდებარეობს ცხინვალიდან სამი კმ-ის მანძლზე, სამხრეთით.</seg>
+                                    <seg xml:lang="en">The church is located in Zemo Nikozi 3 km away from Tskhinvali to the south.</seg>
+                                </rs> 
+                                <rs type="context"/>
                                 <rs type="monuList"/>
                             </provenance> 
                              <provenance type="observed">
-                            <placeName type="modernSpot">ზემო ნიქოზი, მთავარანგელოზის ტაძარი</placeName>
+                            <placeName type="modernSpot">
+                                     <seg xml:lang="ka">ზემო ნიქოზი, მთავარანგელოზის ტაძარი</seg>
+                                    <seg xml:lang="en">Zemo Nikozi, Archangel Church</seg>
+                            </placeName>
                             <idno type="invNo"/>
                         </provenance>
                     </history>                   
@@ -132,13 +150,13 @@
                    <lb n="3"/><w lemma="ყოფა">არს</w> 
                                 <w lemma="სახლ">სახლი</w> 
                                 <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთი</ex><abbr>ს</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
-                                <w lemma="და">და</w> 
+                               და 
                                 <w lemma="ბჭე">ბჭჱ</w> 
                                   <w lemma="ცა">ცათაჲ</w>
                    <lb n="4"/> <w lemma="საყოფელ">საყოფელი</w> 
                                 <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> 
                                  <w lemma="ღვთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმშ</abbr><ex>ო</ex><abbr>ბელის</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
-                                <w lemma="და">და</w> 
+                                და 
                                 <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>თა</abbr></expan></w>
                    <lb n="5"/> <w lemma="მთავარანგელოზ"><expan><abbr>მთ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ა</ex><abbr>რ</abbr><ex>ა</ex><abbr>ნგ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ზთ</abbr><ex>ა</ex><abbr>ჲ</abbr></expan></w> 
                                 <w lemma="სალოცველ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ო</ex><abbr>ც</abbr><ex>ველა</ex><abbr>დ</abbr></expan></w> 
@@ -148,9 +166,14 @@
              
             </div>
                 
-            <div type="translation" xml:lang="ka">
-                <p> † ღვთის სახელით მე, მიქაელ ნიქოზელმა ეპისკოპოსმა, აღვაშენე წმიდა ეკლესია, რომელიც არის სახლი ღმრთისა და ბჭე ცისა,
-                     საყოფელი წმიდისა ღმრთსმშობელისა და წმიდათა მთავარანგელოზთა, სალოცველად სულისა ჩემისა. </p></div>
+            <div type="translation">
+                <p xml:lang="ka"> † ღვთის სახელით მე, მიქაელ ნიქოზელმა ეპისკოპოსმა, აღვაშენე წმიდა ეკლესია, რომელიც არის სახლი ღმრთისა და ბჭე ცისა,
+                     საყოფელი წმიდისა ღმრთსმშობელისა და წმიდათა მთავარანგელოზთა, სალოცველად სულისა ჩემისა.</p>
+                <p xml:lang="en">
+                    In the name of the God, I, Bishop Michael of Nikozi built this holy church, which is the house of the God and the gate to the heavens, home of holy Mary, mother of Jesus and of the Archangel, for praying for my soul.
+                </p>
+            
+            </div>
             
             <div type="apparatus" xml:space="preserve">
                 
@@ -210,13 +233,17 @@
                                </div>
             
             <div type="commentary">
-                <p> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #93. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული. 
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #93. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული. 
                     წარწერის დათარიღების პალეოგრაფიული საფუძველია: გრაფემების მოყვანილობა: გრაფემა Ⴊ-ს წრე ზოგჯერ ძალიან დიდია და მოკლე ყელი უერთდება წრეს შუა ადგილზე; 
                     გრაფემა Ⴔ-ს ბუნი არ კვეთს წრეს; გრაფემა Ⴢ-ს ზედა კიდე მარცხნივაა ძლიერ გაზიდული და დიდად სცილდება ქვედა კიდეს; Ⴌ-ს გამხედრულება;
                     გრაფემების ჩამოგრძელება, მიდრეკილება ოთხხაზოვანი ბადისაკენ. სიტყვების გადაბმა, განკვეთილობის გარეშე წერა. ლიგატურა; ორთოგრაფია: 
                     Ⴢ-ს ხმარება Ⴈ-ს ნაცვლად. ეკლესიის ხუროთმოძღვრული ნიშნები და ჩუქურთმები. 
                 ამ წარწერის ზემოთ მარჯვენა კედლის წყობის ქვის ქვედა მარცხენა კუთხეში ამოკვეთლია ოთხი მთავრული გრაფემა: Ⴟ~Ⴈ ႱႨ - ჯ(უარ)ი (ქრისტე)სი. 
                 მარი ბროსეს აღნიშნული აქვს კიდევ ორი სიტყვა: ႫႵႪ ႤႡႩႦႨ - მ(ი)ქ(აე)ლ ებ(ის)კ(ოპო)ზი, ეს სიტყვები აღარ ჩანს. ი. მეგრელიძეს ვერ შეუნიშნავს Ⴟ~Ⴈ ႱႨ.</p>
+                <p xml:lang="en">
+                    According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #93. The inscription does not contain any mark of separation. No spaces between the words. Dating the inscription according to the paleographic data: shape of the graphemes, Ⴊ has quite big circle and short neck joins the circle in the middle; the base of the grapheme Ⴔ does not exceed the circle; the upper left edge of the letter Ⴢ is leaned and departs from the lower edge. Letter Ⴌ is represented with Mkhedruli alphabet; tendency of lengthen the letters to adjust the four line format. Words follow each other without leaving out the space. Ligature; orthography: usage of Ⴈ instead of Ⴢ. Ornaments and carvings of the church. 
+                    Four capital letters graphemes are engraved above this inscription on the low left corner of the stone along the wallstones of the right wall: Ⴟ~Ⴈ ႱႨ - ჯ(უარ)ი (ქრისტე)სი cross of Jesus. Marie Brosset mentions two more words: : ႫႵႪ ႤႡႩႦႨ - მ(ი)ქ(აე)ლ ებ(ის)კ(ოპო)ზი Bishop Michael, those words are not visible currently. I. Megrelidze also had not noticed the following graphemes: Ⴟ~Ⴈ ႱႨ.
+                </p>
             </div>               
          </body>
     </text>

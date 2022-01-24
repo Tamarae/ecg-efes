@@ -4,8 +4,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>თოდოსაკის წარწერა</title>
-                <editor>ზაზა ალექსიძე</editor>
+                <title xml:lang="ka">თოდოსაკის წარწერა</title>
+                <editor xml:lang="ka">ზაზა ალექსიძე</editor>
+                <editor xml:lang="en">Zaza Aleksidze</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -89,7 +90,9 @@
         <body>           
               <div type="bibliography" subtype="principalEdition">
                 <listBibl>   
-                    <bibl></bibl>
+                    <bibl>
+                        ზაზა ალექსიძე, <ptr target="bibliography.xml#b185"/>ატენის სიონის სომხური წარწერები, <citedRange>62</citedRange>
+                    </bibl>
                  </listBibl>
               </div>
             
@@ -102,7 +105,7 @@
   --> 
                                                             
                 <ab>
-                   <lb n="1"/><w lemma="Ես">Ես</w> <persName nymRef="Թոդոսակ">Թոդոսակ</persName> <w lemma="շինող">շինող</w> <w lemma="սուրբ">սրբոյ</w> <w lemma="եկեղեցի">եկեղե
+                   <lb n="1"/><w lemma="Ես">Ես</w> <persName type="local" key="თოდოსაკი (Թոդոսակ)">Թոդոսակ</persName> <w lemma="շինող">շինող</w> <w lemma="սուրբ">սրբոյ</w> <w lemma="եկեղեցի">եկեղե
                     <lb n="2" break="no"/><supplied reason="lost">ցոյս</supplied></w>
                 </ab>
                </div>

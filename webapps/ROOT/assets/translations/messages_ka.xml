@@ -68,7 +68,7 @@
   <!-- საინდექსაციო გვერდზე -->
   <message key="index_title">წარწერები</message>
   <message key="index_inscription">წარწერების სრული ჩამონათვალი</message>
-  <message key="filename">ფაილი/ID</message>
+  <message key="filename">ფაილი</message>
   <message key="file_title">წარწერის სათაური</message>
   <message key="editor">რედაქტორი/გამომცემელი:  </message>
 
@@ -187,7 +187,7 @@
   <message key="epidoc-xslt-inslib-diplomatic">დიპლომატიური</message>
   <message key="epidoc-xslt-inslib-translation">თარგმანი</message>
   <message key="epidoc-xslt-inslib-commentary">კომენტარი</message>
-  <message key="epidoc-xslt-inslib-bibliography">ბიბლიოგრაფია</message>
+  <message key="epidoc-xslt-inslib-bibliography">ბიბლიოგრაფია:    </message>
   <message key="epidoc-xslt-inslib-constituted-from">ამოკითხვა</message>
   <message key="epidoc-xslt-inslib-images">ფოტო</message>
   

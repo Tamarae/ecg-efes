@@ -5,11 +5,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ურბნისის სიონის აღდგენის წარწერა თევდორე ეპისკოპოსისა</title>    
-                <editor>ნოდარ შოშიაშვილი</editor>
+                <title xml:lang="ka">ურბნისის სიონის აღდგენის წარწერა თევდორე ეპისკოპოსისა</title>   
+                <title xml:lang="en">Urbnisi Sioni church, restoration inscription of Bishop Theodoros</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                  <idno type="filename">ECG034</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -26,15 +29,17 @@
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მემორიალური</seg>
-                            <seg xml:lang="en"/>
+                            <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>                             
-                                   <material ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>
-                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/75">ქვიშაქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/75">Limestone</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
                                        I ფილა
                                        <dimensions unit="cm">                                                                                                                  
                                         <height>138</height>
@@ -51,8 +56,9 @@
                             </supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="6"> 
-                                        წარწერა 6 სტრიქონიანია. იგი გამოქანდაკებულია ტაძრის სამხრეთის ფასადის კარის თავზე, სწორკუთხედად გათლილ რუხი ქვიშაქვის ორ, 
-                                    ერთმანეთის გვერდით მიდგმულ ფილაზე. თითოეული სტრიქონი იწყება მარცხენა ფილაზე და მთავრდება მარჯვენაზე.                                               
+                                        <seg xml:lang="ka">წარწერა 6 სტრიქონიანია. იგი გამოქანდაკებულია ტაძრის სამხრეთის ფასადის კარის თავზე, სწორკუთხედად გათლილ რუხი ქვიშაქვის ორ, 
+                                    ერთმანეთის გვერდით მიდგმულ ფილაზე. თითოეული სტრიქონი იწყება მარცხენა ფილაზე და მთავრდება მარჯვენაზე.</seg>
+                                        <seg xml:lang="en">Six line inscription. The inscription is located on top of the south facade door of the church, on the neighbouring rectangular plaques of grey color sandstone. Each of the lines start on the left plaque and finish on the right plaque.</seg>
                                         <dimensions unit="cm">
                                             <width>90,5</width>
                                             <height>39</height>
@@ -63,26 +69,36 @@
                         </objectDesc>                        
                         <handDesc>
                             <handNote script="asomtavruli" style="embossed">
-                                  <rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                  <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription</seg>
                                 <height>5,5-6</height>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
-                                <origPlace>ურბნისის სიონი</origPlace>
+                                <origPlace>
+                                    <seg xml:lang="ka">ურბნისის სიონი</seg>
+                                    <seg xml:lang="en">Urbnisi Sioni</seg>
+                                </origPlace>
                                 <origDate notBefore-custom="0900" notAfter-custom="1000" precision="medium" 
                                     evidence="lettering" datingMethod="#julian">X AD</origDate>
                             </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863914">ურბნისის სიონი</placeName>
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863914">
+                                   <seg xml:lang="ka">ურბნისის სიონი</seg>
+                                    <seg xml:lang="en">Urbnisi Sioni</seg>
+                                </placeName>
                                 <!-- "42.010941, 43.979704"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
                                 <rs type="monuList"/>
                             </provenance> 
                              <provenance type="observed">
-                            <placeName>ურბნისის სიონი</placeName>
+                            <placeName>
+                                <seg xml:lang="ka">ურბნისის სიონი</seg>
+                                <seg xml:lang="en">Urbnisi Sioni</seg>
+                            </placeName>
                             <idno/>
                         </provenance>
                     </history>                   
@@ -100,7 +116,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg034.jpg">
-                <desc xml:lang="ka">ურბნისის სიონის აღდგენის წარწერა თევდორე ეპისკოპოსისა</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/33/">ურბნისის სიონის აღდგენის წარწერა თევდორე ეპისკოპოსისა</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -132,10 +148,10 @@
                    <lb n="1"/><w lemma="უფალ"><expan><abbr>ო</abbr><ex>ჳფალო</ex><abbr>ო</abbr></expan></w> 
                                <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთ</ex><abbr>ო</abbr></expan></w> 
                                 <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w> 
-                                <name nymRef="თევდორე"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></name> 
+                                <persName type="local" key="თევდორე ეპისკოპოსი ლუკას ძე [ურბნისის მაშენებელი]"><name nymRef="თევდორე"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></name> </persName>
                                 <roleName><w lemma="ეპისკოპოს"><expan><abbr>ებ</abbr><ex>ი</ex><abbr>სკ</abbr><ex>ოპოს</ex><abbr>ი</abbr></expan></w></roleName> 
                                 <w lemma="ძე"><expan><abbr>ძ</abbr><ex>ე</ex><abbr>ჲ</abbr></expan></w> 
-                                <name nymRef="ლუკა"><expan><abbr>ლ</abbr><ex>უ</ex><abbr>კ</abbr><ex>აჲ</ex><abbr>სი</abbr></expan></name>
+                                <persName type="local" key="ლუკა [მამა ურბნისის მაშენებელი თევდორე ეპისკოპოსისა]"><name nymRef="ლუკა"><expan><abbr>ლ</abbr><ex>უ</ex><abbr>კ</abbr><ex>აჲ</ex><abbr>სი</abbr></expan></name></persName>
                                 <w lemma="მაშჱნებელ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ჱნე</ex><abbr>ბ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></w>
                         <lb n="2"/><w lemma="ესე"><expan><abbr>ა</abbr><ex>მი</ex><abbr>ს</abbr></expan></w> 
                                   <w lemma="სიონ"><expan><abbr>ს</abbr><ex>იონის</ex><abbr>აჲ</abbr></expan></w> 
@@ -180,12 +196,16 @@
                 </ab>
               
                </div> 
-            <div type="translation" xml:lang="ka">
-                <p>უფალო ღმერთო, შეიწყალე თევდორე ეპისკოპოსი ლუკას ძე, ამ სიონის მაშენებელი.
+            <div type="translation">
+                <p xml:lang="ka">უფალო ღმერთო, შეიწყალე თევდორე ეპისკოპოსი ლუკას ძე, ამ სიონის მაშენებელი.
                     როდესაც ღმერთმა ღირს-მყო ამ სიონის ეპისკოპოსად, იგი ზომაზე მეტად დაძველებული იყო.
                     ოთხივე კუთხე და კონქი - გაპობილი, ქარტოცის სვეტები - დამპალი.
                     და მომმადლა ღმერთმა ამ ყოველივეს აშენება და გაკეთება. 
-                    სიონის ძალით, ღვთის მეოხებით ყოველივე განვასრულე. </p></div>
+                    სიონის ძალით, ღვთის მეოხებით ყოველივე განვასრულე. </p>
+                <p xml:lang="en">God Lord, have mercy on Bishop Theodoros son of Luke, builder of this Sioni church. When God blessed me for becoming a bishop of this church, the church was extremely damaged. All of the four sides and vaults were cracked, the columns of the attic were decayed. 
+                    And the god gave me the honor to build and repair all of these. I accomplished everything with the power of Sioni and the mercy of God.</p>
+            
+            </div>
          
          <div type="apparatus" xml:space="preserve">
                  
@@ -316,13 +336,20 @@
            
         
             <div type="commentary">
-               <p> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #104. პარმენ ზაქარაია წარწერას IX-X საუკუნეებით ათარიღებს. 
+               <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #104. პარმენ ზაქარაია წარწერას IX-X საუკუნეებით ათარიღებს. 
                სტრიქონები ერთმანეთისგან გამოყოფილია ჰორიზონტალური, რელიეფური, პარალელური ხაზებით.
                 გარდა მე-5 და მე-6 სტრიქონებისა (როგორც ჩანს, აქ აღარ იყო საკმარისი ფართობი ხაზის გასავლებად: უკანასკნელი სტრიქონი აღარ დაეტეოდა. ამავე მიზეზით
                 ბოლო სტრიქონი იწყება არა ფილის კიდიდან, არამედ ზედა სტრიქონის მესამე ასოს გასწვრივ). ანუ მარცხენა ფილაზე გასდევს სტრიქონების გამყოფი 4 ხაზი, 
                 ხოლო მარჯვენა ფილაზე - 5 ხაზი. ხაზებს შორის მანძილია 6-6,5. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული.
                 წარწერის დათარიღების საფუძველი, პალეოგრაფიული ნიშნები: უყელო Ⴃ, გრაფემების გაკუთხოვნება, 
                 მიდრეკილება განუსხურებისაკენ: Ⴚ, Ⴊ, Ⴋ, Ⴌ. Ⴇ-ს მიდრეკილება გამხედრულებისაკენ.</p>
+                
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #104. Parmen Zakaraia dated the inscription to the IX-X centuries. 
+                    The lines are separated from each other by horizontal embossed parallel lines. Except the 5th and 6th lines (it seems that there was no space left for the embossed line: 
+                    the last line of the inscription would not fit in that case. For the same reason the last line of the inscription does not start from the edge of the plaque but from the third letter of the 
+                    upper line). Thus, the left plaque has four dividing embossed lines and the right plaque has five. The distance between the lines is 6-6,5 cm. The inscription does not contain any mark of separation or abbreviation. No spaces between the words. The date of the inscription is based on the paleographic data: Ⴃ without a neck, square shape of the graphemes, tendency to the Nuskhuri alphabet: Ⴚ, Ⴊ, Ⴋ, Ⴌ. The grapheme Ⴇ has a tendency to the Mkhedruli alphabet. 
+                    
+                </p>
             </div>        
          </body>
     </text>

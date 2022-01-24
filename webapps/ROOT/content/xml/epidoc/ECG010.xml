@@ -114,7 +114,7 @@
         <surface>
             <graphic url="ecg010.jpg">
                 <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/22/">საჰაკდუხტის წარწერა</desc>
-                <desc xml:lang="en">Sahakdukht Inscription</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/22/">Sahakdukht Inscription</desc>
             </graphic>
         </surface>
     </facsimile>

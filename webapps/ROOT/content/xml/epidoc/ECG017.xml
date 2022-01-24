@@ -3,11 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>წარწერა მედალიონზე</title>
-                <editor>თინათინ ყაუხჩიშვილი</editor>
+                <title xml:lang="ka">წარწერა თუთიის მედალიონზე წებელდიდან</title>
+                <title xml:lang="en">Inscription on a medallion</title>
+                <editor xml:lang="ka">თინათინ ყაუხჩიშვილი</editor>
+                <editor xml:lang="en">Tinatin Kaukhchishvili</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                  <idno type="filename">ECG017</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -23,20 +26,23 @@
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">სადიდებელი</seg>
-                            <seg xml:lang="en"/>
+                            <seg xml:lang="en">Laudative</seg>
                         </summary>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>                             
-                                   <material ref="http://www.eagle-network.eu/voc/material/lod/107">თუთია</material>
-                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/165">მედალიონი</objectType>
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/107">თუთია</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/107">Zinc</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/165">მედალიონი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/165">Medallion</objectType>
                                 </support>
                             </supportDesc>
                                 <layoutDesc>
                                    <layout> 
-                                       <p>თუთიის ჩამოსხმულ მედალიონზე რელიეფურად გამოსახულია ადგილობრივი წარმართი ქალღმერთი, ან გორგონა, ხოლო ირგვლივ არის ბერძნული მთავრული წარწერა.</p>
+                                       <p xml:lang="ka">თუთიის ჩამოსხმულ მედალიონზე რელიეფურად გამოსახულია ადგილობრივი წარმართი ქალღმერთი, ან გორგონა, ხოლო ირგვლივ არის ბერძნული მთავრული წარწერა.</p>
+                                       <p xml:lang="en">The ornament of pagan goddess or Gorgon embossed on a cast metal medallion of zinc, it has Greek capital letter inscription around it</p>
                                         <width/>
                                         <height/>
                                         <dim unit="cm">2.5</dim>
@@ -56,7 +62,8 @@
                             <origin>
                                 <origPlace>წებელდა</origPlace>
                                 <origDate notBefore="0301" notAfter="0400" evidence="lettering" datingMethod="#julian">IV AD</origDate>
-                                <p>წარწერა დათარიღებულია ასოთა მოხაზულობის მიხედვით</p>
+                                <p xml:lang="ka">წარწერა დათარიღებულია ასოთა მოხაზულობის მიხედვით</p>
+                                <p xml:lang="en">The date of inscription is determined according to the shape of the letters.</p>
                             </origin>
                             <provenance type="found">
                                 <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/857034">წებელდა</placeName> 
@@ -65,7 +72,10 @@
                                 <rs type="monuList"/>
                             </provenance>                    
                             <provenance type="observed">
-                            <placeName type="modernSpot">სოხუმის მუზეუმი</placeName>
+                            <placeName type="modernSpot">
+                                <seg xml:lang="ka">სოხუმის მუზეუმი</seg>
+                                <seg xml:lang="en">Sokhumi Museum</seg>
+                            </placeName>
                             <idno>№611</idno>
                         </provenance>
                     </history>                   
@@ -103,10 +113,11 @@
          
             </div>
                 
-            <div type="translation" xml:lang="ka">
-                <p>ერთია ღმერთი, შემწე (ამ მედალიონის) მატარებლის.</p></div>
+            <div type="translation">
+                <p xml:lang="ka">ერთია ღმერთი, შემწე (ამ მედალიონის) მატარებლის.</p>
+                <p xml:lang="en">Only God has mercy on the carrier (of this medallion).</p>
+            </div>
             
-            <div type="apparatus" xml:space="preserve"/>
             
             <div type="commentary">
                 <p>დათარიღების საფუძველია ასოთა მოხაზულობა, შესაბამისი ფორმულების სიხშირე გვიანრომაულ და ადრებიზანტიურ წარწერებში, 

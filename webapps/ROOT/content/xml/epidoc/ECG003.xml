@@ -141,8 +141,8 @@
                             ρόν[τ]ων [αὐτοῦ]
                             ον                                                                                 -->
                     <ab>
-                     <lb n="1"/><supplied reason="lost"><g type="cross">&#10013;</g></supplied><w lemma="ὑπερ"><supplied reason="lost">ὑπὲρ</supplied></w> <w lemma="εὐχή"><supplied reason="lost">εὐχ</supplied>ῆς</w> <w lemma="δοῦλος"><supplied reason="subaudible">δ</supplied>ούλου</w> <name nymRef="Κλήμης">Κ<supplied reason="subaudible">λήμεντο</supplied>
-                     <lb n="2" break="no"/>ς</name> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῶν</w> <w lemma="διαφέρω">δ<supplied reason="lost">ιαφε</supplied>
+                     <lb n="1"/><supplied reason="lost"><g type="cross">&#10013;</g></supplied><w lemma="ὑπερ"><supplied reason="lost">ὑπὲρ</supplied></w> <w lemma="εὐχή"><supplied reason="lost">εὐχ</supplied>ῆς</w> <w lemma="δοῦλος"><supplied reason="subaudible">δ</supplied>ούλου</w> <persName type="local" key="კლიმენტი (Κλήμης)"><name nymRef="Κλήμης">Κ<supplied reason="subaudible">λήμεντο</supplied>
+                     <lb n="2" break="no"/>ς</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῶν</w> <w lemma="διαφέρω">δ<supplied reason="lost">ιαφε</supplied>
                      <lb n="3" break="no"/>ρόν<supplied reason="lost">τ</supplied>ων</w> <w lemma="αὐτος"><supplied reason="lost">αὐτοῦ</supplied>
                      <lb n="4"/>ον</w> <!-- ბოლო ორი ხაზის შედარება კორპუსის აღდგენასთან -->
                    </ab>
@@ -156,7 +156,6 @@
                 <p>For the blessing of the servant of the God Klimentos and for his close people.</p>
             </div>
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
               <p><app loc="1"><lem>δοῦλος</lem>
               <rdg>წარწერის ტექსტში ვხვდებით სიტყვას - γούλου</rdg>
               </app></p>

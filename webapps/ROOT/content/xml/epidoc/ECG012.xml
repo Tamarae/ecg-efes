@@ -38,9 +38,9 @@
                             <supportDesc>
                                 <support>
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1338">კვარცხლბეკი</objectType>
-                                    <objectType xml:lang="en">Pedestal</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1338">Pedestal</objectType>
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">რუხი ქვა</material>
-                                    <material xml:lang="en">Local stone</material>
+                                    <material xml:lang="en" >Local stone</material>
                                     <dimensions unit="cm">
                                         <height>64</height>
                                         <width>80</width>
@@ -182,7 +182,7 @@
                     შაჰრამანის პირველში, ჩვენ დასაცავად - ცოლისა და შვილებისა, ნოემბრის ჩვიდმეტს, ამენ.</p>
             </div>
 
-            <div type="translation" xml:lang="ka">
+            <div type="translation" xml:lang="en">
                 <p>
                    I, Constant, the son of Stefane and Guda, erected this Cross of Christ, in the land purchased for the Holy Cross of Mtskheta შაჰრამანის პირველში
                    (the first of Shahraman) for the protection of ourselves and our wives and offspring, we bought it on November 17, Amen.

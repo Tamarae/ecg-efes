@@ -33,8 +33,9 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>                             
-                                   <material ref="www.eagle-network.eu/voc/material/lod/2">კირქვა</material> 
-                                   <objectType>საფლავის ქვა</objectType> 
+                                   <material xml:lang="ka" ref="www.eagle-network.eu/voc/material/lod/2">კირქვა</material> 
+                                    <material xml:lang="en" ref="www.eagle-network.eu/voc/material/lod/2">Limestone</material> 
+                                   <objectType xml:lang="ka">საფლავის ქვა</objectType> 
                                     <dimensions unit="cm"> 
                                         <width/>
                                          <height/>

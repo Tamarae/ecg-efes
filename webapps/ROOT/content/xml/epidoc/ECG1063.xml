@@ -82,7 +82,7 @@
         <facsimile>
         <surface>
             <graphic url="ecg1063.jpg">
-                <desc xml:lang="ka">ხცისი</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/40/">ხცისი</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -108,14 +108,14 @@
                <div type="textpart" n="1"> 
                    <ab>        
                     <lb n="1"/>წმინდაო ნათ
-                    <lb n="2"/>ლისმცე
-                    <lb n="3"/>მელო, შეიწყალე
+                    <lb n="2" break="no"/>ლისმცე
+                    <lb n="3" break="no"/>მელო, შეიწყალე
                     <lb n="4"/>და ადიდე
-                    <lb n="5"/>გურანდუხტი
+                    <lb n="5"/><persName type="local" key="გურანდუხტ დედოფალი [ბაგრატ III-ის დედა]">გურანდუხტი</persName>
                     <lb n="6"/>დედოფალი
                     <lb n="7"/>ორთავე შინა
                     <lb n="8"/>ცხოვრე
-                    <lb n="9"/>ბათა
+                    <lb n="9" break="no"/>ბათა
                 </ab>
                </div>
                 
@@ -124,16 +124,16 @@
                         <lb n="1"/>უფალო იესო ქრისტე
                         <lb n="2"/>შეიწყალე და ადიდე
                         <lb n="3"/>შენ მიერ და
-                        <lb n="4"/>ყარებული
-                        <lb n="5"/>ბაგრატ
+                        <lb n="4" break="no"/>მყარებული
+                        <lb n="5"/><persName type="local" key="ბაგრატ III [აფხაზთა და ყოველთა კურაპალატი]">ბაგრატ</persName>
                         <lb n="6"/>აფხაზთა
                         <lb n="7"/>და ყოველთა
                         <lb n="8"/>კურაპალატი
                         <lb n="9"/>მოეც ძლ
-                        <lb n="10"/>ევაი მტერთა
+                        <lb n="10" break="no"/>ევაი მტერთა
                         <lb n="11"/>ზედა ხილულ
-                        <lb n="12"/>თა და უ
-                        <lb n="13"/>ხილავთა
+                        <lb n="12" break="no"/>თა და უ
+                        <lb n="13" break="no"/>ხილავთა
                     </ab>
                 </div>
                 

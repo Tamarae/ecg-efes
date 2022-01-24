@@ -5,11 +5,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>მცხეთის ჯვრის მოსახსენებელი ადარნარსე ჳპატოსისა და ქობულისა</title>
-                <editor>ნოდარ შოშიაშვილი</editor>
+                <title xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი ადარნარსე ჳპატოსისა და ქობულისა</title>
+                <title xml:lang="en">Jvari Monastery Memorial of Adarnarse Hypatos and Kobuli</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                  <idno type="filename">ECG028</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -26,15 +29,17 @@
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
-                            <seg xml:lang="en"/>
+                            <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents> 
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>                             
-                                   <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
-                                   <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                   <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
+                                   <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფასადი</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Facade</objectType>
                                   <dimensions unit="cm">
                                         <width>86/170</width>
                                          <height>122</height>
@@ -43,17 +48,25 @@
                             </supportDesc>
                                 <layoutDesc>
                                     <layout writtenLines="25">
-                                        წარწერა 25 სტრიქონიანია. იგი მდებარეობს ჯვრის ტაძრის აღმოსავლეთ ფასადის ბარელიეფზე (ცენტრალური
+                                        <seg xml:lang="ka">წარწერა 25 სტრიქონიანია. იგი მდებარეობს ჯვრის ტაძრის აღმოსავლეთ ფასადის ბარელიეფზე (ცენტრალური
                                    ბარელიეფის მარჯვნივ), არაწესიერი სწორკუთხედის ფორმის ფილაზე, რომელსაც გარს უვლის რელიეფური ჩარჩო, 
                                    თავზე ლავგარდანით. ფილის მარჯვენა მხარეზე გამოქანდაკებულია მუხლმოდრეკილი ქტიტორი, ადარნერსე ჳპატოსი, რომლის თავზე გამოსახულია
                                    ჰაერში ფრთებგაშლილი გაბრიელ მთავარანგელოზი. ადარნერსეს ფიგურა მიმართულია მარცხნივ 
                                    (ე.ი. ცენტრალური რელიეფისაკენ - სტეფანოს პატრიკიოსისკენ). ადარნერსეს წინ გამოსახულია მუხლმოდრეკილი მისი პატარა
-                                   ვაჟი - ქობული. ვაჟის თავის ზევით, ადარნერსეს მარცხნივ, ამოღარულია შვიდი სტრიქონი.                                                      
+                                   ვაჟი - ქობული. ვაჟის თავის ზევით, ადარნერსეს მარცხნივ, ამოღარულია შვიდი სტრიქონი.
+                                        ზემო ჩარჩოს მარცხენა მხარეზე, ქობულის წინ და ქვემოთ - 17 სტრიქონი (ეკუთვნის ქობულს).
+                                        </seg>
+                                        
+                                        <seg xml:lang="en">
+                                            25 line inscription. Inscription is located on the bas-relief of the east facade of the Jvari Monastery church (on the right side of the central bas-relief), on the plaque shaped as an irregular rectangle which is encircled by an embossed frame with a cornice on top. There is the embossed figure of the ktetor of the church, Adarnarse Hypatos on the right side of the plaque, the figure of Archangel Michael with open wings depicted above his head. The figure of Adarnarse is turned left (towards the central bas-relief- Stephen the Patrikios). Kobuli son of Adarnarse is depicted in front of him. 
+                                            Seven line inscription is engraved above Kobuli’s image on the left to Adarnarse. In front of him and below is a 17 line inscription (belongs to Kobuli) on the left side of the upper frame.
+                                        </seg>
                                         <dimensions unit="cm">
                                             <width>32</width>
                                             <height>35</height>
                                         </dimensions>
-                                        ზემო ჩარჩოს მარცხენა მხარეზე, ქობულის წინ და ქვემოთ - 17 სტრიქონი (ეკუთვნის ქობულს).<dimensions unit="cm">
+                                        
+                                        <dimensions unit="cm">
                                             <width>15/35</width>
                                             <height>60</height>
                                         </dimensions>
@@ -62,19 +75,26 @@
                             </objectDesc>                        
                         <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
-                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.     
+                                <seg xml:lang="ka"><rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა.</seg>
+                                <seg xml:lang="en">Engraved Asomtavruli inscription</seg>
                                 <height/>
                              </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                             <origin>
-                                <origPlace>ჯვრის მონასტერი, მცხეთა</origPlace>
+                                <origPlace>
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                                </origPlace>
                                 <origDate notBefore-custom="0595" notAfter-custom="0605" precision="medium" 
                                     evidence="lettering" datingMethod="#julian">595-605 AD</origDate>
                             </origin>
                             <provenance type="found">
-                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">ჯვრის მონასტერი, მცხეთა</placeName>
+                                <placeName type ="ancientFindspot" ref="https://pleiades.stoa.org/places/863840">
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                                </placeName>
                                 <!--  "41.838634, 44.734011"-->
                                 <rs type="circumstances"></rs>
                                 <rs type="context"/>
@@ -82,7 +102,10 @@
                             </provenance> 
                         
                             <provenance type="observed">
-                            <placeName type="modernSpot">ჯვრის მონასტერი, მცხეთა</placeName>
+                            <placeName type="modernSpot">
+                                    <seg xml:lang="ka">ჯვრის მონასტერი, მცხეთა</seg>
+                                    <seg xml:lang="en">Jvari Monastery, Mtskheta</seg>
+                            </placeName>
                             <idno></idno>
                         </provenance>
                     </history>                   
@@ -99,8 +122,8 @@
  <facsimile>
         <surface>
             <graphic url="ecg028.jpg">
-                <desc xml:lang="ka">მცხეთის ჯვრის მოსახსენებელი ადარნარსე ჳპატოსისა და ქობულისა</desc>
-                <desc xml:lang="en"></desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/29/">მცხეთის ჯვრის მოსახსენებელი ადარნარსე ჳპატოსისა და ქობულისა</desc>
+                <desc xml:lang="en" ref="http://paleography.iliauni.edu.ge/digipal/page/29/">Jvari Monastery, Memorial of Demetrius Hypatos</desc>
             </graphic>
         </surface>
    </facsimile>
@@ -147,9 +170,9 @@
                             რსეს ჳპატ
                             ოსსა მეოხ
                             ეყავ" -->
-            <div type="textpart" subtype="fragment" n="1" xml:lang="Ka">
+            <div type="textpart" subtype="fragment" n="1">
                 <ab>
-                    <lb n="1"/><name nymRef="ქობულ სტეფანოს">ქობულ</name>
+                    <lb n="1"/><persName type="local" key="ქობულ სტეფანოს [ადარნასეს ძე]"><name nymRef="ქობულ სტეფანოს">ქობულ</name></persName>
                     <lb n="2"/><supplied reason="lost"><name>ს
                     <lb n="3" break="no"/>ტ 
                     <lb n="4" break="no"/>ე
@@ -159,44 +182,52 @@
                     <lb n="8" break="no"/>ო
                     <lb n="9" break="no"/>ს
                     <lb n="10" break="no"/>ი</name></supplied>             
-                    <lb n="11"/><name nymRef="ადრნესე"><supplied reason="lost">ა
+                    <lb n="11"/><persName type="local" key="ადარნასე ჳპატოსი"><name nymRef="ადრნესე"><supplied reason="lost">ა
                     <lb n="12" break="no"/>დ
                     <lb n="13" break="no"/>რ
                     <lb n="14" break="no"/>ნ</supplied>
                     <lb n="15" break="no"/>ე 
                     <lb n="16" break="no"/>რ
                     <lb n="17" break="no"/>ს
-                    <lb n="18" break="no"/>ეს</name><w lemma="ძე">ძე</w>
+                    <lb n="18" break="no"/>ეს</name></persName> <w lemma="ძე">ძე</w>
                  </ab>
             </div>
-         <div type="textpart" subtype="fragment" n="2" xml:lang="ka">
+         <div type="textpart" subtype="fragment" n="2">
                 <ab>
                     <lb n="1"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
                     <name nymRef="წმ. გაბრიელ მთავარანგელოზი"><expan><supplied reason="lost"><abbr>გ</abbr></supplied><ex>აბ</ex><abbr>რ</abbr><ex>იე</ex><abbr>ლ</abbr></expan>                    
                     <lb n="2"/><w lemma="მთავარანგელოზ">მთავ<supplied reason="lost">არ</supplied>
                     <lb n="3" break="no"/>ანგელო<supplied reason="lost">ზ</supplied>
-                    <lb n="4" break="no"/>ო</w></name> <name nymRef="ადრნერსე ჳპატოს">ადრ<supplied reason="lost">ნე</supplied>
+                    <lb n="4" break="no"/>ო</w></name> <persName type="local" key="ადარნასე ჳპატოსი"><name nymRef="ადრნერსე ჳპატოს">ადრ<supplied reason="lost">ნე</supplied>
                     <lb n="5" break="no"/>რსეს</name> <roleName nymRef="ჳპატოს"><w lemma="ჳპატოს">ჳპატ
-                    <lb n="6" break="no"/>ოსსა</w></roleName> <w lemma="მეოხ-ყოფა">მეოხ
+                    <lb n="6" break="no"/>ოსსა</w></roleName></persName> <w lemma="მეოხ-ყოფა">მეოხ
                     <lb n="7" break="no"/>ეყავ</w>
                 </ab>
              </div>
          </div>   
             
-            <div type="translation" xml:lang="ka">
-                <p>ქობულ სტეფანოსი ადრნერსეს ძე. წმიდაო გაბრიელ მთავარანგელოზო, ადრნერსე ჳპატოსს მეოხ ეყავ.</p></div>
+            <div type="translation">
+                <p xml:lang="ka">ქობულ სტეფანოსი ადრნერსეს ძე. წმიდაო გაბრიელ მთავარანგელოზო, ადრნერსე ჳპატოსს მეოხ ეყავ.</p>
+                <p xml:lang="en">Kobul Stephanos son of Adarnarse. Holy Archangel Gabriel, have mercy on Adarnarse Hypatos.</p>
+            
+            </div>
 
             
             <div type="apparatus" xml:space="preserve"/>
             
             <div type="commentary">
-                <p> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #69. ადარნესე ვიპატოსის წარწერა, ივანე ჯავახიშვილის აზრით, 626-634 წლებში არის ამოკვეთილი. მისივე აზრით, 
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #69. ადარნესე ვიპატოსის წარწერა, ივანე ჯავახიშვილის აზრით, 626-634 წლებში არის ამოკვეთილი. მისივე აზრით, 
                     წარწერის სიძველის დასტური პალეოგრაფიული თვალსაზრისით არის Ⴣ გრაფემის თავშეკრულობა. თუ ამ წარწერის „მეოხ ეყავ“ ზმნას შევადარებთ დემეტრე ვიპატოსის 
                 წარწერის „მეოხ ხეყავ ფორმას, ადვილად დავინახავთ, რომ ხ აკლია. ამასთან ხ-ს კლებას ვერ ავხსნით იმით, რომ ოსტატმა ერთი ხ დაწერა ორი ერთმანეთის მომდევნო იდენტური 
                 გაფემის ნაცვლად. ვერც იმით, რომ იგი გადარეცხილია (ამოტეხილია). როგორც ჩანს, უკვე VII საუკუნის I ნახევარში ხანმეტობა, როგორც ენობრივი მოვლენა, იბერიის 
                 ტერიტორიაზე მოშლილია. მკვლევართა დიდი ნაწილი იზიარებს გიორგი ჩუბინაშვილის თვალსაზრისს, რომ მცხეთის ჯვრის ბარელიეფები ერთდროული, ტაძრის აგების თანადროულია. 
                 ადარნერსეს ვაჟის წარწერიდან შემორჩენილია მხოლოდ რამდენიმე გრაფემის კვალი. წარწერის ბოლო შეამჩნია ბართლომეიმ. წარწერაში ადარნერსეს ძე ქობული ამოიცნო 
                 გიორგი ჩუბინაშვილმა.</p>
+                <p xml:lang="en">
+                    According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription #69. According to Iv. Javakhishvili the inscription of Adarnarse Hypatos is engraved between 626-634 years. He specifies that the paleographic data prove the early origins of the inscription: the head of the grapheme Ⴣ is closed. 
+It is easy to notice that „მეოხ ეყავ“ from this inscription is missing ხ compared to Demetrius Hypatos inscription with „მეოხ ხეყავ“. Missing the grapheme ხ can not be explained by suggesting that the author of the inscription used only one ხ in two identical neighbouring inscriptions. There is no evidence of damage either. We only can assume that in the 1st part of the VII century the phenomenon of Khanmeti was already out of use in the territory of Iberia. The major part of the researchers share the opinion of Giorgi Chubinashvili, who claims that the bas-reliefs of 
+Jvari Monastery are of the same period as the church was built. Only a couple of graphemes are maintained from the inscription of Adarnarse’s son. The ending of the inscription was discovered by Bartholome. It was Giorgi Chubinashvili who identified Kobuli, son of Adarnarse. 
+                </p>
             </div>
         </body>
     </text>
