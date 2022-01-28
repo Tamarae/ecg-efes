@@ -156,9 +156,9 @@
                     <lb n="8"/>ნი</abbr></expan></w>
                                 <w lemma="სამართალ">სამართალნი</w> 
                                 <w lemma="სულ"><expan><supplied reason="lost"><abbr>ს</abbr><ex>უ</ex><abbr>ლსა</abbr></supplied></expan></w> 
-                                <name nymRef="შანშე"><expan><supplied reason="lost"><abbr>შ</abbr></supplied><abbr>ანშ</abbr><ex>ე</ex><abbr>ს</abbr></expan></name>                               
+                                <persName type="local" key="შანშე (შაჰანშა) I მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/შანშე_(I)_მხარგრძელი"><name nymRef="შანშე"><expan><supplied reason="lost"><abbr>შ</abbr></supplied><abbr>ანშ</abbr><ex>ე</ex><abbr>ს</abbr></expan></name>  </persName>                             
                                 და 
-                                <name nymRef="ხუაშა"><expan><abbr>ხჳაშ</abbr><ex>ა</ex><abbr>სა</abbr></expan></name>
+                                <persName type="local" key="ხუაშაქ [შანშე (შაჰანშა) I მხარგრძელის მეუღლე, ლაკლაკთა ასული]"><name nymRef="ხუაშა"><expan><abbr>ხჳაშ</abbr><ex>ა</ex><abbr>სა</abbr></expan></name></persName>
                                 <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდევე</ex><abbr>ნ</abbr></expan></w>
                                 <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
                    </ab>

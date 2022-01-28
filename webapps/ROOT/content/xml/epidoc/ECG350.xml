@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ქობაირის მონასტრის შაჰანშე მანდატურთუხუცესის ძის, ბერი გიორგის, წარწერა (II)</title>
+                <title>ქობაირის მონასტრის შანშე I-ის ძის, ბერი გიორგის, წარწერა (II)</title>
                 <editor>ლეონ მელიქსეთ-ბეგი</editor>
             </titleStmt>
             <publicationStmt>
@@ -130,11 +130,11 @@
                                     <w lemma="უღირსება"><expan><abbr>უღ</abbr><ex>ი</ex><abbr>რსება</abbr></expan></w> 
                                     <w lemma="კეთილ"><expan><abbr>კ</abbr><ex>ე</ex><abbr>თ</abbr><ex>ი</ex><abbr>ლის</abbr></expan></w> 
                                     <w lemma="მე">მე</w> 
-                                    <name nymRef="შანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰნშე</abbr></expan></name> 
-                                    <roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>უ</ex><abbr>რთ</abbr><ex>უ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ც</abbr><ex>ე</ex><abbr>ს</abbr><ex>ი</ex><abbr>სა</abbr></expan></roleName> 
+                                    <persName type="local" key="შანშე (შაჰანშა) I მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/შანშე_(I)_მხარგრძელი"><name nymRef="შანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰნშე</abbr></expan></name> 
+                                    <roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>უ</ex><abbr>რთ</abbr><ex>უ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ც</abbr><ex>ე</ex><abbr>ს</abbr><ex>ი</ex><abbr>სა</abbr></expan></roleName></persName> 
                                     <w lemma="ძე">ძე</w> 
                                      <w lemma="ბერი"><expan><abbr>ბ</abbr><ex>ე</ex><abbr>რი</abbr></expan></w> 
-                                    <name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></name> 
+                                    <persName type="local" key="ბერი გიორგი [შანშე (შაჰანშა) I მხარგრძელის ძე]"><name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></name></persName> 
                                      <w lemma="ღირსქმნა"><expan><abbr>ღ</abbr><ex>ი</ex><abbr>რსვ</abbr><ex>ი</ex><abbr>ქმ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w> 
                                     <w lemma="დიდ">დიდსა</w> 
                                     <w lemma="იწროება"><expan><abbr>იწ
@@ -198,8 +198,8 @@
                                     <w lemma="ეკლესია">ეკლესიისა</w> 
                                     <w lemma="სამკაულ"><expan><abbr>სამკ</abbr><ex>აუ</ex><abbr>ლი</abbr></expan></w> 
                                     <w lemma="შეწირვა"><expan><abbr>შ</abbr><ex>ე</ex><abbr>მ</abbr><ex>ი</ex><abbr>წ</abbr><ex>ი</ex><abbr>რ</abbr><ex>ა</ex><abbr>მს</abbr></expan></w> 
-                                    <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რი</abbr></expan></w> 
-                                     <orig n="unresolved">ვ</orig> <!-- ამ თაგს ჩემთან არ აჩენს, ეკა-->
+                                    <w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რი</abbr></expan></w> ვ
+                                  <!--    <orig n="unresolved">ვ</orig> ამ თაგს ჩემთან არ აჩენს, ეკა-->
                     <lb n="9" break="no"/>მაჩენს.
                     
                    </ab>

@@ -119,18 +119,18 @@
                                <w lemma="მე">ჩემ</w> 
                                <w lemma="ცოდვილ">ცოდვილი
                     <lb n="2" break="no"/>სა</w>
-                               <name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name> 
+                               <persName type="local" key="ივანე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ივანე_(II)_მხარგრძელი"><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name> 
                                 <roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატო</abbr><ex>ჳ</ex><abbr>რთ</abbr><ex>უ</ex><abbr>ხუც
-                    <lb n="3" break="no"/>ესისა</abbr></expan></roleName> 
+                    <lb n="3" break="no"/>ესისა</abbr></expan></roleName></persName> 
                                 <w lemma="ძე">ძისა</w> 
                                 და 
-                                <roleName nymRef="ათაბაქ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბაქისა</abbr></expan></roleName> 
+                                <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><roleName nymRef="ათაბაქ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბაქისა</abbr></expan></roleName> 
                                 <name nymRef="შანშე">შ
-                    <lb n="4" break="no"/>ანშეს</name> 
+                    <lb n="4" break="no"/>ანშეს</name></persName> 
                                 <w lemma="ძმა">ძმისა</w> 
-                                <w lemma="ბერ">ბერისა</w> 
+                                <persName type="local" key="ბერი პიმენი [ივანე II მხარგრძელის ძე]"><w lemma="ბერ">ბერისა</w> 
                                 <name nymRef="პიმენი">პიმე
-                    <lb n="5" break="no"/>ნჲსი</name> 
+                    <lb n="5" break="no"/>ნჲსი</name></persName> 
                                 <w lemma="ლოცვა"><expan><abbr>ლოცვ</abbr><ex>ა</ex><abbr>სა</abbr></expan></w> 
                                 <w lemma="მოხსენება"><expan><abbr>მ</abbr><ex>ო</ex><abbr>მ
                     <lb n="6" break="no"/>იხსენებდეთ</abbr></expan></w>

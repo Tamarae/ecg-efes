@@ -122,15 +122,15 @@
                    <lb n="1"/>&#8224; 
                         <w lemma="მე">მეცა</w> 
                         <w lemma="უღირს">უღირს<supplied reason="lost">ი</supplied></w> 
-                        <w lemma="და">და</w> 
+                        და 
                         <w lemma="ფრიად"><expan><abbr>ფ</abbr><ex>რია</ex><abbr>დ</abbr></expan></w>
                         <w lemma="ცოდვილ"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დვ</abbr><ex>ი</ex><abbr>ლი</abbr></expan></w> 
                         <w lemma="ბიძა">ბიძჲსა</w> 
-                        <w lemma="და">და</w> 
+                        და 
                         <w lemma="ღირს"><expan><abbr>ღ</abbr><ex>ირს</ex><abbr>ისა</abbr></expan></w> 
                         <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უენ</ex><abbr>ისა</abbr></expan></w>
-                   <lb n="2"/><name nymRef="პეტრე"><expan><abbr>პ</abbr><ex>ეტრ</ex><abbr>ე</abbr></expan></name> 
-                        <roleName nymRef="წინამძღუარ"><expan><abbr>წ</abbr><ex>ინამღურისა</ex></expan></roleName> 
+                   <lb n="2"/><persName type="local" key="პეტრე [ახტალის] წინამძღუარი"><name nymRef="პეტრე"><expan><abbr>პ</abbr><ex>ეტრ</ex><abbr>ე</abbr></expan></name> 
+                        <roleName nymRef="წინამძღუარ"><expan><abbr>წ</abbr><ex>ინამღურისა</ex></expan></roleName> </persName>
                         <w lemma="გაზრდილ"><expan><abbr>გაზრდილმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
                         <w lemma="არათუ">არათუ</w>
                         <w lemma="მოქმედობა"><expan><abbr>მ</abbr><ex>ო</ex><abbr>ქმ</abbr><ex>ე</ex><abbr>დობისა</abbr></expan></w> 

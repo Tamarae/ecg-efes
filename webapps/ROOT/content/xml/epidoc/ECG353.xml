@@ -5,8 +5,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>კრამიტის დამღა ითხვისიდან</title>
-                <editor>დევიდ ბრაუნდი</editor>
+                <title xml:lang="ka">კრამიტის დამღა ითხვისიდან</title>
+                <title xml:lang="en"></title>
+                <editor xml:lang="ka">დევიდ ბრაუნდი</editor>
+                <editor xml:lang="en">David Braund</editor>
             </titleStmt>
             <publicationStmt>
                 <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
@@ -100,7 +102,7 @@
                      
 
          <ab>
-             <w lemma="βασιλοκός">ΒΑΣΙΛΙΚΗ</w> <persName><name nymRef="Μελαβη">Μελαβη</name></persName>
+             <w lemma="βασιλοκός">βασιλικη</w> <persName type="local" key="მელაბე (Μελαβη)"><name nymRef="Μελαβη">Μελαβη</name></persName>
          </ab>             
             </div>
             <div type="translation" xml:lang="ka">
@@ -108,10 +110,7 @@
             </div>
             
            <div type="apparatus" xml:space="preserve">                                                                                                                                                          <!-- კრიტიკული აპარატი -->
-              <head>კრიტიკული აპარატი</head>
-              <p><app><lem></lem>
-              <rdg></rdg>
-              </app></p>
+       
             </div>
            
             <div type="commentary">

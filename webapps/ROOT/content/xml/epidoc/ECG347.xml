@@ -126,7 +126,7 @@
                    <lb n="1"/>&#8224;<w lemma="ესე">ესე</w> 
                                     <w lemma="საფლავ"><expan><abbr>საფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w> 
                                     <w lemma="ყოფა">არის</w> 
-                   <lb n="2"/><name nymRef="მაკარი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>კარისი</abbr></expan></name> 
+                   <lb n="2"/><persName type="local" key="მაკარი"><name nymRef="მაკარი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>კარისი</abbr></expan></name> </persName>
                                     <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w> 
                                     <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
                                     და

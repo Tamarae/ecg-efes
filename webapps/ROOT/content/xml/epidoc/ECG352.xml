@@ -125,15 +125,15 @@
                                 <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ისა</abbr></expan></w>
                                 <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისმშ</abbr><ex>ო</ex><abbr>ბლ</abbr><ex>ი</ex><abbr>ს</abbr><ex>ა</ex><abbr>ჲთ</abbr><ex>ა</ex></expan></w>
                    <lb n="2"/><w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w> 
-                            <roleName nymRef="მანდატურთხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატ</abbr><ex>უ</ex><abbr>რთო</abbr><ex>ჳ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ცესმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></roleName> 
-                            <name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name>
+                            <persName type="local" key="ივანე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ივანე_(II)_მხარგრძელი"><roleName nymRef="მანდატურთხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატ</abbr><ex>უ</ex><abbr>რთო</abbr><ex>ჳ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ცესმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></roleName> 
+                            <name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name></persName>
                             და
-                            <name nymRef="შაჰანშე"><expan><abbr>შ</abbr><ex>აჰა</ex><abbr>ნშეს</abbr></expan></name> 
+                            <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><name nymRef="შაჰანშე"><expan><abbr>შ</abbr><ex>აჰა</ex><abbr>ნშეს</abbr></expan></name> </persName>
                             და 
                             <w lemma="მისნი">მისთა</w> 
                             <w lemma="ძმა">ძმათა</w>
                    <lb n="3"/><w lemma="დედა"><expan><abbr>დედამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
-                              <name nymRef="ხოშა"><expan><abbr>ხ</abbr><ex>ო</ex><abbr>შ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name> 
+                              <persName type="local" key="ხუაშაქ [შანშე (შაჰანშა) I მხარგრძელის მეუღლე, ლაკლაკთა ასული]"><name nymRef="ხოშა"><expan><abbr>ხ</abbr><ex>ო</ex><abbr>შ</abbr><ex>ა</ex><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name> </persName>
                               <w lemma="გაშვება">გაგიშჳთ</w> 
                               <w lemma="თქუენ"><expan><abbr>თქ</abbr><ex>უე</ex><abbr>ნ</abbr></expan></w> 
                               <placeName nymRef="კოში">კოშელთა</placeName> 
@@ -145,7 +145,7 @@
                                 და 
                                 <w lemma="ჩუენ"><expan><abbr>ჩ</abbr><ex>უე</ex><abbr>ნთა</abbr></expan></w> 
                                 <w lemma="შვილ">შვილთა</w> 
-                                <name nymRef="შაჰანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰ</abbr><ex>ა</ex><abbr>ნშეს</abbr></expan></name> 
+                                <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><name nymRef="შაჰანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰ</abbr><ex>ა</ex><abbr>ნშეს</abbr></expan></name></persName> 
                                 და
                    <lb n="5"/><w lemma="მისი">მისთა</w> 
                                 <w lemma="ძმა">ძმათა</w> 
@@ -236,8 +236,8 @@
                 </listApp> 
             </div>
             
-         <div type="translation" xml:lang="ka">
-             <p> † სახელითა ღმრთისაჲთა, წმიდა ღვთისმშობლის მეოხებით, ჩუენ, მანდატურთუხუცესმა ივანემ, და  ხოშამან - შაჰანშეს და მისთა ძმათა
+         <div type="translation">
+             <p  xml:lang="ka"> † სახელითა ღმრთისაჲთა, წმიდა ღვთისმშობლის მეოხებით, ჩუენ, მანდატურთუხუცესმა ივანემ, და  ხოშამან - შაჰანშეს და მისთა ძმათა
                  დედამ, ჩუენი და ჩუენი შვილების, შაჰანშესა და მისთა ძმათა, დღეგრძელობისათჳს, თქუენ, ზემო მხარის კოშელნი, 
                  გაგათავისუფლეთ შარიადისაგან, ქვემო მხარის კორშელნი - ღალის (მარცვლეულის) გადასახადისაგან. 
                  ხოლო თქუენ უზრუნველყავით, რომ ერთი საჴნველი თქუენი ჴარითა და ჭურჭლით მუდამ იყოს ჩვენთვის.
@@ -245,7 +245,7 @@
          </div>                  
            
             <div type="commentary">
-                <p>წარწერა 1959 წელს პირველად გამოაქვეყნა აკაკი შანიძე. შემდეგ კი, 1977 წელს, პარუირ მურადიანმა. 
+                <p  xml:lang="ka">წარწერა 1959 წელს პირველად გამოაქვეყნა აკაკი შანიძემ. შემდეგ კი, 1977 წელს, პარუირ მურადიანმა. 
                                     წარწერა მისეული შესწორებებით 1980 წელს გამოსცა ვალერი სილოგავამ.
                     წარწერის პირველი პუბლიკაციისას დაშვებული გაუგებრობის შედეგად მასში დასახელებული ივანე მანდატურთუხუცესი, შეცდომით ივან I-ად, ზაქარია
                 ამირსპასალარის ძმად იქნა მიჩნეული და ამდენად წარწერაც არასწორად დათარიღდა. ამ შეცდომას იმეორებს პარუირ მურადიანიც. იგი აკაკი შანიძის მსგავსად

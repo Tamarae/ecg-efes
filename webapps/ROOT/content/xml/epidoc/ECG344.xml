@@ -119,12 +119,12 @@
                 <ab>
                    <lb n="1"/><w lemma="ესე">ესე</w> 
                         <w lemma="საფლავ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w> 
-                        <roleName nymRef="მეღვინეთუხუცეს"><expan><abbr>მეღ
+                        <persName type="local" key="ივანე მეღვინეთუხუცესი"><roleName nymRef="მეღვინეთუხუცეს"><expan><abbr>მეღ
                     <lb n="2" break="no"/>ჳ</abbr><abbr>ნ</abbr><ex>ე</ex><abbr>თუხ</abbr><ex>უ</ex><abbr>ც</abbr><ex>ე</ex><abbr>ს</abbr><ex>ი</ex><abbr>სა</abbr></expan></roleName>
-                    <lb n="3"/><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ანე</ex><abbr>ს</abbr></expan></name>
+                    <lb n="3"/><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ანე</ex><abbr>ს</abbr></expan></name></persName>
                             <w lemma="მეუღლე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>უღლ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w>
-                            <name nymRef="გურჯიხათუნი"><expan><abbr>გ</abbr><ex>უ</ex><abbr>რჯ
-                      <lb n="4" break="no"/>იხ</abbr><ex>ა</ex><abbr>თ</abbr><ex>უ</ex><abbr>ნისი</abbr></expan></name> 
+                            <persName type="local" key="გურჯიხათუნ [მეუღლე ივანე მეღვინეთუხუცესისა]"><name nymRef="გურჯიხათუნი"><expan><abbr>გ</abbr><ex>უ</ex><abbr>რჯ
+                      <lb n="4" break="no"/>იხ</abbr><ex>ა</ex><abbr>თ</abbr><ex>უ</ex><abbr>ნისი</abbr></expan></name></persName> 
                             <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w>
                             <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
                    </ab>

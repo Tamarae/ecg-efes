@@ -142,21 +142,21 @@
                                 <w lemma="შენ"><expan><abbr>შ</abbr><ex>ე</ex><abbr>ნის</abbr><ex>ა</ex><abbr>ჲთა</abbr></expan></w> 
                                  <w lemma="მე">მე</w> 
                                 <w lemma="უღირს">უღირსი</w> 
-                                <name nymRef="შაჰნშა"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰნშა</abbr></expan></name> 
+                                <persName type="local" key="შანშე (შაჰანშა) I მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/შანშე_(I)_მხარგრძელი"><name nymRef="შაჰნშა"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰნშა</abbr></expan></name>
                                 <roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>უ</ex><abbr>რთ</abbr><ex>უ</ex><abbr>ხ</abbr><ex>უ</ex><abbr>ცე
-                    <lb n="6" break="no"/>სისა</abbr></expan></roleName> 
+                    <lb n="6" break="no"/>სისა</abbr></expan></roleName></persName>  
                                 <w lemma="ძე">ძე</w> 
-                                <name nymRef="მხარგრძელ"><expan><abbr>მჴ</abbr><ex>ა</ex><abbr>რგრძ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></name> 
+                                <persName type="local" key="მჴარგრძელი [შანშე (შაჰანშა) I მხარგრძელის ძე]"><name nymRef="მხარგრძელ"><expan><abbr>მჴ</abbr><ex>ა</ex><abbr>რგრძ</abbr><ex>ე</ex><abbr>ლი</abbr></expan></name> </persName>
                                 და 
                                 <w lemma="თანამეცხედრე"><expan><abbr>თ</abbr><ex>ა</ex><abbr>ნამ</abbr><ex>ე</ex><abbr>ცხ</abbr><ex>ე</ex><abbr>დრე</abbr></expan></w> 
                                 <w lemma="ჩემი"><expan><abbr>ჩ</abbr><ex>ემ</ex><abbr>ი</abbr></expan></w> 
-                                <roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ქისა</abbr></expan></roleName> 
+                                <persName type="local" key="სადუნ მანკაბერდელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მანკაბერდელი_სადუნ"><roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>ქისა</abbr></expan></roleName>
                                 და 
                                 <roleName nymRef="ამირსპასალარ"><expan><abbr>ამირ
                     <lb n="7" break="no"/>სპ</abbr><ex>ა</ex><abbr>ს</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>რისა</abbr></expan></roleName> 
-                                <name nymRef="სადუნ">სადუნისა</name> 
+                                <name nymRef="სადუნ">სადუნისა</name></persName>  
                                <w lemma="ასულ"><expan><abbr>ას</abbr><ex>უ</ex><abbr>ლი</abbr></expan></w> 
-                                <name nymRef="ვანენი"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><supplied reason="lost"><abbr>ნი</abbr></supplied></expan></name> 
+                                <persName type="local" key="ვანენი [სადუნ მანკაბერდელის ასული, თანამეცხედრე მჴარგრძელისა]"><name nymRef="ვანენი"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><supplied reason="lost"><abbr>ნი</abbr></supplied></expan></name> </persName>
                                 <w type="ღირსქმნა"><expan><abbr>ღ</abbr><ex>ი</ex><abbr>რსვიქმნ</abbr><ex>ე</ex><abbr>ნით</abbr></expan></w> 
                                 <w type="აღშენება"><expan><abbr>აღშენებ</abbr><ex>ა</ex><abbr>დ</abbr></expan></w>
                     <lb n="8"/><w lemma="სამრეკლო"><expan><abbr>სამრ</abbr><ex>ე</ex><abbr>კლო</abbr></expan></w>

@@ -40,7 +40,7 @@
                                     <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1338">კვარცხლბეკი</objectType>
                                     <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1338">Pedestal</objectType>
                                     <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">რუხი ქვა</material>
-                                    <material xml:lang="en" >Local stone</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                     <dimensions unit="cm">
                                         <height>64</height>
                                         <width>80</width>

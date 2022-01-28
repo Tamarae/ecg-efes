@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ქობაირის მონასტრის შაჰანშა მანდატურთუხუცესის ძის, ბერი გიორგის, წარწერა</title>
+                <title>ქობაირის მონასტრის შანშე I-ის ძის, ბერი გიორგის, წარწერა (I)</title>
                 <editor>ლეონ მელიქსეთ-ბეგი</editor>
             </titleStmt>
             <publicationStmt>
@@ -86,11 +86,7 @@
     <facsimile>
         <surface>
             <graphic url="ecg349.jpg">
-                <desc xml:lang="ka">ქობაირის მონასტრის შაჰანშა მანდატურთუხუცესის ძის, ბერი გიორგის წარწერა</desc>
-                <desc xml:lang="en"></desc>
-            </graphic>
-             <graphic url="ecg349a.jpg">
-                <desc xml:lang="ka">ქობაირის მონასტრის შაჰანშა მანდატურთუხუცესის ძის, ბერი გიორგის წარწერა</desc>
+                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/46/">ქობაირის მონასტრის შანშე I-ის ძის, ბერი გიორგის, წარწერა</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
            </surface>
@@ -129,13 +125,13 @@
                                  <w lemma="შაშიან"><expan><abbr>შ</abbr><ex>ა</ex><abbr>შ</abbr><ex>ია</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
                                 <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ისმშ</abbr><ex>ო</ex><abbr>ბელისაჲთა</abbr></expan></w> 
                                 <w lemma="მე">მე</w> 
-                                <name nymRef="შაჰანშა"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰ</abbr><ex>ა</ex><abbr>ნშ</abbr><ex>ა</ex><abbr>ს</abbr></expan></name> 
-                                <roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატ</abbr><ex>უ</ex><abbr>რთუხუცესისა</abbr></expan></roleName>
+                                <persName type="local" key="შანშე (შაჰანშა) I მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/შანშე_(I)_მხარგრძელი"><name nymRef="შაჰანშა"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ჰ</abbr><ex>ა</ex><abbr>ნშ</abbr><ex>ა</ex><abbr>ს</abbr></expan></name> 
+                                <roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატ</abbr><ex>უ</ex><abbr>რთუხუცესისა</abbr></expan></roleName></persName>
                     <lb n="4"/><w lemma="ძე"><expan><abbr>ძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
                                 <w lemma="ბერ"><expan><abbr>ბერმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
-                                <name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></name> 
+                                <persName type="local" key="ბერი გიორგი [შაჰანშა მანდატურთუხუცესის ძე]"><name nymRef="გიორგი"><expan><abbr>გ</abbr><ex>იორგ</ex><abbr>ი</abbr></expan></name></persName> 
                                     <w lemma="შეწევნა">შეწევნჲთა</w> 
-                                    <w lemma="ესე">ამჲს</w> 
+                                    <w lemma="ესე">ამჲს</w>
                                     <w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოვლა</ex><abbr>დ</abbr></expan></w> 
                                     <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდ</ex><abbr>ის</abbr><ex>ა</ex><abbr>თა</abbr></expan></w> 
                                     <w lemma="დიდ">დიდსა</w> 
@@ -166,7 +162,7 @@
                                     <w lemma="მიმძლავრება">მჲმძლავრებით</w> 
                                     <w lemma="წანაღებ">წანაღები</w> 
                                     <w lemma="ზუარ">ზუარი</w> 
-                                    <name nymRef="რატი">რატისეული</name> 
+                                    <persName type="local" key="რატი"><name nymRef="რატი">რატისეული</name> </persName>
                                     <w lemma="მეზურე">მეზურჲთა</w>
                     <lb n="7"/>და 
                                 <w lemma="ესე">ამასვე</w> 

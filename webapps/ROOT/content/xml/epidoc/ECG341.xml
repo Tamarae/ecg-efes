@@ -122,17 +122,17 @@
                 <ab>
                    <lb n="1"/>&#8224;<w lemma="ესე">ესე</w> 
                             <w lemma="საფლავ"><expan><abbr>საფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w> 
-                            <name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name>
-                    <lb n="2"/><roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატურთუხ</abbr><ex>უ</ex><abbr>ცესისა</abbr></expan></roleName>
+                            <persName type="local" key="ივანე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/ივანე_(II)_მხარგრძელი"><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name>
+                    <lb n="2"/><roleName nymRef="მანდატურთუხუცეს"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნდატურთუხ</abbr><ex>უ</ex><abbr>ცესისა</abbr></expan></roleName></persName>
                     <lb n="3"/><w lemma="ძე">ძისა</w> 
                                 და 
-                                <roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>გისა</abbr></expan></roleName>
-                    <lb n="4"/><name nymRef="შანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ნშ</abbr><ex>ეს</ex></expan></name>
+                                <persName type="local" key="შანშე II მხარგრძელი" ref="http://www.nplg.gov.ge/wikidict/index.php/მხარგრძელი_შანშე_(II)"><roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex><abbr>გისა</abbr></expan></roleName>
+                    <lb n="4"/><name nymRef="შანშე"><expan><abbr>შ</abbr><ex>ა</ex><abbr>ნშ</abbr><ex>ეს</ex></expan></name></persName>
                                 <w lemma="ძმა">ძმისა</w> 
-                                <roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex>
+                                <persName type="local" key="ვაჰრამ ათაბაგი [ივანე II მხარგრძელის ძე]"><roleName nymRef="ათაბაგ"><expan><abbr>ათ</abbr><ex>ა</ex><abbr>ბ</abbr><ex>ა</ex>
                     <lb n="5" break="no"/><abbr>გისა</abbr></expan></roleName> 
                                 <name nymRef="ვაჰრამ"><expan><abbr>ვ</abbr><ex>ა</ex><abbr>ჰ
-                    <lb n="6"/>რ</abbr><ex>ა</ex><abbr>მისი</abbr></expan></name> 
+                    <lb n="6"/>რ</abbr><ex>ა</ex><abbr>მისი</abbr></expan></name></persName> 
                                 <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w>
                     <lb n="7"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w>
                     

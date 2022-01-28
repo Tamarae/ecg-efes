@@ -124,9 +124,9 @@
                                     <w lemma="საფლავ"><expan><abbr>საფლ</abbr><ex>ა</ex><abbr>ვი</abbr></expan></w> 
                                     <w lemma="ყოფა">არ 
                    <lb n="2"/>ის</w>
-                            <name nymRef="მაკარი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>კარ</abbr><ex>ი</ex><abbr>ს</abbr></expan></name>
+                            <persName type="local" key="მაკარი"><name nymRef="მაკარი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>კარ</abbr><ex>ი</ex><abbr>ს</abbr></expan></name></persName>
                               <w lemma="შვილ"><expan><abbr>შვ</abbr><ex>ი</ex><abbr>ლ</abbr><ex>ი</ex><abbr>სა</abbr></expan></w> 
-                    <lb n="3"/><name  nymRef="გრიგოლ"><expan><abbr>გ</abbr><ex>რი</ex><abbr>გ</abbr><ex>ო</ex><abbr>ლისი</abbr></expan></name>
+                    <lb n="3"/><persName type="local" key="გრიგოლ [მაკარის ძე]"><name  nymRef="გრიგოლ"><expan><abbr>გ</abbr><ex>რი</ex><abbr>გ</abbr><ex>ო</ex><abbr>ლისი</abbr></expan></name></persName>
                              <w lemma="შენდობა"><expan><abbr>შ</abbr><ex>ეუნდვე</ex><abbr>ნ</abbr></expan></w> 
                              <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
                      <lb n="4"/>და
