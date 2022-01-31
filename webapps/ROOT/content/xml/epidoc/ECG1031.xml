@@ -113,10 +113,10 @@
                 <ab>        
                     <lb n="1"/><expan><abbr>ქ</abbr><ex>რისტე</ex></expan> <w lemma="სახელ">სახელითა</w> <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თისაჲთა</abbr></expan></w> 
                             <w lemma="მე">მე</w> 
-                            <persName nymRef="persons.xml#pers32"><name nymRef="გურგანელ"><expan><abbr>გ</abbr><ex>უ</ex><abbr>რგ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ლმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name></persName> 
-                            <name nymRef="მირიან"><expan><abbr>მ</abbr><ex>ი</ex><abbr>რიანის</abbr></expan></name> 
+                            <persName type="local" key="გურგანელ [ატენის ციხისთავი]"><name nymRef="გურგანელ"><expan><abbr>გ</abbr><ex>უ</ex><abbr>რგ</abbr><ex>ა</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ლმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name></persName> 
+                            <persName type="local" key="მირიან"><name nymRef="მირიან"><expan><abbr>მ</abbr><ex>ი</ex><abbr>რიანის</abbr></expan></name> </persName>
                             <w lemma="ყმა"><expan><abbr>ყმამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w>
-                    <lb n="2"/><name nymRef="თარხუნ">თარხუნის</name> 
+                    <lb n="2"/><persName type="local" key="თარხუნ"><name nymRef="თარხუნ">თარხუნის</name> </persName>
                             <w lemma="ძე"><expan><abbr>ძისამ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
                             <roleName nymRef="ატენის ციხისთავი"><placeName nymRef="ატენი">ატენის</placeName> 
                             <roleName nymRef="ციხისთავი"><expan><abbr>ც</abbr><ex>ი</ex><abbr>ხისთ</abbr><ex>ა</ex><abbr>ვმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></roleName></roleName> 

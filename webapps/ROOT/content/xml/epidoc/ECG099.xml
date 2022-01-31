@@ -161,7 +161,7 @@
                               <name nymRef="დავითიან"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ი</ex><abbr>თ</abbr><ex>ია</ex><abbr>ნ</abbr></expan></name> 
                    <lb n="5"/><name nymRef="სოლომონ"><expan><abbr>ს</abbr><ex>ო</ex>ლ<ex>ო</ex>მ<ex>ონია</ex>ნ</expan></name> 
                                <name nymRef="ბაგრატოვან"><expan><abbr>ბ</abbr><ex>ა</ex><abbr>გ</abbr><ex>რა</ex><abbr>ტ</abbr><ex>ოა</ex><abbr>ნ</abbr><ex>ი</ex><abbr>სა</abbr></expan></name>
-                   <lb n="6"/><placeName nymRef="ქართველ"><expan><abbr>ქართვ</abbr><ex>ე</ex><abbr>ლთ</abbr></expan></placeName> 
+                   <lb n="6"/><placeName type="ethnic" nymRef="ქართველ"><expan><abbr>ქართვ</abbr><ex>ე</ex><abbr>ლთ</abbr></expan></placeName> 
                                 <roleName><w lemma="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფ</abbr><ex>ე</ex><abbr>თ</abbr></expan></w></roleName>
                    <lb n="7"/><roleName><w lemma="მეფე"><expan><abbr>მ</abbr><ex>ე</ex><abbr>ფის</abbr></expan></w></roleName> 
                             <name nymRef="კოსტანტინე"><expan><abbr>კ</abbr><ex>ო</ex><abbr>სტ</abbr><ex>ა</ex><abbr>ნტ</abbr><ex>ი</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ს</abbr></expan></name>

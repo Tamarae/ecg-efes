@@ -115,16 +115,16 @@
                 <ab>
                    <lb n="1"/>&#8224;<w lemma="სახელ"><expan><abbr>ს</abbr><ex>ა</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
                                      <w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მრთ</ex><abbr>ი</abbr><ex>საჲ</ex><abbr>თა</abbr></expan></w> 
-                                     <w lemma="და">და</w> 
+                                     და 
                                      <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><abbr>სა</abbr></expan></w> 
                                      <w lemma="ღმრთისმშობელ"><expan><abbr>ღ</abbr><ex>მრ</ex><abbr>თ</abbr><ex>ი</ex><abbr>სმ
                    <lb n="2" break="no"/>შობ</abbr><ex>ე</ex><abbr>ლისა</abbr></expan></w> 
                                 <w lemma="მეოხება"><expan><abbr>მ</abbr><ex>ეო</ex><abbr>ხ</abbr><ex>ე</ex><abbr>ბ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w> 
                                 <w lemma="მე">მე</w> 
-                                <name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name> 
+                                <persName type="local" key="ივანე სულას ძე [ზარზმის ეკუდერის მაშენებელი]"><name nymRef="ივანე"><expan><abbr>ივ</abbr><ex>ა</ex><abbr>ნე</abbr></expan></name> 
                                 <w lemma="ძე"><expan><abbr>ძემ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
                                 <name nymRef="სულა"><expan><abbr>სო</abbr><ex>ჳ</ex><abbr>ლ</abbr><ex>ა</ex>
-                   <lb n="3" break="no"/><abbr>სმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name> 
+                   <lb n="3" break="no"/><abbr>სმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></name></persName> 
                                     <w lemma="აშენება"><expan><abbr>აღვაშ</abbr><ex>ე</ex><abbr>ნე</abbr></expan></w> 
                                     <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ჲ</abbr></expan></w> 
                                     <w lemma="ეგუტერ"><expan><abbr>ეგ</abbr><ex>უ</ex><abbr>ტ</abbr><ex>ე</ex><abbr>რი</abbr></expan></w> 
@@ -134,10 +134,10 @@
                                     <w lemma="ოდეს"><expan><abbr>ოდ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w> 
                                     <placeName nymRef="საბერძნეთ"><expan><abbr>საბ</abbr><ex>ე</ex><abbr>რძნ</abbr><ex>ე</ex><abbr>თს</abbr></expan></placeName> 
                                     <w lemma="გადგომა">გადგა</w> 
-                                    <name nymRef="სკლიაროს">სკ
-                   <lb n="5" break="no"/>ლიაროსი</name> 
-                                    <name nymRef="დავით"><expan><abbr>დავ</abbr><ex>ი</ex><abbr>თ</abbr></expan></name>
-                                    <roleName nymRef="კურაპალატ"><expan><abbr>კ</abbr><ex>უ</ex><abbr>რ</abbr><ex>ა</ex><abbr>პ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>ტი</abbr></expan></roleName>  
+                                    <persName type="local" key="ბარდა სკლიაროსი" ref="https://en.wikipedia.org/wiki/Bardas_Skleros"><name nymRef="სკლიაროს">სკ
+                   <lb n="5" break="no"/>ლიაროსი</name></persName> 
+                                    <persName type="local" key="დავით III კურაპალატი" ref="http://georgianencyclopedia.ge/index.php/დავით_III"><name nymRef="დავით"><expan><abbr>დავ</abbr><ex>ი</ex><abbr>თ</abbr></expan></name>
+                                    <roleName nymRef="კურაპალატ"><expan><abbr>კ</abbr><ex>უ</ex><abbr>რ</abbr><ex>ა</ex><abbr>პ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>ტი</abbr></expan></roleName></persName>  
                                     <w lemma="დიდება"><expan><abbr>ად</abbr><ex>ი</ex><abbr>დ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></w>
                    <lb n="6"/><w lemma="ღმერთ"><expan><abbr>ღ</abbr><ex>მერთმა</ex><abbr>ნ</abbr></expan></w> 
                                 <w lemma="შუელა"><expan><abbr>ო</abbr><ex>ჳ</ex><abbr>შ</abbr><ex>ო</ex><abbr>ჳ</abbr><ex>ე</ex><abbr>ლა</abbr></expan></w> 
@@ -148,8 +148,8 @@
                    <lb n="7"/><w lemma="ყოველ"><expan><abbr>ყ</abbr><ex>ოველ</ex><abbr>ნი</abbr></expan></w> 
                                      <w lemma="ლაშქარ">ლაშქარს</w> 
                                      <w lemma="წარვლენა"><expan><abbr>წა</abbr><ex>რ</ex><abbr>გ</abbr><ex>უავ</ex><abbr>ლ</abbr><ex>ი</ex><abbr>ნნა</abbr></expan></w> 
-                                    <name nymRef="სკლიაროს">სკლია
-                   <lb n="8" break="no"/>როსი</name> 
+                                    <persName type="local" key="ბარდა სკლიაროსი" ref="https://en.wikipedia.org/wiki/Bardas_Skleros" ><name nymRef="სკლიაროს">სკლია
+                   <lb n="8" break="no"/>როსი</name> </persName>
                                    <w lemma="გაქცევა"><expan><abbr>გავ</abbr><ex>ა</ex><abbr>ქციეთ</abbr></expan></w> 
                                    <w lemma="მე">მე</w> 
                                    <w lemma="მას"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ს</abbr></expan></w> 

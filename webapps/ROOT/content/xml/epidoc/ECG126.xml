@@ -111,9 +111,9 @@
                 <ab>
 <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
            <w lemma="შეწყალება"><expan><abbr>შ</abbr><ex>ეიწყა</ex><abbr>ე</abbr></expan></w> 
-           <name nymRef="სჳმეონ"><expan><abbr>ს</abbr><ex>ჳ</ex><abbr>მ</abbr><ex>ეო</ex><abbr>ნ</abbr></expan></name> 
+           <persName type="local" key="სვიმეონ ბეროზა-ყოფილი"><name nymRef="სჳმეონ"><expan><abbr>ს</abbr><ex>ჳ</ex><abbr>მ</abbr><ex>ეო</ex><abbr>ნ</abbr></expan></name> 
            <name nymRef="ბეროზა"><expan><abbr>ბ</abbr><ex>ე</ex><supplied reason="lost">რ</supplied><abbr>ოზა</abbr></expan></name> 
-           <w lemma="ყოფილ"><expan><abbr>ყ</abbr><ex>ო</ex><abbr>ფილი</abbr></expan></w> 
+           <w lemma="ყოფილ"><expan><abbr>ყ</abbr><ex>ო</ex><abbr>ფილი</abbr></expan></w></persName> 
            <w lemma="ესე">ესე</w> 
            <w lemma="ქვა">ქვ<supplied reason="lost">ა</supplied></w>
 <lb n="2"/><w lemma="მან"><expan><abbr>მ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 

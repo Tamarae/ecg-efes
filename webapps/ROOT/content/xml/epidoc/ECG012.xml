@@ -112,8 +112,8 @@
     </teiHeader>
     <facsimile>
         <surface>
-            <graphic url="ecg012.jpg">
-                <desc xml:lang="ka" ref="http://paleography.iliauni.edu.ge/digipal/page/23/">წყისეს წარწერა</desc>
+            <graphic url="http://paleography.iliauni.edu.ge/digipal/page/23/">
+                <desc xml:lang="ka">წყისეს წარწერა</desc>
                 <desc xml:lang="en">Tskise Inscription</desc>
             </graphic>
         </surface>

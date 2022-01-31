@@ -104,6 +104,10 @@
   <message key="status">სტატუსი</message>
   
   
+  <message key="ethnic_name">ეთნიკური</message>
+  <message key="toponym">ტოპონიმი</message>
+  
+  
   <message key="date">თარიღი: </message>
   <message key="role_name">წოდებები</message>
   <message key="name">სახელი</message>

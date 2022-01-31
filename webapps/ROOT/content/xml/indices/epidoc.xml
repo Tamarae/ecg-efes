@@ -247,7 +247,7 @@
       </div>
       
       <!-- ადგილის სახელი -->
-      <div xml:id="place_name">
+      <div xml:id="mentioned_places">
         <head><i18n:text i18n:key="place_name">Place Names</i18n:text></head>
         
         <div type="headings">
@@ -265,6 +265,7 @@
             </item>
           </list>
         </div>
+        
         
         <div type="notes">
           <list>

@@ -125,10 +125,10 @@
                    <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
                               <w lemma="დიდება"><expan><abbr>ად</abbr><ex>ი</ex>
                    <lb n="2" break="no"/><abbr>დე</abbr></expan></w> 
-                              <name nymRef="ულუმპია"><expan><abbr>ო</abbr><ex>ჳ</ex>
+                              <persName type="local" key="ულუმპია ხანძთელი"><name nymRef="ულუმპია"><expan><abbr>ო</abbr><ex>ჳ</ex>
                     <lb n="3" break="no"/><abbr>ლ</abbr><ex>უმ</ex><abbr>პ</abbr><ex>ია</ex><abbr>ჲ</abbr></expan></name>                                
                     <lb n="4"/><placeName><w lemma="ხანძთა"><expan><abbr>ხ</abbr><ex>ან</ex><abbr>ცთ</abbr><ex>ელ</ex>
-                    <lb n="5" break="no"/><abbr>ჲ</abbr></expan></w></placeName> 
+                    <lb n="5" break="no"/><abbr>ჲ</abbr></expan></w></placeName></persName> 
                             <w lemma="იგინი"><expan><abbr>მ</abbr><ex>ა</ex><abbr>თ</abbr></expan></w>
                     <lb n="6"/><w lemma="აშენება"><expan><abbr>ა</abbr><ex>ღა</ex><abbr>შ</abbr><ex>ე</ex><abbr>ნ</abbr><ex>ე</ex><abbr>ს</abbr></expan></w>
                 </ab>

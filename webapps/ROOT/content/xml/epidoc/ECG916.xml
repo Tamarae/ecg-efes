@@ -105,7 +105,7 @@
                  <ab>
                      <persName type="divine" ref="divine.xml#iesous"><name nymRef="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></name></persName>
                      <w lemma="იწყალებს"><expan><abbr>შ</abbr><ex>ეიწყალ</ex><abbr>ე</abbr></expan></w>
-                     <persName><name nymRef="კალატოზი მიქაელ ოპიზარი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name>
+                     <persName type="local" key="მიქაელ ოპიზარი [ჭყონდიდის კალატოზი]"><name nymRef="კალატოზი მიქაელ ოპიზარი"><expan><abbr>მ</abbr><ex>ი</ex><abbr>ქ</abbr><ex>აე</ex><abbr>ლ</abbr></expan></name>
                     <roleName nymRef="გალატოზ"><expan><abbr>გ</abbr><ex>ა</ex><abbr>ლ</abbr><ex>ა</ex><abbr>ტ</abbr><ex>ო</ex><abbr>ზი</abbr></expan></roleName>
                     <name type="family" nymRef="ოპიზარი"><expan><abbr>ოპ</abbr><ex>ი</ex><abbr>ზ</abbr><ex>ა</ex><abbr>რი</abbr></expan></name></persName>
                  </ab>

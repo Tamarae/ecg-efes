@@ -5,11 +5,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ბოლნისის სიონის 494 წ. მოსახსენებელი ამშენებლისა და ხელოსნების</title>
-                <editor>ნოდარ შოშიაშვილი</editor>
+                <title xml:lang="ka">ბოლნისის სიონის 494 წ. მოსახსენებელი ამშენებლისა და ხელოსნების</title>
+                <title xml:lang="en">Bolnisi Sioni Cathedral 494 year, memorial of the builder and the laborers</title>
+                <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
+                <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
             <publicationStmt>
-                <authority>ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>             
+                <authority xml:lang="ka">ილიას სახელმწიფო უნივერსიტეტი, ლინგვისტურ კვლევათა ინსტიტუტი</authority>
+                <authority xml:lang="en">Ilia State University, Institute of Linguistic Studies</authority>
                 <idno type="filename">ECG053</idno>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
@@ -26,7 +29,7 @@
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
-                            <seg xml:lang="en"/>
+                            <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents>
                     
@@ -34,8 +37,10 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType  ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType>
-                                    <material  ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <objectType xml:lang="ka"  ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">ფილა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Plaque</objectType>
+                                    <material xml:lang="ka"  ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en"  ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                         <dimensions unit="cm">
                                             <height/>
                                             <width/>
@@ -44,8 +49,9 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="8"> 
-                                    წარწერა რვასტრიქონიანია. იგი მდებარეობს ბოლნისის სიონის აღმოსავლეთის ფასადზე, აფსიდის სარკმლის თავზე.
-                                    წარწერის ცენტრში, მე-3-6 სტრიქონებს შორის, მოთავსებულია მედალიონში ჩასმული "ბოლნური ჯვარი".
+                                    <seg xml:lang="ka">წარწერა რვასტრიქონიანია. იგი მდებარეობს ბოლნისის სიონის აღმოსავლეთის ფასადზე, აფსიდის სარკმლის თავზე.
+                                    წარწერის ცენტრში, მე-3-6 სტრიქონებს შორის, მოთავსებულია მედალიონში ჩასმული „ბოლნური ჯვარი“.</seg>
+                                    <seg xml:lang="en">Eight line inscription. The inscription is located on the east facade of Bolnisi Sioni Cathedral on top of the window apse. There is the medallion with the shape of “Bolnisi Cross” in the middle of the inscription between the lines 3-6.  </seg>
                                         <dimensions unit="cm">
                                         <height>54</height>
                                         <width>91</width>
@@ -56,26 +62,39 @@
                         <handDesc>
                           
                             <handNote script="asomtavruli" style="embossed">
-                                 <rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                 <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Embossed Asomtavruli inscription</seg>
                                 <height unit="cm">6</height>
                             </handNote>
                         </handDesc>
                     </physDesc>        
                     <history>
                         <origin>
-                            <origPlace>ბოლნისის სიონი</origPlace>
+                            <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24984">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </origPlace>
                            <origDate when-custom="0494" evidence="lettering" precision="high">494 AD</origDate>
                         </origin>
                         <provenance type="found" when="1937">
-                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ბოლნისის სიონი</placeName>
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </placeName>
                             <!-- 41.389081, 44.512551 --> 
                             <rs type="monuList"/>
-                            <rs type="circumstances">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
-                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან.</rs>
+                            <rs type="circumstances">
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
+                                9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბოლნის-ხაჩინიდან.</seg>
+                                <seg xml:lang="en">Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. </seg>
+                            </rs>
                             <rs type="context"/>
                         </provenance>            
                         <provenance type="observed">
-                            <placeName type="modernSpot">ბოლნისის სიონი</placeName>
+                            <placeName type="modernSpot">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </placeName>
                             <idno/>
                         </provenance>
                     </history>
@@ -90,8 +109,8 @@
         
     <facsimile>
         <surface>
-            <graphic url="ecg053.jpg">
-                <desc xml:lang="ka" ref="https://drive.google.com/file/d/1OdZX9sL-_i0FdoNYMZPNl3MAYmmus1rW/view?usp=sharing">ფოტოს სანახავად მიჰყევით ბმულს</desc>
+            <graphic url="https://drive.google.com/file/d/1OdZX9sL-_i0FdoNYMZPNl3MAYmmus1rW/view?usp=sharing">
+                <desc xml:lang="ka">ფოტოს სანახავად მიჰყევით ბმულს</desc>
                 <desc xml:lang="en"></desc>
             </graphic>
         </surface>
@@ -146,7 +165,7 @@
 
                  <ab> 
                  <lb n="1"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ე</abbr></expan></w> 
-                        <name nymRef="დავით ეპისკოპოსი"><expan><abbr>დ</abbr><ex>ავი</ex><abbr>თ</abbr></expan></name> 
+                        <persName type="local" key="დავით [ბოლნელი] ეპისკოპოსი"><name nymRef="დავით ეპისკოპოსი"><expan><abbr>დ</abbr><ex>ავი</ex><abbr>თ</abbr></expan></name> </persName>
                         <roleName nymRef="ეპისკოპოს"><w lemma="ეპისკოპოს">ეპ<supplied reason="lost">ისკ</supplied>ოპისი</w></roleName> 
                         <w lemma="კრებულ">კრებ<supplied reason="lost">უ</supplied>
                  <lb n="2" break="no"/>ლითურთ </w> 
@@ -168,9 +187,10 @@
                         
             </div>
             
-            <div type="translation" xml:lang="ka">
-                <p>ქრისტე, შეიწყალე დავით ეპისკოპოსი კრებულითურ და ამ ეკლესიაში შენდამი თაყვანისმცემლები, შეეწიე ამ ეკლესიაში 
-                    მშრომელთ ამინ, ამინ. </p>                           
+            <div type="translation">
+                <p xml:lang="ka">ქრისტე, შეიწყალე დავით ეპისკოპოსი კრებულითურ და ამ ეკლესიაში შენდამი თაყვანისმცემლები, შეეწიე ამ ეკლესიაში 
+                    მშრომელთ ამინ, ამინ.</p>
+                <p xml:lang="en">Christ, have mercy on Bishop David with his congregation and on all the faithful who worship you in this church, aid the laborers of this church (According to Korneli Kekelidze, the “laborers” refer to those who look after the sick or bury the dead), Amen, Amen </p>
             </div>
             
             <div type="apparatus" xml:space="preserve">
@@ -184,7 +204,7 @@
              </div>
             
             <div type="commentary">
-                <p> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #3. წარწერა პირველად გამოსცა მარი ბროსემ 1856 წელს (იხ. Melanges Asiatiques, II,  322-323).
+                <p xml:lang="ka">ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #3. წარწერა პირველად გამოსცა მარი ბროსემ 1856 წელს (იხ. Melanges Asiatiques, II,  322-323).
                     წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისაგან არ არის დაცილებული. 
                     ქარაგმის ნიშნად ნახმარია მოკლე, სწორი, განივი ხაზი (მისი ნაშთი ჩანს მხოლოდ ტექსტის მეორე სიტყვაზე. პირველ სიტყვაზე ქარაგმის ადგილი დაზიანებულია).
                     წარწერა პალეოგრაფიული თვალსაზრისით ფრიად არქაულია: თავშეკრულია Ⴁ, Ⴗ და Ⴣ გრაფემები. 
@@ -203,6 +223,12 @@
                     წინასწარმეტყველისა და მეფისაგან ჩამომავლობის რწმენა განმტკიცდა. რადგანაც დავით ეპისკოპოსი ამ 505-506 წ. საეკლესიო კრების მონაწილე ყოფილა, ივანე 
                     ჯავახიშვილი ასკვნის, რომ წარწერა ან V საუკუნის დამლევს, ან VI საუკუნის დამდეგს უნდა ეკუთვნოდეს.
                     </p>
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili, the inscription N3 was first published by Mari Brose in 1856 (See Melanges Asiatiques, II, pp. 322-323). The inscription does not have spaces between the words. No spaces between the words., and the symbol of abbreviation is a short, straight horizontal line (its remains are only visible on the second word in the text, the other one on top of the first word is damaged). The inscription is quite archaic in paleographic terms. The graphemes ბ, ყ and ჳ have their heads engaged. შ is also engaged on top in the 3rd line (in the word shina). In linguistic terms a special interest attaches to the Khanmeti type verbal form: შეხეწიე (shekhetsie), ხ - is the indirect object pronoun of the third person.
+                According to Korneli Kekelidze the “laborers” refer to those who look after the sick or bury the dead.
+According to Ivane Javakhishvili, Bishop David with his accompanied people were not the builders of this church, there is no proof that he was involved in the construction works. He also suggests that Bishop David from Bolnisi had signed the ecumenical document that was registered by Kavad, King of Persia, Babgen, Catholicos-Patriarch of Armenia and Gabriel, Catholicos Patriarch of Kartli for neglecting the resolution of the council Chalcedon. Ivane Javakhishvili considers that Bishop David mentioned in the inscription is the same person who ordered to carve the above mentioned inscription. It is clearly possible that the name David could have been the name of other Bishops of Bolnisi Cathedral. 
+It is also true that the names of the patriarchs were not repeated that often by that time in Georgia. The name “David” was not that widespread in ancient times than it was later when the belief about the heritage of Bagrationi dynasty from Biblical David was a common belief in Georgia. As Bishop David is a participant of this ecumenical council, Ivane Javakhishvili assumes that the inscription should be dated to the end of the V century or beginning of the VI century.
+
+                </p>
              </div>
         </body>
     </text>
