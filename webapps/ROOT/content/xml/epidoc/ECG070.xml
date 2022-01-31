@@ -125,12 +125,12 @@
               <w lemma="მადლ"><expan><abbr>მ</abbr><ex>ა</ex><abbr>დლ</abbr><ex>ი</ex><abbr>თა</abbr></expan></w>         
    <lb n="2"/><w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდი</ex><supplied reason="lost"><abbr>სა</abbr></supplied></expan></w> 
               <name nymRef="გრიგოლ"><expan><abbr>გრიგოლ</abbr><ex>ისაჲ</ex><abbr>თა</abbr></expan></name> 
-              <name nymRef="თევდორე"><supplied reason="lost"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></supplied></name> 
+              <persName type="local" key="თევდორე ბოლნელი ეპისკოპოსი"><name nymRef="თევდორე"><supplied reason="lost"><expan><abbr>თ</abbr><ex>ევდორ</ex><abbr>ე</abbr></expan></supplied></name> 
               <w lemma="ბოლნელ"><expan><abbr>ბ</abbr><ex>ო</ex><abbr>ლნე</abbr><supplied reason="lost"><abbr>ლ</abbr></supplied></expan></w> 
-   <lb n="3"/><roleName><w lemma="ეპისკოპოს"><expan><abbr>ებ</abbr><ex>ის</ex><abbr>კ</abbr><ex>ოპო</ex><abbr>ს</abbr><ex>მ</ex><abbr>ა</abbr></expan></w></roleName> 
-              <name nymRef="გურგენ"><expan><abbr>გურგ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></name> 
-              <roleName><w lemma="ერისთავთ-ერისთავი"><expan><supplied reason="lost"><abbr>ერ</abbr></supplied><abbr>ი</abbr><ex>ს</ex><abbr>თ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>თ</ex></expan> <expan><abbr>ერ</abbr><ex>ი</ex> 
-   <lb n="4" break="no"/><abbr>სთ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ის</ex><abbr>ა</abbr></expan></w></roleName> 
+   <lb n="3"/><roleName nymRef="ბოლნელი ეპისკოპოსი"><w lemma="ეპისკოპოს"><expan><abbr>ებ</abbr><ex>ის</ex><abbr>კ</abbr><ex>ოპო</ex><abbr>ს</abbr><ex>მ</ex><abbr>ა</abbr></expan></w></roleName> </persName>
+              <persName type="local" key="გურგენ ერისთავთ-ერისთავი"><name nymRef="გურგენ"><expan><abbr>გურგ</abbr><ex>ე</ex><abbr>ნ</abbr></expan></name> 
+              <roleName nymRef="ერისთავთ-ერისთავი"><w lemma="ერისთავთ-ერისთავი"><expan><supplied reason="lost"><abbr>ერ</abbr></supplied><abbr>ი</abbr><ex>ს</ex><abbr>თ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>თ</ex></expan> <expan><abbr>ერ</abbr><ex>ი</ex> 
+   <lb n="4" break="no"/><abbr>სთ</abbr><ex>ა</ex><abbr>ვ</abbr><ex>ის</ex><abbr>ა</abbr></expan></w></roleName></persName> 
               <w lemma="შეწევნა"><supplied reason="lost">შეწევნითა</supplied></w> 
               <w lemma="აშენება"><expan><abbr>ა</abbr><supplied reason="lost"><abbr>ღვა</abbr><ex>შენ</ex><abbr>ე</abbr></supplied></expan></w>                     
    <lb n="5"/><w lemma="ესე"><supplied reason="lost">ესე</supplied></w> 
@@ -146,9 +146,10 @@
                 
         </div>
 
-            <div type="translation" xml:lang="ka">
-                <p>ღმრთის სახელით, წმიდა გრიგოლის მადლლით, მე, თევდორემ, ბოლნელმა ეპისკოპოსმა, გურგენ ერისთავთ-ერისთავის შეწევნით 
+            <div type="translation">
+                <p xml:lang="ka">ღმრთის სახელით, წმიდა გრიგოლის მადლლით, მე, თევდორემ, ბოლნელმა ეპისკოპოსმა, გურგენ ერისთავთ-ერისთავის შეწევნით 
                     ავაშენე ეს წმიდა საყდარი ჩემი სულის საოხად, ღმერთმა შემიწყალოს. </p>
+                <p xml:lang="en"></p>
                                                                                                                                                                                                                                                                                        
             </div>
             
@@ -171,10 +172,11 @@
             </div>
 
             <div type="commentary">
-                <p> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #139. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული.
+                <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #139. წარწერას განკვეთილობის ნიშნები არ ახლავს. სიტყვები ერთმანეთისგან არ არის დაცილებული.
                     ქარაგმის ნიშნად გამოყენებულია გრძელი, სწორი, განივი ხაზი. ლევან მუსხელიშვილის ვარაუდით, წარწერა ეპიტაფიაა, მაგრამ მისი შინაარსი ამ ვარაუდს არ ეთანხმება.
                     პალეოგრაფიული ნიშნების საფუძველზე წარწერა მეათე საუკუნითაა დათარიღებული.
                 </p>
+                <p xml:lang="en"></p>
              </div>
         </body>
     </text>

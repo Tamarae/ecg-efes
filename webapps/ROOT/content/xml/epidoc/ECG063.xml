@@ -5,7 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ბოლნისის მუნიციპალიტეტის VII ს. მოსახსენებელი ფრაგმენტი</title>
+                <title xml:lang="ka">ბოლნისის მუნიციპალიტეტის VII ს. მოსახსენებელი ფრაგმენტი</title>
+                <title xml:lang="en">Bolnisi municipality V/VI cc. Memorial fragment</title>
                 <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
                 <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
@@ -28,7 +29,7 @@
                     <msContents>
                         <summary>
                             <seg xml:lang="ka">მოსახსენებელი</seg>
-                            <seg xml:lang="en"/>
+                            <seg xml:lang="en">Memorial</seg>
                         </summary>
                     </msContents>
                     
@@ -36,8 +37,10 @@
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">სტელა</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">სტელა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/1483">Stele</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">ქვა</material>
+                                    <material xml:lang="en" ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                     <dimensions unit="cm">
                                         <height/>
                                         <width/>
@@ -46,9 +49,10 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="2">
-                                    წარწერა ორსტრიქონიანია. სტელის ერთ-ერთ წახნაგზე გამოქანდაკებულია წარჩინებულის რელიეფი. მას მახვილი ჰკიდია წელზე
+                                    <seg xml:lang="ka">წარწერა ორსტრიქონიანია. სტელის ერთ-ერთ წახნაგზე გამოქანდაკებულია წარჩინებულის რელიეფი. მას მახვილი ჰკიდია წელზე
                                     და ხელში უჭირავს გრძელი კვერთხი. სვეტს ბოლოში შემორჩა კვადრატული ფეხი, რომლითაც ის იდგმებოდა კვარცხლბეკში. 
-                                    მამაკაცის რელიეფის თავის მარცხნივ შემორჩა ორი მთავრული გრაფემა. მეორე სტრიქონი მთლიანად დაზიანებულია. 
+                                    მამაკაცის რელიეფის თავის მარცხნივ შემორჩა ორი მთავრული გრაფემა. მეორე სტრიქონი მთლიანად დაზიანებულია. </seg>
+                                    <seg xml:lang="en">Two line inscription. On one of the sides of the stele there is the embossed figure of a nobleman. He has a sword on his waist and a long scepter in his hand. The stele ends with a square shape base that was probably used to fix it in the pedestal. Two capital letter graphemes are present on the left side of the figure of the man. The second line is fully damaged.</seg>
                                     <dimensions unit="cm">
                                         <height/>
                                         <width/>
@@ -58,29 +62,44 @@
                         </objectDesc>
                            <handDesc>
                             <handNote script="asomtavruli" style="inscribed">
-                                <rs type="execution">ამოღარული</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Embossed Asomtavruli inscription</seg>
                                <height unit="cm">5,5</height>
                              </handNote>
                         </handDesc>
                     </physDesc>       
                     
-                    <history>
+                     <history>
                         <origin>
-                            <origPlace>ბოლნისის მუნიციპალიტეტი</origPlace>
-                           <origDate notBefore="0600" notAfter="0700">VII AD</origDate>
-                        </origin>                 
-                        <provenance type="found" when="1957">
-                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ბოლნისის მუნიციპალიტეტი</placeName>
-                            <!-- 41.384460, 44.506865 --> 
-                            <rs type="monuList"/> 
-                            <rs type="circumstances">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
+                            <origPlace ref="https://memkvidreoba.gov.ge/objects/immovable/immovableObject?id=24984">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </origPlace>
+                           <origDate notBefore="0400" notAfter="0600">V-VI AD</origDate>
+                        </origin>
+                        
+                        <provenance type="found" when="1937">
+                            <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">
+                                <seg xml:lang="ka">ბოლნისის სიონი</seg>
+                                <seg xml:lang="en">Bolnisi Sioni</seg>
+                            </placeName>
+                            <!-- 41.389081, 44.512551 --> 
+                            <rs type="monuList"/>
+                            <rs type="circumstances">
+                               <seg xml:lang="ka"> ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
                                 9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. ეს სტელა იდგა ბოლნისის სიონის მიდამოებში, 
                                 ეკლესიის ნანგრევებში, რომელიც მდებარეობს ძველ ნასახლარში, ბაღდადის ხევის ახლოს. სტელა 1957 წელს საქართველოს ეროვნულ მუზეუმში ჩამოიტანა
-                                მუზეუმის მეცნიერ-თანამშრომლმა: ნ. რეხვიაშვილმა.</rs>
+                                მუზეუმის მეცნიერ-თანამშრომლმა: ნ. რეხვიაშვილმა.</seg>
+                                <seg xml:lang="en">
+Bolnisi Sioni Cathedral is located in Kvemo Kartli, 9 km away from city Bolnisi to the south, 1 km distance from the village Bonis-Khachini. The inscription was discovered during the archaeological expedition held by the Cultural Heritage Preservation Committee supervised by Levan Muskhelishvili in 1937.                                </seg>
+                            </rs>
                             <rs type="context"/>
                         </provenance>                     
-                        <provenance type="observed">
-                            <placeName type="modernSpot" ref="http://museum.ge/">საქართველოს ეროვნული მუზეუმი</placeName>
+                       <provenance type="observed">
+                            <placeName type="modernSpot" ref="http://museum.ge/">
+                                <seg xml:lang="ka">საქართველოს ეროვნული მუზეუმი</seg>
+                                <seg xml:lang="en">National Museum of Georgia</seg>
+                            </placeName>
                              <idno type="invNo">544 (არმაზისხევის საცავი)</idno>
                         </provenance>
                     </history>
@@ -116,22 +135,26 @@
                        [ილ]"-->
                             
                        <ab>
-                            <lb n="1"/><name nymRef="შერგილ"><expan><abbr>შ</abbr><ex>ერ</ex><abbr>გ</abbr>
-                            <lb n="2" break="no"/><supplied reason="lost"><abbr>ილ</abbr></supplied></expan></name>
+                            <lb n="1"/><persName type="local" key="შერგილ"><name nymRef="შერგილ"><expan><abbr>შ</abbr><ex>ერ</ex><abbr>გ</abbr>
+                            <lb n="2" break="no"/><supplied reason="lost"><abbr>ილ</abbr></supplied></expan></name></persName>
                        </ab>                                                               
                 </div>
             
-            <div type="translation" xml:lang="ka">
-                <p>შერგილ.</p>                                                                                                                                                                                                                                                             
+            <div type="translation">
+                <p xml:lang="ka">შერგილ</p>
+                <p xml:lang="en">Shergil</p>
             </div>
             
             <div type="apparatus"/>
 
             <div type="commentary">
-                <p> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #44. ქარაგმის ნიშნად გამოყენებულია გრძელი, სწორი, განივი ხაზი. 
+                <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #44. ქარაგმის ნიშნად გამოყენებულია გრძელი, სწორი, განივი ხაზი. 
                     წარწერის დათარიღების საფუძველია პალეოგრაფიული ნიშნები: Ⴘ გრაფემა ძლიერ გახსნილია ზედა და ქვედა რკალებით, 
                     Ⴂ გრაფემა მარცხნივ არის გაზიდული დამატებითი განივი ხაზის გარეშე. 
                   </p>
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the 
+inscription #44. Abbreviation mark: long  horizontal straight line. The inscription is dated according to the paleographic data: grapheme Ⴘ has too open upper and below arches, the grapheme Ⴂ is leaned to the left without any additional horizontal line.
+</p>
             </div>      
         </body>
     </text>

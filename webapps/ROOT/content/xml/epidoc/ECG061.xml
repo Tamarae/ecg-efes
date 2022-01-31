@@ -5,7 +5,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ბოლნისის სიონის VII ს. ფრაგმენტი</title>
+                <title xml:lang="ka">ბოლნისის სიონის VII ს. ფრაგმენტი</title>
+                <title xml:lang="en">Bolnisi Sioni Cathedral V/VI cc. fragment</title>
                 <editor xml:lang="ka">ნოდარ შოშიაშვილი</editor>
                 <editor xml:lang="en">Nodar Shoshiashvili</editor>
             </titleStmt>
@@ -26,16 +27,18 @@
                     </msIdentifier>
                      <msContents>
                         <summary>
-                            <seg xml:lang="ka">მოსახსენებელი</seg>
-                            <seg xml:lang="en"/>
+                            <seg xml:lang="ka">ფრაგმენტი</seg>
+                            <seg xml:lang="en">Fragment</seg>
                         </summary>
                     </msContents>
                     <physDesc>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <objectType ref="http://www.eagle-network.eu/voc/objtyp/lod/250">სტელა</objectType>
-                                    <material ref="http://www.eagle-network.eu/voc/material/lod/2">მწვანე ქვა</material>
+                                    <objectType xml:lang="ka" ref="http://www.eagle-network.eu/voc/objtyp/lod/250">სტელა</objectType>
+                                    <objectType xml:lang="en" ref="http://www.eagle-network.eu/voc/objtyp/lod/250">Stele</objectType>
+                                    <material xml:lang="ka" ref="http://www.eagle-network.eu/voc/material/lod/2">მწვანე ქვა</material>
+                                     <material xml:lang="en"  ref="http://www.eagle-network.eu/voc/material/lod/2">Local stone</material>
                                     <dimensions unit="cm">
                                         <height>33</height>
                                         <width>16</width>
@@ -44,12 +47,13 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="6">
-                                    წარწერა ექვსსტრიქონიანია. დამუშავებულია სტელის სამი გვერდი:
+                                    <seg xml:lang="ka">წარწერა ექვსსტრიქონიანია. დამუშავებულია სტელის სამი გვერდი:
                                         I გვერდზე გამოქანდაკებულია რელიეფური, მედალიონში ჩასმული „ბოლნური ჯვარი“, რომლის ზემოთ მცენარეული 
                                         ორნამენტით შემკული ჯვრის ხარისხებიანი კვარცხლბეკია. მარჯვენა და მარცხენა წიბოებზე გამოქანდაკებულია ლილვი. 
                                         II გვერდზე, დადაბლებულ ფონზე, ზედა ნაწილში, ხარისხებიანი კვარცხლბეკის რელიეფური გამოსახულების ნაშთია, 
                                         ხოლო ქვემოთ შემორჩენილია რელიეფური ასომთავრული წარწერის ფრაგმენტი. 
-                                        III გვერდზე, ქვემო ნაწილში, შემორჩენილია იმავე წარწერის მეორე ფრაგმენტი, ორი სტრიქონი.
+                                        III გვერდზე, ქვემო ნაწილში, შემორჩენილია იმავე წარწერის მეორე ფრაგმენტი, ორი სტრიქონი.</seg>
+                                    <seg xml:lang="en">Six line inscription. Three sides of the stele are smoothly carved: On the 1st side there is the embossed figure of “Bolnisi Cross” embedded in the medallion, on top of it there is the pedestal with steps that has a figure of the cross decorated with leaves. On both sides there is the embossed shape of the barrel vault. On the upper part of the 2nd side there is the relic of an embossed figure of a pedestal with steps; on the bottom of the 3rd side there are two lines of the same inscription.</seg>
                                          <dimensions unit="cm">
                                         <height>8</height>
                                         <width>13</width>
@@ -63,7 +67,8 @@
                         </objectDesc>                    
                            <handDesc>
                              <handNote script="asomtavruli" style="embossed">
-                                <rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა
+                                <seg xml:lang="ka"><rs type="execution">რელიეფური</rs> <rs type="script">ასომთავრული</rs> წარწერა</seg>
+                                <seg xml:lang="en">Embossed Asomtavruli inscription</seg>
                                <height unit="cm">3,5-4</height>                                  
                            </handNote>
                         </handDesc>
@@ -77,9 +82,12 @@
                             <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/863760">ბოლნისის სიონი</placeName>
                             <!-- 41.389081, 44.512551 --> 
                             <rs type="monuList"/>
-                            <rs type="circumstances">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
+                            <rs type="circumstances">
+                                <seg xml:lang="ka">ბოლნისის ტაძარი მდებარეობს ისტორიულ ქვემო ქართლში, 
                                 9 კმ. მანძილზე ქ. ბოლნისიდან სამხრეთით, 1 კმ. მანძილზე სოფ. ბონის-ხაჩინიდან. ქვა წარწერებით აღმოჩნდა ქვემო ბოლნისის სამეკლესიან 
-                                ბაზილიკასთან, საქართველოს სახელმწიფო მუზეუმში ჩამოიტანეს მუზეუმის თანამშრომლებმა 1948 წელს.</rs>
+                                ბაზილიკასთან, საქართველოს სახელმწიფო მუზეუმში ჩამოიტანეს მუზეუმის თანამშრომლებმა 1948 წელს.</seg>
+                                <seg xml:lang="en"></seg>
+                            </rs>
                             <rs type="context"/>
                         </provenance>  
                         <provenance type="observed">
@@ -137,24 +145,26 @@
             
                     <div type="textpart" subtype="section" n="2" xml:lang="ka">
                            <ab>
-                              <lb n="1"/><w lemma="მე">მე</w> <name nymRef="რამაზ">რა<supplied reason="lost">მ</supplied>
-                              <lb n="2" break="no"/>აზ</name> გე
-                              <lb n="3" break="no"/><gap reason="lost" quantity="1" unit="line"></gap>
+                              <lb n="1"/><w lemma="მე">მე</w> <persName type="local" key="რამაზ"><name nymRef="რამაზ">რა<supplied reason="lost">მ</supplied>
+                              <lb n="2" break="no"/>აზ</name></persName> გე
+                              <lb n="3" break="no"/><!-- <gap reason="lost" quantity="1" unit="line"></gap> -->
                            </ab>                                                         
                      </div>
 		
 		</div>
             
-            <div type="translation" xml:lang="ka">
-                <p n="1"> ღმრთის შეწევნით  </p>
-                  <p n="2"> მე, რამაზ, გე...  </p>                                                                                                                                                                                                                                                                    
+            <div type="translation">
+                <p xml:lang="ka">ღმრთის შეწევნით  
+                   მე, რამაზ, გე...</p>
+                <p xml:lang="en">With the glory of God, I Ramaz, ge...</p>
             </div>
            
             <div type="apparatus" xml:space="preserve"/>
             
             <div type="commentary">
-                <p> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #13. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს. 
+                <p xml:lang="ka"> ნოდარ შოშიაშვილის ქართული წარწერების კორპუსის მიხედვით #13. წარწერას განკვეთილობისა და ქარაგმის ნიშნები არ ახლავს. 
                  </p>
+                <p xml:lang="en">According to the Corpus of Georgian Inscriptions by Nodar Shoshiashvili the inscription N13. No sign of the spaces between words or the abbreviations.</p>
                </div>
          </body>
     </text>

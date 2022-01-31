@@ -124,7 +124,7 @@
                 <ab>
                    <lb n="1"/><w lemma="ჯუარ"><expan><abbr>ჯ</abbr><ex>უა</ex><abbr>რ</abbr><supplied reason="lost">ი</supplied></expan></w>
                     <lb n="2"/><w lemma="ქრისტე"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ესი</abbr></expan></w>
-                    <lb n="3"/><gap reason="lost" extent="unknown" unit="chars"></gap> 
+                    <lb n="3"/><!-- <gap reason="lost" extent="unknown" unit="chars"></gap>  -->
                             <w lemma="წმიდა"><expan><abbr>წ</abbr><ex>მიდა</ex><abbr>ო</abbr></expan></w> 
                             <w lemma="ათორმეტ">ა
                     <lb n="4" break="no"/><supplied reason="lost">თორმ</supplied>ეტ

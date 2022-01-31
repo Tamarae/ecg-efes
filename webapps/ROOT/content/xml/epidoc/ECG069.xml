@@ -128,7 +128,7 @@
                 <w lemma="დადება"><expan><abbr>დ</abbr><ex>ა</ex><abbr>ვ</abbr>
       <lb n="4" break="no"/><supplied reason="lost"><abbr>დ</abbr><ex>ე</ex><abbr>ვ</abbr></supplied></expan></w> 
                 <w lemma="მე">მე</w> 
-                <name nymRef="ელია"><expan><abbr>ე</abbr><ex>ლ</ex><abbr>ჲ</abbr><ex>ა</ex></expan></name> 
+                <persName type="local" key="ელია ბოლნელი"><name nymRef="ელია"><expan><abbr>ე</abbr><ex>ლ</ex><abbr>ჲ</abbr><ex>ა</ex></expan></name> </persName>
                 <w lemma="ცოდვილ"><expan><abbr>ც</abbr><ex>ო</ex><abbr>დ
       <lb n="5" break="no"/>ვ</abbr><ex>ი</ex><abbr>ლმ</abbr><ex>ა</ex><abbr>ნ</abbr></expan></w> 
                 <gap reason="lost" extent="unknown" unit="character"></gap> 
